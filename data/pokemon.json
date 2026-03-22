@@ -1,0 +1,2614 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "specialties": [
+      "Burn",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 10,
+    "name": "Pidgey",
+    "specialties": [
+      "Fly",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 11,
+    "name": "Pidgeotto",
+    "specialties": [
+      "Fly",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 12,
+    "name": "Pidgeot",
+    "specialties": [
+      "Fly",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 13,
+    "name": "Oddish",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 14,
+    "name": "Gloom",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 15,
+    "name": "Vileplume",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 16,
+    "name": "Bellossom",
+    "specialties": [
+      "Grow",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 17,
+    "name": "Paras",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 18,
+    "name": "Parasect",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 19,
+    "name": "Venonat",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 20,
+    "name": "Venomoth",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 21,
+    "name": "Bellsprout",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 22,
+    "name": "Weepinbell",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 23,
+    "name": "Victreebel",
+    "specialties": [
+      "Grow",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 24,
+    "name": "Slowpoke",
+    "specialties": [
+      "Water",
+      "Yawn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 25,
+    "name": "Slowbro",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 26,
+    "name": "Slowking",
+    "specialties": [
+      "Water",
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 27,
+    "name": "Magnemite",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 28,
+    "name": "Magneton",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 29,
+    "name": "Magnezone",
+    "specialties": [
+      "Generate",
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 30,
+    "name": "Onix",
+    "specialties": [
+      "Crush",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 31,
+    "name": "Steelix",
+    "specialties": [
+      "Crush",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 32,
+    "name": "Cubone",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 33,
+    "name": "Marowak",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 34,
+    "name": "Tyrogue",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 35,
+    "name": "Hitmonlee",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 36,
+    "name": "Hitmonchan",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 37,
+    "name": "Hitmontop",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 38,
+    "name": "Koffing",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 39,
+    "name": "Weezing",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 40,
+    "name": "Tangela",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 41,
+    "name": "Professor Tangrowth",
+    "specialties": [
+      "Appraise"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 41,
+    "name": "Tangrowth",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 42,
+    "name": "Scyther",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 43,
+    "name": "Scizor",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 44,
+    "name": "Pinsir",
+    "specialties": [
+      "Chop",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 45,
+    "name": "Magikarp",
+    "specialties": [],
+    "source": "main"
+  },
+  {
+    "id": 46,
+    "name": "Gyarados",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 47,
+    "name": "Ditto",
+    "specialties": [
+      "Transform"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 48,
+    "name": "Hoothoot",
+    "specialties": [
+      "Trade",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 49,
+    "name": "Noctowl",
+    "specialties": [
+      "Trade",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 50,
+    "name": "Heracross",
+    "specialties": [
+      "Chop",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 51,
+    "name": "Volbeat",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 52,
+    "name": "Illumise",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 53,
+    "name": "Gulpin",
+    "specialties": [
+      "Storage"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 54,
+    "name": "Swalot",
+    "specialties": [
+      "Storage"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 55,
+    "name": "Cacnea",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 56,
+    "name": "Cacturne",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 57,
+    "name": "Combee",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 58,
+    "name": "Vespiquen",
+    "specialties": [
+      "Gather Honey",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 59,
+    "name": "Shellos",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 59,
+    "name": "Shellos East Sea",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 60,
+    "name": "Gastrodon",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 60,
+    "name": "Gastrodon East Sea",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 61,
+    "name": "Drifloon",
+    "specialties": [
+      "Dream Island"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 62,
+    "name": "Drifblim",
+    "specialties": [
+      "Fly",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 63,
+    "name": "Drilbur",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 64,
+    "name": "Excadrill",
+    "specialties": [
+      "Search",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 65,
+    "name": "Timburr",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 66,
+    "name": "Gurdurr",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 67,
+    "name": "Conkeldurr",
+    "specialties": [
+      "Build",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 68,
+    "name": "Litwick",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 69,
+    "name": "Lampent",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 70,
+    "name": "Chandelure",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 71,
+    "name": "Axew",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 72,
+    "name": "Fraxure",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 73,
+    "name": "Haxorus",
+    "specialties": [
+      "Chop",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 74,
+    "name": "Goomy",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 75,
+    "name": "Sliggoo",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 76,
+    "name": "Goodra",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 77,
+    "name": "Cramorant",
+    "specialties": [
+      "Fly",
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 78,
+    "name": "Pichu",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 79,
+    "name": "Peakychu",
+    "specialties": [
+      "Illuminate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 79,
+    "name": "Pikachu",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 80,
+    "name": "Raichu",
+    "specialties": [
+      "Generate",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 81,
+    "name": "Zubat",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 82,
+    "name": "Golbat",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 83,
+    "name": "Crobat",
+    "specialties": [
+      "Search",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 84,
+    "name": "Meowth",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 85,
+    "name": "Persian",
+    "specialties": [
+      "Trade",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 86,
+    "name": "Psyduck",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 87,
+    "name": "Golduck",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 88,
+    "name": "Growlithe",
+    "specialties": [
+      "Burn",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 89,
+    "name": "Arcanine",
+    "specialties": [
+      "Burn",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 90,
+    "name": "Farfetch'd",
+    "specialties": [
+      "Chop",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 91,
+    "name": "Grimer",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 92,
+    "name": "Muk",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 93,
+    "name": "Gastly",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 94,
+    "name": "Haunter",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 95,
+    "name": "Gengar",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 96,
+    "name": "Voltorb",
+    "specialties": [
+      "Generate",
+      "Explode"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 97,
+    "name": "Electrode",
+    "specialties": [
+      "Generate",
+      "Explode"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 98,
+    "name": "Exeggcute",
+    "specialties": [
+      "Grow",
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 99,
+    "name": "Exeggutor",
+    "specialties": [
+      "Grow",
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 100,
+    "name": "Happiny",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 101,
+    "name": "Chansey",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 102,
+    "name": "Blissey",
+    "specialties": [
+      "Trade",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 103,
+    "name": "Elekid",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 104,
+    "name": "Electabuzz",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 105,
+    "name": "Electivire",
+    "specialties": [
+      "Generate",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 106,
+    "name": "Lapras",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 107,
+    "name": "Munchlax",
+    "specialties": [
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 108,
+    "name": "Mosslax",
+    "specialties": [
+      "Eat"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 108,
+    "name": "Snorlax",
+    "specialties": [
+      "Trade",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 109,
+    "name": "Spinarak",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 110,
+    "name": "Ariados",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 111,
+    "name": "Mareep",
+    "specialties": [
+      "Generate",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 112,
+    "name": "Flaaffy",
+    "specialties": [
+      "Generate",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 113,
+    "name": "Ampharos",
+    "specialties": [
+      "Generate",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 114,
+    "name": "Azurill",
+    "specialties": [
+      "Water",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 115,
+    "name": "Marill",
+    "specialties": [
+      "Water",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 116,
+    "name": "Azumarill",
+    "specialties": [
+      "Water",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 117,
+    "name": "Paldean Wooper",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 118,
+    "name": "Clodsire",
+    "specialties": [
+      "Litter",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 119,
+    "name": "Smeargle",
+    "specialties": [
+      "Paint"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 120,
+    "name": "Torchic",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 121,
+    "name": "Combusken",
+    "specialties": [
+      "Burn",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 122,
+    "name": "Blaziken",
+    "specialties": [
+      "Burn",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 123,
+    "name": "Wingull",
+    "specialties": [
+      "Water",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 124,
+    "name": "Pelipper",
+    "specialties": [
+      "Water",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 125,
+    "name": "Makuhita",
+    "specialties": [
+      "Build",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 126,
+    "name": "Hariyama",
+    "specialties": [
+      "Build",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 127,
+    "name": "Absol",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 128,
+    "name": "Piplup",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 129,
+    "name": "Prinplup",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 130,
+    "name": "Empoleon",
+    "specialties": [
+      "Water",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 131,
+    "name": "Audino",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 132,
+    "name": "Trubbish",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 133,
+    "name": "Garbodor",
+    "specialties": [
+      "Recycle",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 134,
+    "name": "Zorua",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 135,
+    "name": "Zoroark",
+    "specialties": [
+      "Trade",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 136,
+    "name": "Minccino",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 137,
+    "name": "Cinccino",
+    "specialties": [
+      "Gather",
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 138,
+    "name": "Grubbin",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 139,
+    "name": "Charjabug",
+    "specialties": [
+      "Generate",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 140,
+    "name": "Vikavolt",
+    "specialties": [
+      "Generate",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 141,
+    "name": "Mimikyu",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 142,
+    "name": "Pawmi",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 143,
+    "name": "Pawmo",
+    "specialties": [
+      "Generate",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 144,
+    "name": "Pawmot",
+    "specialties": [
+      "Generate",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 145,
+    "name": "Tatsugiri Curly Form",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 145,
+    "name": "Tatsugiri Droopy Form",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 145,
+    "name": "Tatsugiri Stretchy Form",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 146,
+    "name": "Ekans",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 147,
+    "name": "Arbok",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 148,
+    "name": "Cleffa",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 149,
+    "name": "Clefairy",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 150,
+    "name": "Clefable",
+    "specialties": [
+      "Hype",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 151,
+    "name": "Igglybuff",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 152,
+    "name": "Jigglypuff",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 153,
+    "name": "Wigglytuff",
+    "specialties": [
+      "Hype",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 154,
+    "name": "Diglett",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 155,
+    "name": "Dugtrio",
+    "specialties": [
+      "Hype",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 156,
+    "name": "Machop",
+    "specialties": [
+      "Build",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 157,
+    "name": "Machoke",
+    "specialties": [
+      "Build",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 158,
+    "name": "Machamp",
+    "specialties": [
+      "Build",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 159,
+    "name": "Geodude",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 160,
+    "name": "Graveler",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 161,
+    "name": "Golem",
+    "specialties": [
+      "Crush",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 162,
+    "name": "Magby",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 163,
+    "name": "Magmar",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 164,
+    "name": "Magmortar",
+    "specialties": [
+      "Burn",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 165,
+    "name": "Bonsly",
+    "specialties": [
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 166,
+    "name": "Sudowoodo",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 167,
+    "name": "Murkrow",
+    "specialties": [
+      "Trade",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 168,
+    "name": "Honchkrow",
+    "specialties": [
+      "Trade",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 169,
+    "name": "Larvitar",
+    "specialties": [
+      "Crush",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 170,
+    "name": "Pupitar",
+    "specialties": [
+      "Crush",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 171,
+    "name": "Tyranitar",
+    "specialties": [
+      "Crush",
+      "Bulldoze"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 172,
+    "name": "Lotad",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 173,
+    "name": "Lombre",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 174,
+    "name": "Ludicolo",
+    "specialties": [
+      "Water",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 175,
+    "name": "Mawile",
+    "specialties": [
+      "Trade",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 176,
+    "name": "Torkoal",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 177,
+    "name": "Kricketot",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 178,
+    "name": "Kricketune",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 179,
+    "name": "Chatot",
+    "specialties": [
+      "Hype",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 180,
+    "name": "Riolu",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 181,
+    "name": "Lucario",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 182,
+    "name": "Stereo Rotom",
+    "specialties": [
+      "DJ"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 183,
+    "name": "Larvesta",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 184,
+    "name": "Volcarona",
+    "specialties": [
+      "Burn",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 185,
+    "name": "Rowlet",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 186,
+    "name": "Dartrix",
+    "specialties": [
+      "Grow",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 187,
+    "name": "Decidueye",
+    "specialties": [
+      "Grow",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 188,
+    "name": "Scorbunny",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 189,
+    "name": "Raboot",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 190,
+    "name": "Cinderace",
+    "specialties": [
+      "Burn",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 191,
+    "name": "Skwovet",
+    "specialties": [
+      "Search",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 192,
+    "name": "Greedent",
+    "specialties": [
+      "Party"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 193,
+    "name": "Rolycoly",
+    "specialties": [
+      "Burn",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 194,
+    "name": "Carkol",
+    "specialties": [
+      "Burn",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 195,
+    "name": "Coalossal",
+    "specialties": [
+      "Burn",
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 196,
+    "name": "Toxel",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 197,
+    "name": "Toxtricity Amped Form",
+    "specialties": [
+      "Generate",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 197,
+    "name": "Toxtricity Low Key Form",
+    "specialties": [
+      "Generate",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 198,
+    "name": "Fidough",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 199,
+    "name": "Dachsbun",
+    "specialties": [
+      "Search",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 200,
+    "name": "Charcadet",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 201,
+    "name": "Armarouge",
+    "specialties": [
+      "Burn",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 202,
+    "name": "Ceruledge",
+    "specialties": [
+      "Burn",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 203,
+    "name": "Glimmet",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 204,
+    "name": "Glimmora",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 205,
+    "name": "Gimmighoul",
+    "specialties": [
+      "Collect"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 206,
+    "name": "Gholdengo",
+    "specialties": [
+      "Collect"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 207,
+    "name": "Vulpix",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 208,
+    "name": "Ninetales",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 209,
+    "name": "Poliwag",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 210,
+    "name": "Poliwhirl",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 211,
+    "name": "Poliwrath",
+    "specialties": [
+      "Water",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 212,
+    "name": "Politoed",
+    "specialties": [
+      "Water",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 213,
+    "name": "Abra",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 214,
+    "name": "Kadabra",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 215,
+    "name": "Alakazam",
+    "specialties": [
+      "Teleport",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 216,
+    "name": "Mime Jr.",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 217,
+    "name": "Mr. Mime",
+    "specialties": [
+      "Gather",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 218,
+    "name": "Porygon",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 219,
+    "name": "Porygon2",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 220,
+    "name": "Porygon-Z",
+    "specialties": [
+      "Rarify"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 221,
+    "name": "Dratini",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 222,
+    "name": "Dragonair",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 223,
+    "name": "Dragonite",
+    "specialties": [
+      "Water",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 224,
+    "name": "Cyndaquil",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 225,
+    "name": "Quilava",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 226,
+    "name": "Typhlosion",
+    "specialties": [
+      "Burn",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 227,
+    "name": "Misdreavus",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 228,
+    "name": "Mismagius",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 229,
+    "name": "Girafarig",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 230,
+    "name": "Farigiraf",
+    "specialties": [
+      "Gather",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 231,
+    "name": "Ralts",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 232,
+    "name": "Kirlia",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 233,
+    "name": "Gardevoir",
+    "specialties": [
+      "Teleport",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 234,
+    "name": "Gallade",
+    "specialties": [
+      "Teleport",
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 235,
+    "name": "Plusle",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 236,
+    "name": "Minun",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 237,
+    "name": "Trapinch",
+    "specialties": [
+      "Bulldoze",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 238,
+    "name": "Vibrava",
+    "specialties": [
+      "Bulldoze",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 239,
+    "name": "Flygon",
+    "specialties": [
+      "Bulldoze",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 240,
+    "name": "Swablu",
+    "specialties": [
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 241,
+    "name": "Altaria",
+    "specialties": [
+      "Litter",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 242,
+    "name": "Duskull",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 243,
+    "name": "Dusclops",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 244,
+    "name": "Dusknoir",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 245,
+    "name": "Beldum",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 246,
+    "name": "Metang",
+    "specialties": [
+      "Recycle"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 247,
+    "name": "Metagross",
+    "specialties": [
+      "Recycle",
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 248,
+    "name": "Snivy",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 249,
+    "name": "Servine",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 250,
+    "name": "Serperior",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 251,
+    "name": "Froakie",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 252,
+    "name": "Frogadier",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 253,
+    "name": "Greninja",
+    "specialties": [
+      "Water",
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 254,
+    "name": "Dedenne",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 255,
+    "name": "Noibat",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 256,
+    "name": "Noivern",
+    "specialties": [
+      "Search",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 257,
+    "name": "Rookidee",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 258,
+    "name": "Corvisquire",
+    "specialties": [
+      "Chop"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 259,
+    "name": "Corviknight",
+    "specialties": [
+      "Chop",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 260,
+    "name": "Dreepy",
+    "specialties": [
+      "Gather",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 261,
+    "name": "Drakloak",
+    "specialties": [
+      "Gather",
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 262,
+    "name": "Dragapult",
+    "specialties": [
+      "Gather",
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 263,
+    "name": "Sprigatito",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 264,
+    "name": "Floragato",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 265,
+    "name": "Meowscarada",
+    "specialties": [
+      "Grow",
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 266,
+    "name": "Wattrel",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 267,
+    "name": "Kilowattrel",
+    "specialties": [
+      "Generate",
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 268,
+    "name": "Tinkatink",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 269,
+    "name": "Tinkatuff",
+    "specialties": [
+      "Build"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 270,
+    "name": "Tinkaton",
+    "specialties": [
+      "Engineer"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 271,
+    "name": "Aerodactyl",
+    "specialties": [
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 272,
+    "name": "Cranidos",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 273,
+    "name": "Rampardos",
+    "specialties": [
+      "Crush",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 274,
+    "name": "Shieldon",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 275,
+    "name": "Bastiodon",
+    "specialties": [
+      "Crush",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 276,
+    "name": "Tyrunt",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 277,
+    "name": "Tyrantrum",
+    "specialties": [
+      "Crush",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 278,
+    "name": "Amaura",
+    "specialties": [
+      "Crush"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 279,
+    "name": "Aurorus",
+    "specialties": [
+      "Crush",
+      "Litter"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 280,
+    "name": "Eevee",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 281,
+    "name": "Vaporeon",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 282,
+    "name": "Jolteon",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 283,
+    "name": "Flareon",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 284,
+    "name": "Espeon",
+    "specialties": [
+      "Gather"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 285,
+    "name": "Umbreon",
+    "specialties": [
+      "Search"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 286,
+    "name": "Leafeon",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 287,
+    "name": "Glaceon",
+    "specialties": [
+      "Trade"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 288,
+    "name": "Sylveon",
+    "specialties": [
+      "Hype"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 289,
+    "name": "Kyogre",
+    "specialties": [],
+    "source": "main"
+  },
+  {
+    "id": 290,
+    "name": "Raikou",
+    "specialties": [
+      "Generate"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 291,
+    "name": "Entei",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 292,
+    "name": "Suicune",
+    "specialties": [
+      "Water"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 293,
+    "name": "Volcanion",
+    "specialties": [
+      "Burn"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 294,
+    "name": "Articuno",
+    "specialties": [
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 295,
+    "name": "Zapdos",
+    "specialties": [
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 296,
+    "name": "Moltres",
+    "specialties": [
+      "Fly"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 297,
+    "name": "Lugia",
+    "specialties": [],
+    "source": "main"
+  },
+  {
+    "id": 298,
+    "name": "Ho-Oh",
+    "specialties": [],
+    "source": "main"
+  },
+  {
+    "id": 299,
+    "name": "Mewtwo",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 300,
+    "name": "Mew",
+    "specialties": [
+      "Teleport"
+    ],
+    "source": "main"
+  },
+  {
+    "id": 1,
+    "name": "Hoppip",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "event"
+  },
+  {
+    "id": 2,
+    "name": "Skiploom",
+    "specialties": [
+      "Grow"
+    ],
+    "source": "event"
+  },
+  {
+    "id": 3,
+    "name": "Jumpluff",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "event"
+  }
+]
