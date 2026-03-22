@@ -39,25 +39,13 @@ for p in pokemon:
         else:
             p["rarity"] = ""
 
-# Collect all unique specialty ids present in pokemon data
-used_spec_ids = set()
-for p in pokemon:
-    for s in p.get("specialties", []):
-        used_spec_ids.add(s)
-
-# Filter specialties to only those that appear on Pokémon (removes pure NPC ones)
-filterable_specs = [
-    s for s in specialties
-    if s["label"] in used_spec_ids
-]
-
 # ── Serialise for JS ──────────────────────────────────────────────────────────
 
 def js(data):
     return json.dumps(data, ensure_ascii=False)
 
-pokemon_js    = js(pokemon)
-habitats_js   = js(habitats)
+pokemon_js     = js(pokemon)
+habitats_js    = js(habitats)
 specialties_js = js(specialties)
 
 # ── HTML ──────────────────────────────────────────────────────────────────────
@@ -91,7 +79,7 @@ html = f"""<!DOCTYPE html>
   --radius-sm:  8px;
   --radius-md:  14px;
   --radius-lg:  20px;
-  --sidebar-w:  260px;
+  --sidebar-w:  270px;
   --header-h:   60px;
 }}
 
@@ -224,6 +212,9 @@ body::before{{
 .fpill.active{{border-color:transparent;color:#fff;}}
 .fpill.r-legendary.active{{background:rgba(240,128,48,0.15);border-color:rgba(240,128,48,0.5);color:#ffcc80}}
 .fpill.r-event.active{{background:rgba(171,71,188,0.15);border-color:rgba(171,71,188,0.5);color:#ce93d8}}
+.fpill.f-zone.active{{background:rgba(41,182,246,0.15);border-color:rgba(41,182,246,0.5);color:#81d4fa}}
+.fpill.f-time.active{{background:rgba(255,183,77,0.15);border-color:rgba(255,183,77,0.5);color:#ffe082}}
+.fpill.f-weather.active{{background:rgba(100,181,246,0.15);border-color:rgba(100,181,246,0.5);color:#bbdefb}}
 .combo-toggle{{
   display:flex;align-items:center;gap:8px;margin-top:4px;
   cursor:pointer;font-size:0.78rem;color:var(--muted);
@@ -272,6 +263,7 @@ body::before{{
 }}
 .rb-legendary{{background:rgba(240,128,48,0.12);color:#ffcc80;border:1px solid rgba(240,128,48,0.3)}}
 .rb-event{{background:rgba(171,71,188,0.12);color:#ce93d8;border:1px solid rgba(171,71,188,0.3)}}
+.rb-common{{display:none}}
 .card-body{{padding:10px 14px 0;}}
 .poke-name{{
   font-family:'Fredoka One',cursive;
@@ -294,6 +286,23 @@ body::before{{
 .spec-badge:hover{{transform:translateY(-1px);filter:brightness(1.15)}}
 .spec-dot{{width:6px;height:6px;border-radius:50%;flex-shrink:0}}
 
+/* ── CARD INFO ROWS (zones/time/weather) ── */
+.info-row{{
+  display:flex;flex-wrap:wrap;gap:4px;
+  padding:0 14px;margin-bottom:10px;
+  align-items:center;
+}}
+.info-chip{{
+  font-size:0.68rem;font-weight:600;
+  padding:3px 8px;border-radius:6px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.09);
+  color:var(--text-soft);white-space:nowrap;
+}}
+.ic-zone{{background:rgba(41,182,246,0.1);border-color:rgba(41,182,246,0.25);color:#81d4fa}}
+.ic-time{{background:rgba(255,183,77,0.1);border-color:rgba(255,183,77,0.25);color:#ffe082}}
+.ic-weather{{background:rgba(100,181,246,0.1);border-color:rgba(100,181,246,0.25);color:#bbdefb}}
+
 /* ── HABITAT GRID ── */
 .hab-grid{{
   display:grid;
@@ -312,7 +321,24 @@ body::before{{
 .hab-card-inner{{padding:16px;}}
 .hab-num{{font-family:'Fredoka One',cursive;font-size:0.75rem;color:var(--muted);margin-bottom:3px;}}
 .hab-name{{font-family:'Fredoka One',cursive;font-size:1.05rem;line-height:1.25;color:var(--accent);margin-bottom:8px;}}
-.hab-desc{{font-size:0.82rem;color:var(--text-soft);line-height:1.55;}}
+.hab-desc{{font-size:0.82rem;color:var(--text-soft);line-height:1.55;margin-bottom:10px;}}
+.hab-reqs{{margin-top:8px;}}
+.hab-reqs-title{{font-size:0.6rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:5px;}}
+.hab-req-list{{display:flex;flex-wrap:wrap;gap:4px;}}
+.hab-req-chip{{
+  font-size:0.7rem;font-weight:600;
+  padding:3px 9px;border-radius:6px;
+  background:rgba(110,200,74,0.08);
+  border:1px solid rgba(110,200,74,0.2);
+  color:var(--accent);white-space:nowrap;
+}}
+.hab-poke-section{{margin-top:10px;}}
+.hab-poke-title{{font-size:0.6rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:5px;}}
+.hab-poke-list{{font-size:0.75rem;color:var(--text-soft);line-height:1.7;}}
+.hab-poke-more{{font-size:0.72rem;color:var(--muted);font-style:italic;cursor:pointer;}}
+.hab-poke-more:hover{{color:var(--accent)}}
+.hab-poke-extra{{display:none}}
+.hab-poke-extra.open{{display:inline}}
 
 /* ── PAGINATION ── */
 .pagination{{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:24px;padding-bottom:8px;}}
@@ -362,7 +388,7 @@ body::before{{
 <body>
 
 <header class="app-header">
-  <div class="app-logo">🌿 Pokopia Dex<span>v2.0</span></div>
+  <div class="app-logo">🌿 Pokopia Dex<span>v2.1</span></div>
   <nav class="header-tabs">
     <button class="htab active" onclick="switchTab('pokedex',this)">Pokédex</button>
     <button class="htab" onclick="switchTab('habitatdex',this)">Habitat Dex</button>
@@ -400,13 +426,48 @@ body::before{{
           <button class="fpill r-event"     data-rarity="Event"     onclick="toggleFilter('rarity',this)">Event</button>
         </div>
       </div>
+
+      <div class="filter-group" id="zoneFilterGroup">
+        <div class="filter-group-title">
+          Zone
+          <button class="clear-btn" id="clearZone" onclick="clearFilter('zone')">Clear</button>
+        </div>
+        <div class="filter-pills" id="zoneFilters"></div>
+      </div>
+
+      <div class="filter-group" id="timeFilterGroup">
+        <div class="filter-group-title">
+          Time of Day
+          <button class="clear-btn" id="clearTime" onclick="clearFilter('time')">Clear</button>
+        </div>
+        <div class="filter-pills" id="timeFilters">
+          <button class="fpill f-time" data-time="Morning" onclick="toggleFilter('time',this)">🌅 Morning</button>
+          <button class="fpill f-time" data-time="Day"     onclick="toggleFilter('time',this)">☀️ Day</button>
+          <button class="fpill f-time" data-time="Evening" onclick="toggleFilter('time',this)">🌇 Evening</button>
+          <button class="fpill f-time" data-time="Night"   onclick="toggleFilter('time',this)">🌙 Night</button>
+        </div>
+      </div>
+
+      <div class="filter-group" id="weatherFilterGroup">
+        <div class="filter-group-title">
+          Weather
+          <button class="clear-btn" id="clearWeather" onclick="clearFilter('weather')">Clear</button>
+        </div>
+        <div class="filter-pills" id="weatherFilters">
+          <button class="fpill f-weather" data-weather="Sun"   onclick="toggleFilter('weather',this)">☀️ Sun</button>
+          <button class="fpill f-weather" data-weather="Cloud" onclick="toggleFilter('weather',this)">☁️ Cloud</button>
+          <button class="fpill f-weather" data-weather="Rain"  onclick="toggleFilter('weather',this)">🌧️ Rain</button>
+          <button class="fpill f-weather" data-weather="Snow"  onclick="toggleFilter('weather',this)">❄️ Snow</button>
+          <button class="fpill f-weather" data-weather="Fog"   onclick="toggleFilter('weather',this)">🌫️ Fog</button>
+        </div>
+      </div>
     </div>
 
     <div id="habitatFilters" class="hidden">
       <div class="filter-group">
         <div class="filter-group-title">Search habitats</div>
         <div style="font-size:0.78rem;color:var(--muted);padding:0 2px;line-height:1.5">
-          Use the search bar above to find habitats by name.
+          Use the search bar above to find habitats by name or Pokémon.
         </div>
       </div>
     </div>
@@ -435,11 +496,18 @@ const SPECIALTIES = {specialties_js};
 
 const SPEC_MAP = Object.fromEntries(SPECIALTIES.map(s => [s.label, s]));
 
+// Collect all unique zones from pokemon data
+const ALL_ZONES = (() => {{
+  const s = new Set();
+  POKEMON.forEach(p => (p.zones || []).forEach(z => s.add(z)));
+  return [...s].sort();
+}})();
+
 // ── STATE ─────────────────────────────────────────────────────────────────────
 const state = {{
   tab: 'pokedex',
   search: '',
-  filters: {{ spec: [], rarity: [] }},
+  filters: {{ spec: [], rarity: [], zone: [], time: [], weather: [] }},
   pokePage: 1,
   habPage:  1,
   PAGE_SIZE: 24,
@@ -448,6 +516,7 @@ const state = {{
 // ── INIT ──────────────────────────────────────────────────────────────────────
 function init() {{
   buildSpecFilters();
+  buildZoneFilters();
   renderPokedex();
   renderHabitatDex();
   updateResultsCount();
@@ -456,7 +525,6 @@ function init() {{
 function buildSpecFilters() {{
   const container = document.getElementById('specFilters');
   container.innerHTML = '';
-  // Only show specialties that appear on at least one Pokémon
   const usedLabels = new Set(POKEMON.flatMap(p => p.specialties || []));
   SPECIALTIES.filter(s => usedLabels.has(s.label)).forEach(s => {{
     const btn = document.createElement('button');
@@ -467,6 +535,28 @@ function buildSpecFilters() {{
     btn.onclick = function() {{ toggleFilter('spec', this); }};
     container.appendChild(btn);
   }});
+}}
+
+function buildZoneFilters() {{
+  const container = document.getElementById('zoneFilters');
+  container.innerHTML = '';
+  if (ALL_ZONES.length === 0) {{
+    document.getElementById('zoneFilterGroup').style.display = 'none';
+    return;
+  }}
+  ALL_ZONES.forEach(zone => {{
+    const btn = document.createElement('button');
+    btn.className = 'fpill f-zone';
+    btn.dataset.zone = zone;
+    btn.textContent = zone;
+    btn.onclick = function() {{ toggleFilter('zone', this); }};
+    container.appendChild(btn);
+  }});
+  // Hide time/weather filter groups if no data
+  const hasTime = POKEMON.some(p => (p.time || []).length > 0);
+  const hasWeather = POKEMON.some(p => (p.weather || []).length > 0);
+  if (!hasTime)    document.getElementById('timeFilterGroup').style.display = 'none';
+  if (!hasWeather) document.getElementById('weatherFilterGroup').style.display = 'none';
 }}
 
 // ── TAB SWITCHING ─────────────────────────────────────────────────────────────
@@ -487,7 +577,8 @@ function switchTab(tab, btn) {{
 
 // ── FILTERS ───────────────────────────────────────────────────────────────────
 function toggleFilter(group, btn) {{
-  const val = btn.dataset[group] || btn.dataset.spec || btn.dataset.rarity;
+  const val = btn.dataset[group] || btn.dataset.spec || btn.dataset.rarity ||
+              btn.dataset.zone  || btn.dataset.time  || btn.dataset.weather;
   const arr = state.filters[group];
   const idx = arr.indexOf(val);
   if (idx === -1) arr.push(val); else arr.splice(idx, 1);
@@ -514,7 +605,10 @@ function toggleFilter(group, btn) {{
 
 function clearFilter(group) {{
   state.filters[group] = [];
-  const idMap = {{ spec: 'specFilters', rarity: 'rarityFilters' }};
+  const idMap = {{
+    spec: 'specFilters', rarity: 'rarityFilters',
+    zone: 'zoneFilters', time: 'timeFilters', weather: 'weatherFilters'
+  }};
   const container = document.getElementById(idMap[group]);
   if (container) {{
     container.querySelectorAll('.fpill.active').forEach(b => {{
@@ -535,9 +629,10 @@ function applyFilters() {{
 }}
 
 function updateClearButtons() {{
-  [['clearSpec','spec'],['clearRarity','rarity']].forEach(([btnId, key]) => {{
+  [['clearSpec','spec'],['clearRarity','rarity'],
+   ['clearZone','zone'],['clearTime','time'],['clearWeather','weather']].forEach(([btnId, key]) => {{
     const el = document.getElementById(btnId);
-    if (el) el.classList.toggle('visible', state.filters[key].length > 0);
+    if (el) el.classList.toggle('visible', (state.filters[key]||[]).length > 0);
   }});
 }}
 
@@ -550,8 +645,7 @@ function onSearch() {{
 }}
 
 function clearAllFilters() {{
-  state.filters.spec = [];
-  state.filters.rarity = [];
+  ['spec','rarity','zone','time','weather'].forEach(g => state.filters[g] = []);
   document.querySelectorAll('.fpill.active').forEach(b => {{
     b.classList.remove('active');
     b.style.background = b.style.borderColor = b.style.color = '';
@@ -567,12 +661,15 @@ function clearAllFilters() {{
 
 // ── FILTERING ─────────────────────────────────────────────────────────────────
 function filterPokemon() {{
-  const {{ spec, rarity }} = state.filters;
+  const {{ spec, rarity, zone, time, weather }} = state.filters;
   const and = document.getElementById('comboAnd')?.checked;
   const q   = state.search;
   return POKEMON.filter(p => {{
     if (q && !p.name.toLowerCase().includes(q)) return false;
     if (rarity.length && !rarity.includes(p.rarity)) return false;
+    if (zone.length    && !zone.some(z    => (p.zones   ||[]).includes(z)))    return false;
+    if (time.length    && !time.some(t    => (p.time    ||[]).includes(t)))    return false;
+    if (weather.length && !weather.some(w => (p.weather ||[]).includes(w)))    return false;
     if (spec.length) {{
       if (and) return spec.every(s => (p.specialties || []).includes(s));
       else     return spec.some(s  => (p.specialties || []).includes(s));
@@ -583,7 +680,11 @@ function filterPokemon() {{
 
 function filterHabitats() {{
   const q = state.search;
-  return HABITATS.filter(h => !q || h.name.toLowerCase().includes(q));
+  if (!q) return HABITATS;
+  return HABITATS.filter(h =>
+    h.name.toLowerCase().includes(q) ||
+    (h.pokemon || []).some(n => n.toLowerCase().includes(q))
+  );
 }}
 
 // ── POKÉDEX RENDER ────────────────────────────────────────────────────────────
@@ -619,13 +720,11 @@ function buildPokeCard(p) {{
   card.className = 'poke-card';
   card.id = `pcard-${{p.id}}`;
 
-  // accent bar
   const bar = document.createElement('div');
   bar.className = 'card-accent-bar';
   bar.style.background = `linear-gradient(90deg,${{accentColor}},${{accentColor}}44)`;
   card.appendChild(bar);
 
-  // top row
   const top = document.createElement('div');
   top.className = 'card-top';
   const rarityHtml = p.rarity
@@ -634,12 +733,12 @@ function buildPokeCard(p) {{
   top.innerHTML = `<span class="dex-num">#${{String(p.id).padStart(3,'0')}}</span>${{rarityHtml}}`;
   card.appendChild(top);
 
-  // name + specialties
   const body = document.createElement('div');
   body.className = 'card-body';
   body.innerHTML = `<div class="poke-name" style="color:${{accentColor}}">${{p.name}}</div>`;
   card.appendChild(body);
 
+  // Specialties
   if (specs.length > 0) {{
     card.appendChild(makeDivider());
     const lbl = document.createElement('div');
@@ -664,6 +763,74 @@ function buildPokeCard(p) {{
     }});
     card.appendChild(specRow);
   }}
+
+  // Zones
+  const zones = p.zones || [];
+  if (zones.length > 0) {{
+    card.appendChild(makeDivider());
+    const lbl = document.createElement('div');
+    lbl.className = 'section-lbl';
+    lbl.textContent = 'Zones';
+    card.appendChild(lbl);
+    const row = document.createElement('div');
+    row.className = 'info-row';
+    zones.forEach(z => {{
+      const chip = document.createElement('span');
+      chip.className = 'info-chip ic-zone';
+      chip.textContent = z;
+      row.appendChild(chip);
+    }});
+    card.appendChild(row);
+  }}
+
+  // Time + Weather (combined row)
+  const timeVals    = p.time    || [];
+  const weatherVals = p.weather || [];
+  const allTimes    = ['Morning','Day','Evening','Night'];
+  const allWeathers = ['Sun','Cloud','Rain'];
+  const showTime    = timeVals.length > 0 && timeVals.length < allTimes.length;
+  const showWeather = weatherVals.length > 0 && weatherVals.length < allWeathers.length;
+
+  if (showTime || showWeather) {{
+    if (zones.length === 0) card.appendChild(makeDivider());
+    if (showTime) {{
+      const lbl = document.createElement('div');
+      lbl.className = 'section-lbl';
+      lbl.textContent = 'Active Time';
+      card.appendChild(lbl);
+      const row = document.createElement('div');
+      row.className = 'info-row';
+      const TICONS = {{Morning:'🌅',Day:'☀️',Evening:'🌇',Night:'🌙'}};
+      timeVals.forEach(t => {{
+        const chip = document.createElement('span');
+        chip.className = 'info-chip ic-time';
+        chip.textContent = (TICONS[t]||'') + ' ' + t;
+        row.appendChild(chip);
+      }});
+      card.appendChild(row);
+    }}
+    if (showWeather) {{
+      const lbl = document.createElement('div');
+      lbl.className = 'section-lbl';
+      lbl.textContent = 'Weather';
+      card.appendChild(lbl);
+      const row = document.createElement('div');
+      row.className = 'info-row';
+      const WICONS = {{Sun:'☀️',Cloud:'☁️',Rain:'🌧️',Snow:'❄️',Fog:'🌫️'}};
+      weatherVals.forEach(w => {{
+        const chip = document.createElement('span');
+        chip.className = 'info-chip ic-weather';
+        chip.textContent = (WICONS[w]||'') + ' ' + w;
+        row.appendChild(chip);
+      }});
+      card.appendChild(row);
+    }}
+  }}
+
+  // bottom padding
+  const pad = document.createElement('div');
+  pad.style.height = '12px';
+  card.appendChild(pad);
 
   return card;
 }}
@@ -704,12 +871,52 @@ function buildHabCard(h) {{
 
   const inner = document.createElement('div');
   inner.className = 'hab-card-inner';
-  inner.innerHTML = `
+
+  let html = `
     <div class="hab-num">Habitat #${{String(h.id).padStart(3,'0')}}</div>
     <div class="hab-name">${{h.name}}</div>
     <div class="hab-desc">${{h.description || ''}}</div>`;
+
+  // Build requirements
+  const reqs = h.requirements || [];
+  if (reqs.length > 0) {{
+    html += `<div class="hab-reqs">
+      <div class="hab-reqs-title">Build Requirements</div>
+      <div class="hab-req-list">`;
+    reqs.forEach(r => {{
+      html += `<span class="hab-req-chip">${{r.qty}}× ${{r.item}}</span>`;
+    }});
+    html += `</div></div>`;
+  }}
+
+  // Pokémon list
+  const pokes = h.pokemon || [];
+  if (pokes.length > 0) {{
+    const preview = pokes.slice(0, 6);
+    const extra   = pokes.slice(6);
+    const uid = `hpx-${{h.id}}`;
+    html += `<div class="hab-poke-section">
+      <div class="hab-poke-title">Pokémon (${{pokes.length}})</div>
+      <div class="hab-poke-list">
+        ${{preview.join(', ')}}`;
+    if (extra.length > 0) {{
+      html += `<span class="hab-poke-more" onclick="toggleExtra('${{uid}}')"> +${{extra.length}} more</span>
+               <span class="hab-poke-extra" id="${{uid}}">${{extra.length > 0 ? ', ' + extra.join(', ') : ''}}</span>`;
+    }}
+    html += `</div></div>`;
+  }}
+
+  inner.innerHTML = html;
   card.appendChild(inner);
   return card;
+}}
+
+function toggleExtra(uid) {{
+  const el = document.getElementById(uid);
+  if (!el) return;
+  el.classList.toggle('open');
+  const btn = el.previousElementSibling;
+  if (btn) btn.style.display = el.classList.contains('open') ? 'none' : '';
 }}
 
 // ── QUICK FILTER SHORTCUT ─────────────────────────────────────────────────────
@@ -730,8 +937,7 @@ function renderPagination(containerId, current, total, onClick) {{
   if (!container || total <= 1) {{ if(container) container.innerHTML=''; return; }}
 
   const pages = getPagesArray(current, total);
-  let html = `<button class="pg-btn" ${{current===1?'disabled':''}} onclick="(${{onClick.toString()}})(current-1)">‹</button>`;
-  html = `<button class="pg-btn" ${{current===1?'disabled':''}} onclick="(${{onClick.toString()}})(${{current-1}})">‹</button>`;
+  let html = `<button class="pg-btn" ${{current===1?'disabled':''}} onclick="(${{onClick.toString()}})(${{current-1}})">‹</button>`;
   pages.forEach(p => {{
     if (p === '…') html += `<span class="pg-info">…</span>`;
     else html += `<button class="pg-btn${{p===current?' active':''}}" onclick="(${{onClick.toString()}})(${{p}})">${{p}}</button>`;

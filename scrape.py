@@ -254,8 +254,262 @@ def scrape_legendary_pokemon():
 
 # ── 3. HABITATS ───────────────────────────────────────────────────────────────
 
+def make_slug(name):
+    """Convert habitat name to Serebii URL slug."""
+    slug = name.lower()
+    slug = re.sub(r"[^a-z0-9]", "", slug)
+    return slug
+
+
+KNOWN_ZONES = [
+    "Withered Wastelands", "Bleak Beach", "Rocky Ridges",
+    "Sparkling Skylands", "Palette Town", "Cloud Island",
+]
+KNOWN_TIMES    = {"Morning", "Day", "Evening", "Night"}
+KNOWN_WEATHER  = {"Sun", "Cloud", "Rain", "Snow", "Fog"}
+SKIP_NAMES     = {"time", "weather", "location", "rarity", "image",
+                  "name", "quantity", "picture", "flavor text"}
+
+
+def _direct_rows(table):
+    """Return only direct-child <tr> elements (skip nested table rows)."""
+    tbody = table.find("tbody")
+    parent = tbody if tbody else table
+    return parent.find_all("tr", recursive=False)
+
+
+def parse_habitat_detail(soup, hab_name):
+    """
+    Parse a Serebii habitat detail page.
+
+    Page structure confirmed by inspection:
+      Table 0-2 : Navigation / logo / flavor text
+      Table 3   : Build requirements  — headers: Image | Name | Quantity
+      Table 4   : Pokémon data table  — groups of 4 direct rows:
+                      row A: N Pokémon names (one per column)
+                      row B: N Pokémon images
+                      row C: N "Location : <zones>" cells
+                      row D: N "Rarity : <rarity>" cells
+                  (nested time/weather tables appear as child rows too —
+                   we skip them by only taking direct rows)
+      Table 5+  : One 2-row "Time / Weather" table per Pokémon (in order)
+
+    Returns:
+        requirements: list of {"item": str, "qty": int}
+        pokemon_entries: list of {"name": str, "rarity": str,
+                                  "time": list, "weather": list, "zones": list}
+    """
+    requirements = []
+    pokemon_entries = []
+
+    tables = soup.find_all("table")
+
+    # ── 1. Build requirements ─────────────────────────────────────────────────
+    for table in tables:
+        rows = _direct_rows(table)
+        if not rows:
+            continue
+        header_cells = rows[0].find_all(["th", "td"])
+        header_texts = [clean(c.get_text()).lower() for c in header_cells]
+        if "quantity" in header_texts or "qty" in header_texts:
+            for row in rows[1:]:
+                cells = row.find_all("td")
+                if len(cells) < 2:
+                    continue
+                item = ""
+                qty  = 0
+                for c in cells:
+                    t = clean(c.get_text())
+                    if re.fullmatch(r"\d+", t):
+                        qty = int(t)
+                    elif t and len(t) > 1:
+                        item = t
+                if item and qty:
+                    requirements.append({"item": item, "qty": qty})
+            break
+
+    # ── 2. Pokémon data table ─────────────────────────────────────────────────
+    # Find the table whose direct rows contain "Location:" or "Location :" cells
+    poke_table = None
+    for table in tables:
+        full_text = table.get_text()
+        if "Location" in full_text and "Rarity" in full_text:
+            poke_table = table
+            break
+
+    if poke_table is None:
+        return requirements, pokemon_entries
+
+    direct_rows = _direct_rows(poke_table)
+
+    # Each group = 5 direct rows:
+    #   0: Pokémon names  (N cells, one per Pokémon)
+    #   1: Pokémon images (N cells, empty text)
+    #   2: "Location : ..." (N cells)
+    #   3: "Rarity : ..."   (N cells)
+    #   4: "Time Weather ..." (N cells, each cell contains nested table text)
+    i = 0
+    while i < len(direct_rows):
+        row = direct_rows[i]
+        cells = row.find_all("td", recursive=False)
+        if not cells:
+            i += 1
+            continue
+
+        cell_texts = [clean(c.get_text()) for c in cells]
+
+        # Name row: all cells are short Pokémon names (no Location/Rarity/Time prefix)
+        is_name_row = (
+            len(cell_texts) >= 1
+            and all(
+                t
+                and len(t) < 60
+                and not t.lower().startswith(("location", "rarity", "time", "weather"))
+                and t.lower() not in SKIP_NAMES
+                for t in cell_texts
+            )
+            and any(
+                re.search(r"[a-zA-Z]", t) and 2 <= len(t) <= 50
+                for t in cell_texts
+            )
+        )
+
+        if not is_name_row:
+            i += 1
+            continue
+
+        names = [t for t in cell_texts if t and len(t) >= 2 and re.search(r"[a-zA-Z]", t)]
+        n = len(names)
+
+        # Location row (i+2)
+        zones_per_poke = [""] * n
+        if i + 2 < len(direct_rows):
+            loc_cells = direct_rows[i + 2].find_all("td", recursive=False)
+            for j, lc in enumerate(loc_cells[:n]):
+                t = clean(lc.get_text(" "))
+                m = re.match(r"Location\s*:\s*(.*)", t, re.IGNORECASE)
+                if m:
+                    zones_per_poke[j] = m.group(1).strip()
+
+        # Rarity row (i+3)
+        rarities = [""] * n
+        if i + 3 < len(direct_rows):
+            rar_cells = direct_rows[i + 3].find_all("td", recursive=False)
+            for j, rc in enumerate(rar_cells[:n]):
+                t = clean(rc.get_text(" "))
+                m = re.match(r"Rarity\s*:\s*(.*)", t, re.IGNORECASE)
+                if m:
+                    rarities[j] = m.group(1).strip()
+
+        # Time/Weather row (i+4): each cell contains a nested table
+        # Use get_text(" ") with separator so concatenated words get spaces
+        times_per_poke   = [[] for _ in range(n)]
+        weather_per_poke = [[] for _ in range(n)]
+        if i + 4 < len(direct_rows):
+            tw_cells = direct_rows[i + 4].find_all("td", recursive=False)
+            for j, tc in enumerate(tw_cells[:n]):
+                # get_text(" ") adds space between elements, splitting concatenated words
+                words = re.split(r"\s+", tc.get_text(" ").strip())
+                for w in words:
+                    if w in KNOWN_TIMES:
+                        times_per_poke[j].append(w)
+                    elif w in KNOWN_WEATHER:
+                        weather_per_poke[j].append(w)
+
+        for j, name in enumerate(names):
+            zones = [z for z in KNOWN_ZONES if z in zones_per_poke[j]]
+            t_vals = times_per_poke[j]   or list(KNOWN_TIMES)
+            w_vals = weather_per_poke[j] or ["Sun", "Cloud", "Rain"]
+            pokemon_entries.append({
+                "name":    name,
+                "rarity":  rarities[j],
+                "time":    t_vals,
+                "weather": w_vals,
+                "zones":   zones,
+            })
+
+        i += 5  # advance past this full group
+
+    return requirements, pokemon_entries
+
+
+def scrape_habitat_details(habitats, all_pokemon):
+    """
+    Fetch individual habitat detail pages, enrich habitats with build requirements
+    and Pokémon lists, and aggregate per-Pokémon zone/time/weather/rarity data.
+    Returns enriched (habitats, all_pokemon).
+    """
+    print(f"\n[6/6] Scraping {len(habitats)} habitat detail pages...")
+
+    # Build lookup: pokemon name → index in all_pokemon
+    poke_idx = {p["name"].lower(): i for i, p in enumerate(all_pokemon)}
+
+    # Track per-Pokémon aggregated data across all habitats
+    poke_data = {}  # name_lower → {"rarity": str, "time": set, "weather": set, "zones": set}
+
+    total = len(habitats)
+    ok = 0
+    fail = 0
+
+    for i, hab in enumerate(habitats):
+        slug = make_slug(hab["name"])
+        url = f"{BASE}/pokemonpokopia/habitatdex/{slug}.shtml"
+        try:
+            soup = fetch(url, delay=1.0)
+            reqs, poke_entries = parse_habitat_detail(soup, hab["name"])
+
+            if reqs:
+                hab["requirements"] = reqs
+            if poke_entries:
+                hab["pokemon"] = [e["name"] for e in poke_entries]
+
+            for entry in poke_entries:
+                key = entry["name"].lower()
+                if key not in poke_data:
+                    poke_data[key] = {
+                        "rarity": entry["rarity"] or "",
+                        "time": set(entry["time"]),
+                        "weather": set(entry["weather"]),
+                        "zones": set(entry["zones"]),
+                    }
+                else:
+                    # Merge: take highest rarity seen, union of time/weather/zones
+                    if not poke_data[key]["rarity"] and entry["rarity"]:
+                        poke_data[key]["rarity"] = entry["rarity"]
+                    poke_data[key]["time"].update(entry["time"])
+                    poke_data[key]["weather"].update(entry["weather"])
+                    poke_data[key]["zones"].update(entry["zones"])
+
+            ok += 1
+            print(f"  [{i+1}/{total}] {hab['name']} — {len(poke_entries)} Pokémon, {len(reqs)} req items")
+
+        except Exception as e:
+            fail += 1
+            print(f"  [{i+1}/{total}] SKIP {hab['name']} ({slug}) — {e}")
+
+    # Write back aggregated data to pokemon list
+    TIME_ORDER = ["Morning", "Day", "Evening", "Night"]
+    WEATHER_ORDER = ["Sun", "Cloud", "Rain", "Snow", "Fog"]
+
+    for p in all_pokemon:
+        key = p["name"].lower()
+        if key in poke_data:
+            d = poke_data[key]
+            if d["rarity"] and not p.get("rarity"):
+                p["rarity"] = d["rarity"]
+            if d["time"]:
+                p["time"] = [t for t in TIME_ORDER if t in d["time"]]
+            if d["weather"]:
+                p["weather"] = [w for w in WEATHER_ORDER if w in d["weather"]]
+            if d["zones"]:
+                p["zones"] = sorted(d["zones"])
+
+    print(f"\n  Detail pages: {ok} ok, {fail} skipped")
+    return habitats, all_pokemon
+
+
 def scrape_habitats():
-    print("\n[5/5] Scraping habitats...")
+    print("\n[5/6] Scraping habitats...")
     soup = fetch(f"{BASE}/pokemonpokopia/habitats.shtml")
 
     habitats = []
@@ -339,11 +593,11 @@ def main():
         print("  pip install requests beautifulsoup4")
         return
 
-    specialties  = scrape_specialties()
-    main_pokemon = scrape_available_pokemon()
+    specialties   = scrape_specialties()
+    main_pokemon  = scrape_available_pokemon()
     event_pokemon = scrape_event_pokemon()
-    legendaries  = scrape_legendary_pokemon()
-    habitats     = scrape_habitats()
+    legendaries   = scrape_legendary_pokemon()
+    habitats      = scrape_habitats()
 
     # Combine all Pokémon
     all_pokemon = main_pokemon + event_pokemon
@@ -353,9 +607,12 @@ def main():
         if p["name"] in legendary_names:
             p["rarity"] = "Legendary"
 
-    write_python(DATA / "pokemon.py",   "POKEMON",   all_pokemon,
+    # Enrich with per-habitat detail data (zones, time, weather, build requirements)
+    habitats, all_pokemon = scrape_habitat_details(habitats, all_pokemon)
+
+    write_python(DATA / "pokemon.py",     "POKEMON",     all_pokemon,
                  "All Pokémon in Pokémon Pokopia from Serebii")
-    write_python(DATA / "habitats.py",  "HABITATS",  habitats,
+    write_python(DATA / "habitats.py",    "HABITATS",    habitats,
                  "All habitats in Pokémon Pokopia from Serebii")
     write_python(DATA / "specialties.py", "SPECIALTIES", specialties,
                  "All specialties in Pokémon Pokopia from Serebii")

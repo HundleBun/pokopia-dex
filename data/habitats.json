@@ -2,7 +2,21 @@
   {
     "id": 1,
     "name": "Tall Grass",
-    "description": "Four tufts of tall grass bunched together in a plot. The perfect hiding place for small Pokémon"
+    "description": "Four tufts of tall grass bunched together in a plot. The perfect hiding place for small Pokémon",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Geodude",
+      "Oddish",
+      "Charizard"
+    ]
   },
   {
     "id": 2,
@@ -17,27 +31,99 @@
   {
     "id": 4,
     "name": "Hydrated tall grass",
-    "description": "Tall grass along the water's edge. A habitat thriving with energy thanks to an abundance of water"
+    "description": "Tall grass along the water's edge. A habitat thriving with energy thanks to an abundance of water",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Squirtle",
+      "Sliggoo",
+      "Blastoise",
+      "Cramorant",
+      "Wartortle"
+    ]
   },
   {
     "id": 5,
     "name": "Seaside Tall Grass",
-    "description": "Tall grass that stands firm against the spray of saltwater. Good for escaping the seaside heat"
+    "description": "Tall grass that stands firm against the spray of saltwater. Good for escaping the seaside heat",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      },
+      {
+        "item": "Ocean water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Slowpoke",
+      "Slowbro",
+      "Slowking"
+    ]
   },
   {
     "id": 6,
     "name": "Elevated tall grass",
-    "description": "Such a high elevation means this area is quite cool. The wind blows all the way through the tall grass"
+    "description": "Such a high elevation means this area is quite cool. The wind blows all the way through the tall grass",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Pidgey",
+      "Pidgeotto",
+      "Hoothoot",
+      "Noctowl"
+    ]
   },
   {
     "id": 7,
     "name": "Illuminated tall grass",
-    "description": "A gently lit plot of tall grass. Pokémon are drawn to the inviting light"
+    "description": "A gently lit plot of tall grass. Pokémon are drawn to the inviting light",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      },
+      {
+        "item": "Lighting",
+        "qty": 10
+      }
+    ],
+    "pokemon": [
+      "Venonat",
+      "Venomoth"
+    ]
   },
   {
     "id": 8,
     "name": "Pretty flower bed",
-    "description": "A beautiful bed of wildflowers. A faint, sweet aroma wafts about it."
+    "description": "A beautiful bed of wildflowers. A faint, sweet aroma wafts about it.",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Pidgey",
+      "Combee",
+      "Eevee",
+      "Hoothoot",
+      "Magby",
+      "Pidgeotto"
+    ]
   },
   {
     "id": 9,
@@ -47,97 +133,368 @@
   {
     "id": 10,
     "name": "Hydrated flower bed",
-    "description": "A field of blooming waterside flowers. Pokémon may be attracted by the aroma and clear water."
+    "description": "A field of blooming waterside flowers. Pokémon may be attracted by the aroma and clear water.",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Volbeat",
+      "Illumise"
+    ]
   },
   {
     "id": 11,
     "name": "Field of Flowers",
-    "description": "A large field of flowers. Every petal emanates an ambrosial aroma"
+    "description": "A large field of flowers. Every petal emanates an ambrosial aroma",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 8
+      }
+    ],
+    "pokemon": [
+      "Vespiquen",
+      "Ivysaur",
+      "Venusaur"
+    ]
   },
   {
     "id": 12,
     "name": "Elevated flower bed",
-    "description": "A bed of flowers blooming at high elevation. The wind carries their sweet aroma all around"
+    "description": "A bed of flowers blooming at high elevation. The wind carries their sweet aroma all around",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Paras",
+      "Parasect"
+    ]
   },
   {
     "id": 13,
     "name": "Grave with flowers",
-    "description": "A habitat that exudes a gentle elegance. Pokémon could rest in joyful peace here"
+    "description": "A habitat that exudes a gentle elegance. Pokémon could rest in joyful peace here",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      },
+      {
+        "item": "Gravestone",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Cubone",
+      "Marowak"
+    ]
   },
   {
     "id": 14,
     "name": "Flower garden",
-    "description": "Plant some hedges near blooming flowers, and you'll have a decent garden in no time flat"
+    "description": "Plant some hedges near blooming flowers, and you'll have a decent garden in no time flat",
+    "requirements": [
+      {
+        "item": "Hedge",
+        "qty": 4
+      },
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Paras",
+      "Parasect"
+    ]
   },
   {
     "id": 15,
     "name": "Fresh Veggie Field",
-    "description": "Vegetables growing in a nice, wild field. Seems likely to attact Pokémon who enjoy farming"
+    "description": "Vegetables growing in a nice, wild field. Seems likely to attact Pokémon who enjoy farming",
+    "requirements": [
+      {
+        "item": "Vegetables",
+        "qty": 8
+      }
+    ],
+    "pokemon": [
+      "Drilbur",
+      "Rowlet",
+      "Excadrill"
+    ]
   },
   {
     "id": 16,
     "name": "Riding warm updrafts",
-    "description": "The warm air from three campfires rises high into the sky!"
+    "description": "The warm air from three campfires rises high into the sky!",
+    "requirements": [
+      {
+        "item": "Campfire",
+        "qty": 3
+      }
+    ],
+    "pokemon": [
+      "Drifloon"
+    ]
   },
   {
     "id": 17,
     "name": "Campsite",
-    "description": "A campsite that celebrates elements of nature. Pokémon warm themselves in front of the campfire"
+    "description": "A campsite that celebrates elements of nature. Pokémon warm themselves in front of the campfire",
+    "requirements": [
+      {
+        "item": "Campfire",
+        "qty": 1
+      },
+      {
+        "item": "Straw Table",
+        "qty": 1
+      },
+      {
+        "item": "Straw stool",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Charmeleon"
+    ]
   },
   {
     "id": 18,
     "name": "Training waterfall",
-    "description": "Pokémon who like to train may come here to sit under the waterfall and tone their bodies"
+    "description": "Pokémon who like to train may come here to sit under the waterfall and tone their bodies",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      },
+      {
+        "item": "Waterfall",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tyrogue"
+    ]
   },
   {
     "id": 19,
     "name": "Tantalizing dining set",
-    "description": "A table set with dishes-and a chair for sitting. Hungry Pokémon might swing by here.."
+    "description": "A table set with dishes-and a chair for sitting. Hungry Pokémon might swing by here..",
+    "requirements": [
+      {
+        "item": "Leppa Berry",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Wooden Stool",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gulpin"
+    ]
   },
   {
     "id": 20,
     "name": "Picnic Set",
-    "description": "A basked placed atop a table is all it takes to feel a little picnicky"
+    "description": "A basked placed atop a table is all it takes to feel a little picnicky",
+    "requirements": [
+      {
+        "item": "Seat (any)",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Picnic basket",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Pichu",
+      "Pikachu"
+    ]
   },
   {
     "id": 21,
     "name": "Flowery table",
-    "description": "A flower vase placed on top of a table. Pokémon might sit on the chair to look at the flower."
+    "description": "A flower vase placed on top of a table. Pokémon might sit on the chair to look at the flower.",
+    "requirements": [
+      {
+        "item": "Seat (any)",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Small vase",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Weepinbell",
+      "Victreebel"
+    ]
   },
   {
     "id": 22,
     "name": "Bench with greenery",
-    "description": "A bench near some hedges. Pokémon can rest here and bask in nature"
+    "description": "A bench near some hedges. Pokémon can rest here and bask in nature",
+    "requirements": [
+      {
+        "item": "Hedge",
+        "qty": 2
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Bulbasaur",
+      "Ivysaur",
+      "Tangrowth"
+    ]
   },
   {
     "id": 23,
     "name": "Illuminated bench",
-    "description": "A bench illuminated by gentle light. Pokémon entranced by the light might stop by"
+    "description": "A bench illuminated by gentle light. Pokémon entranced by the light might stop by",
+    "requirements": [
+      {
+        "item": "Seat (wide)",
+        "qty": 1
+      },
+      {
+        "item": "Streetlight",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Venonat",
+      "Venomoth"
+    ]
   },
   {
     "id": 24,
     "name": "Exercise resting spot",
-    "description": "After a fierce training session, Pokémon can rest their tired bodies on this bench"
+    "description": "After a fierce training session, Pokémon can rest their tired bodies on this bench",
+    "requirements": [
+      {
+        "item": "Punching Bag",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Hitmonchan"
+    ]
   },
   {
     "id": 25,
     "name": "Urgent Care",
-    "description": "When injured, seek first aid immediately! Pokémon skilled at healing may come to this habitat."
+    "description": "When injured, seek first aid immediately! Pokémon skilled at healing may come to this habitat.",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "First aid kit",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Hitmonlee"
+    ]
   },
   {
     "id": 26,
     "name": "Gym first aid",
-    "description": "A first-aid kit is on hand in case any Pokémon injure themselves exercising"
+    "description": "A first-aid kit is on hand in case any Pokémon injure themselves exercising",
+    "requirements": [
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Punching bag",
+        "qty": 1
+      },
+      {
+        "item": "First aid kit",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Hitmontop"
+    ]
   },
   {
     "id": 27,
     "name": "Road Sign",
-    "description": "A solitary sign by the middle of the road. Pokémon might head in the arrow's direction"
+    "description": "A solitary sign by the middle of the road. Pokémon might head in the arrow's direction",
+    "requirements": [
+      {
+        "item": "Arrow sign",
+        "qty": 1
+      },
+      {
+        "item": "Wooden path",
+        "qty": 3
+      }
+    ],
+    "pokemon": [
+      "Shellos",
+      "Shellos East Sea"
+    ]
   },
   {
     "id": 28,
     "name": "Large luggage carrier",
-    "description": "This long, wide cart can fit two large crates"
+    "description": "This long, wide cart can fit two large crates",
+    "requirements": [
+      {
+        "item": "Cart",
+        "qty": 1
+      },
+      {
+        "item": "Wooden crate",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Tinkatink",
+      "Gurdurr",
+      "Tinkatuff"
+    ]
   },
   {
     "id": 29,
@@ -147,47 +504,201 @@
   {
     "id": 30,
     "name": "Bed with a plush",
-    "description": "A bed with a cute doll. Small Pokémon would probably feel safe sleeping here"
+    "description": "A bed with a cute doll. Small Pokémon would probably feel safe sleeping here",
+    "requirements": [
+      {
+        "item": "Bed",
+        "qty": 1
+      },
+      {
+        "item": "Doll (any)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Drifloon",
+      "Slowbro",
+      "Munchlax",
+      "Slowking"
+    ]
   },
   {
     "id": 31,
     "name": "Gently lit bed",
-    "description": "A bed bathed in gentle light. Pokémon could probably sleep peacefully here"
+    "description": "A bed bathed in gentle light. Pokémon could probably sleep peacefully here",
+    "requirements": [
+      {
+        "item": "Bed",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Slender Candle",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Hoothoot",
+      "Noctowl"
+    ]
   },
   {
     "id": 32,
     "name": "Grave offering",
-    "description": "Candles and plated food placed silently before a gravestone. Pretty creepyâ¦"
+    "description": "Candles and plated food placed silently before a gravestone. Pretty creepyâ¦",
+    "requirements": [
+      {
+        "item": "Gravestone",
+        "qty": 1
+      },
+      {
+        "item": "Slender candle",
+        "qty": 2
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Litwick",
+      "Lampent"
+    ]
   },
   {
     "id": 33,
     "name": "Creepy grave offering",
-    "description": "Light the candles by the gravestone to add some swaying blue flames for double the eeriness"
+    "description": "Light the candles by the gravestone to add some swaying blue flames for double the eeriness",
+    "requirements": [
+      {
+        "item": "Eerie candle",
+        "qty": 2
+      },
+      {
+        "item": "Gravestone",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Litwick",
+      "Lampent",
+      "Chandelure"
+    ]
   },
   {
     "id": 34,
     "name": "Chansey Resting area",
-    "description": "A peaceful, refreshing spot to take a break while Chansey watches over you"
+    "description": "A peaceful, refreshing spot to take a break while Chansey watches over you",
+    "requirements": [
+      {
+        "item": "Hedge",
+        "qty": 6
+      },
+      {
+        "item": "Chansey plant",
+        "qty": 1
+      },
+      {
+        "item": "Seat (wide)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Vileplume",
+      "Bellossom"
+    ]
   },
   {
     "id": 35,
     "name": "Irresistible scent and glow",
-    "description": "Pokémon may be lured here by the glow of the mushroom and the scent of the plant-shaped pot"
+    "description": "Pokémon may be lured here by the glow of the mushroom and the scent of the plant-shaped pot",
+    "requirements": [
+      {
+        "item": "Pitcher-plant pot",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      },
+      {
+        "item": "Mushroom lamp",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Weepinbell",
+      "Victreebel"
+    ]
   },
   {
     "id": 36,
     "name": "Floating in the shade",
-    "description": "Have fun on the inflatable boat! If you get tired, you can take a break under the umbrella"
+    "description": "Have fun on the inflatable boat! If you get tired, you can take a break under the umbrella",
+    "requirements": [
+      {
+        "item": "Inflatable boat",
+        "qty": 1
+      },
+      {
+        "item": "Beach Parasol",
+        "qty": 1
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Blastoise"
+    ]
   },
   {
     "id": 37,
     "name": "Smooth tall grass",
-    "description": "A strange smooth rock has drained the vitality from this tall grass"
+    "description": "A strange smooth rock has drained the vitality from this tall grass",
+    "requirements": [
+      {
+        "item": "Dry tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Smooth Rock",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Onix"
+    ]
   },
   {
     "id": 38,
     "name": "Factory Storage",
-    "description": "The large machine doesn't seem to work, even if you plug in the cords and hit the buttons"
+    "description": "The large machine doesn't seem to work, even if you plug in the cords and hit the buttons",
+    "requirements": [
+      {
+        "item": "Streetlight",
+        "qty": 1
+      },
+      {
+        "item": "Control unit",
+        "qty": 1
+      },
+      {
+        "item": "Metal drum",
+        "qty": 1
+      },
+      {
+        "item": "Jumbled cords",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Magnemite"
+    ]
   },
   {
     "id": 39,
@@ -202,12 +713,38 @@
   {
     "id": 41,
     "name": "Rain Dance site",
-    "description": "Reminders of rain and a plate for offering food. The perfect spot to call for rainy weather"
+    "description": "Reminders of rain and a plate for offering food. The perfect spot to call for rainy weather",
+    "requirements": [
+      {
+        "item": "Castform weather charm (rain)",
+        "qty": 2
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Goomy"
+    ]
   },
   {
     "id": 42,
     "name": "Sunny Day site",
-    "description": "Reminders of sunshine and a plate for offering food. This is the perfect spot to call for fair weather"
+    "description": "Reminders of sunshine and a plate for offering food. This is the perfect spot to call for fair weather",
+    "requirements": [
+      {
+        "item": "Castform weather charm (sun)",
+        "qty": 2
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Cacnea"
+    ]
   },
   {
     "id": 43,
@@ -217,7 +754,26 @@
   {
     "id": 44,
     "name": "Crazy log handicrafts",
-    "description": "This space is packed with wooden furniture. It feels almost like you're in a mountain cabin"
+    "description": "This space is packed with wooden furniture. It feels almost like you're in a mountain cabin",
+    "requirements": [
+      {
+        "item": "Log chair",
+        "qty": 1
+      },
+      {
+        "item": "Log bed",
+        "qty": 1
+      },
+      {
+        "item": "Log table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Axew",
+      "Fraxure",
+      "Haxorus"
+    ]
   },
   {
     "id": 45,
@@ -227,7 +783,28 @@
   {
     "id": 46,
     "name": "Garden Terrace",
-    "description": "Take a breather in a garden chair while looking at softly lit flowers"
+    "description": "Take a breather in a garden chair while looking at softly lit flowers",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      },
+      {
+        "item": "Garden chair",
+        "qty": 1
+      },
+      {
+        "item": "Garden light",
+        "qty": 1
+      },
+      {
+        "item": "Garden table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Venusaur"
+    ]
   },
   {
     "id": 47,
@@ -247,7 +824,18 @@
   {
     "id": 50,
     "name": "Yellow tall grass",
-    "description": "A small plot made up of four tufts of yellow tall grass. Spots like this are often found in harbor towns"
+    "description": "A small plot made up of four tufts of yellow tall grass. Spots like this are often found in harbor towns",
+    "requirements": [
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Spinarak",
+      "Grubbin",
+      "Ariados"
+    ]
   },
   {
     "id": 51,
@@ -257,87 +845,349 @@
   {
     "id": 52,
     "name": "Elevated yellow tall grass",
-    "description": "Yellow tall grass growing at high elevation. It sways back and forth in the sea breeze"
+    "description": "Yellow tall grass growing at high elevation. It sways back and forth in the sea breeze",
+    "requirements": [
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      },
+      {
+        "item": "High-up location",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Wingull",
+      "Pelipper",
+      "Crobat"
+    ]
   },
   {
     "id": 53,
     "name": "Hydrated yellow tall grass",
-    "description": "Yellow tall grass by the water. A nice resting spot for Pokémon after they're done swimmign"
+    "description": "Yellow tall grass by the water. A nice resting spot for Pokémon after they're done swimmign",
+    "requirements": [
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Azurill",
+      "Marill",
+      "Piplup",
+      "Prinplup"
+    ]
   },
   {
     "id": 54,
     "name": "Marshy tall grass",
-    "description": "Tall grass growing in a marsh. Pokémon use this to wipe mud off themselves"
+    "description": "Tall grass growing in a marsh. Pokémon use this to wipe mud off themselves",
+    "requirements": [
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Muddy Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Paldean Wooper",
+      "Clodsire"
+    ]
   },
   {
     "id": 55,
     "name": "Overgrowth vending machine",
-    "description": "A lone vending machine amid yellow tall grass. Gotta stay hydrated-even out in nature"
+    "description": "A lone vending machine amid yellow tall grass. Gotta stay hydrated-even out in nature",
+    "requirements": [
+      {
+        "item": "Vending machine",
+        "qty": 1
+      },
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Mareep"
+    ]
   },
   {
     "id": 56,
     "name": "Breezy flower bed",
-    "description": "A bed of refreshing seashore flowers. Pokémon are drawn in by its gentle scent"
+    "description": "A bed of refreshing seashore flowers. Pokémon are drawn in by its gentle scent",
+    "requirements": [
+      {
+        "item": "Seashore flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Pawmi",
+      "Zorua",
+      "Zoroark"
+    ]
   },
   {
     "id": 57,
     "name": "Tropical vibes",
-    "description": "Seashore flowers rest beneath the leaves of a palm tree. Their tropical aroma drifts around the area"
+    "description": "Seashore flowers rest beneath the leaves of a palm tree. Their tropical aroma drifts around the area",
+    "requirements": [
+      {
+        "item": "Large palm tree",
+        "qty": 1
+      },
+      {
+        "item": "seashore flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Gloom",
+      "Exeggcute",
+      "Exeggutor"
+    ]
   },
   {
     "id": 58,
     "name": "Windy Flower Bed",
-    "description": "A breeze whooshes over this cool flower bed. As the windmill turns, a floral aroma spreads far and wide."
+    "description": "A breeze whooshes over this cool flower bed. As the windmill turns, a floral aroma spreads far and wide.",
+    "requirements": [
+      {
+        "item": "Windmill",
+        "qty": 1
+      },
+      {
+        "item": "seashore flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Wingull",
+      "Pelipper"
+    ]
   },
   {
     "id": 59,
     "name": "Shaded beach",
-    "description": "The leaves of a palm tree serve as a parasol to Pokémon resting in the beach chair."
+    "description": "The leaves of a palm tree serve as a parasol to Pokémon resting in the beach chair.",
+    "requirements": [
+      {
+        "item": "Large palm tree",
+        "qty": 1
+      },
+      {
+        "item": "Beach chair",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Exeggcute",
+      "Exeggutor"
+    ]
   },
   {
     "id": 60,
     "name": "Tropical seaside",
-    "description": "Kick back by a palm tree and feel the ocean breeze for the full tropical experience"
+    "description": "Kick back by a palm tree and feel the ocean breeze for the full tropical experience",
+    "requirements": [
+      {
+        "item": "Large palm tree",
+        "qty": 1
+      },
+      {
+        "item": "Hedge",
+        "qty": 4
+      },
+      {
+        "item": "Ocean Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Lapras"
+    ]
   },
   {
     "id": 61,
     "name": "Resting spot",
-    "description": "Empty cardboard boxes and a fluffy straw bed. Opinions are divided on which provides better sleep."
+    "description": "Empty cardboard boxes and a fluffy straw bed. Opinions are divided on which provides better sleep.",
+    "requirements": [
+      {
+        "item": "Carboad boxes",
+        "qty": 1
+      },
+      {
+        "item": "Straw bed",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Meowth"
+    ]
   },
   {
     "id": 62,
     "name": "Perpetual mess",
-    "description": "Scattered toys and cardboard. Just when you think you're done tidying up, the mess somehow returns."
+    "description": "Scattered toys and cardboard. Just when you think you're done tidying up, the mess somehow returns.",
+    "requirements": [
+      {
+        "item": "Carboad boxes",
+        "qty": 1
+      },
+      {
+        "item": "Toy",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Growlithe",
+      "Azurill"
+    ]
   },
   {
     "id": 63,
     "name": "Trash collection site",
-    "description": "A place to dump everyone's garbage. You might even spot some trash-hunting Pokémon here!"
+    "description": "A place to dump everyone's garbage. You might even spot some trash-hunting Pokémon here!",
+    "requirements": [
+      {
+        "item": "Waste bin",
+        "qty": 1
+      },
+      {
+        "item": "Sign",
+        "qty": 1
+      },
+      {
+        "item": "Garbage bags",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Trubbish",
+      "Koffing",
+      "Weezing",
+      "Garbodor"
+    ]
   },
   {
     "id": 64,
     "name": "Trash can central",
-    "description": "Trash cans put in place to prevent littering. You can sometimes find Pokémon inside them"
+    "description": "Trash cans put in place to prevent littering. You can sometimes find Pokémon inside them",
+    "requirements": [
+      {
+        "item": "Garbage bin",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Magneton",
+      "Electabuzz",
+      "Magnezone"
+    ]
   },
   {
     "id": 65,
     "name": "Trash disposal site",
-    "description": "Some trash left by a power pole. Its surroundings smell a little stinky"
+    "description": "Some trash left by a power pole. Its surroundings smell a little stinky",
+    "requirements": [
+      {
+        "item": "Utility pole",
+        "qty": 1
+      },
+      {
+        "item": "Garbage Bag",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Crobat"
+    ]
   },
   {
     "id": 66,
     "name": "Park bench",
-    "description": "After eating a snack, put your trash in the trash can. â¦Think Pokémon can remember to do that?"
+    "description": "After eating a snack, put your trash in the trash can. â¦Think Pokémon can remember to do that?",
+    "requirements": [
+      {
+        "item": "Seat (Wide)",
+        "qty": 1
+      },
+      {
+        "item": "Garbage Bin",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Zubat",
+      "Voltorb",
+      "Electrode"
+    ]
   },
   {
     "id": 67,
     "name": "Tantalizing restaurant",
-    "description": "Dishes on a table. There's even a menu, so it's just like being in a restaurant."
+    "description": "Dishes on a table. There's even a menu, so it's just like being in a restaurant.",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Menu board",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Plated Food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Pawmo",
+      "Pawmi"
+    ]
   },
   {
     "id": 68,
     "name": "Tableside delivery cart",
-    "description": "Wheel out the dishes nice and slow, because once they reach the table, it's chow time"
+    "description": "Wheel out the dishes nice and slow, because once they reach the table, it's chow time",
+    "requirements": [
+      {
+        "item": "Chic chair",
+        "qty": 2
+      },
+      {
+        "item": "Chic table",
+        "qty": 1
+      },
+      {
+        "item": "Small vase",
+        "qty": 1
+      },
+      {
+        "item": "Push cart",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Empoleon"
+    ]
   },
   {
     "id": 69,
@@ -352,7 +1202,26 @@
   {
     "id": 71,
     "name": "Beach Set",
-    "description": "Lounge under this parasol, and bask in the tropical vibes. Pokémon might enjoy relaxing here."
+    "description": "Lounge under this parasol, and bask in the tropical vibes. Pokémon might enjoy relaxing here.",
+    "requirements": [
+      {
+        "item": "Beach chair",
+        "qty": 1
+      },
+      {
+        "item": "Beach Parasol",
+        "qty": 1
+      },
+      {
+        "item": "Side table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tatsugiri Curly Form",
+      "Tatsugiri Droopy Form",
+      "Tatsugiri Stretchy Form"
+    ]
   },
   {
     "id": 72,
@@ -362,27 +1231,104 @@
   {
     "id": 73,
     "name": "Surprise in store",
-    "description": "A pop-art box surrounded by balloons. What's in the box? Open it and find out!"
+    "description": "A pop-art box surrounded by balloons. What's in the box? Open it and find out!",
+    "requirements": [
+      {
+        "item": "Balloons",
+        "qty": 2
+      },
+      {
+        "item": "Boo-in-the-box",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Haunter",
+      "Zoroark",
+      "Gengar"
+    ]
   },
   {
     "id": 74,
     "name": "Night festival venue",
-    "description": "The colorful neon lights of this festival entrance glow brilliantly, especially at night"
+    "description": "The colorful neon lights of this festival entrance glow brilliantly, especially at night",
+    "requirements": [
+      {
+        "item": "Balloons",
+        "qty": 2
+      },
+      {
+        "item": "Raichu Sign",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Flaaffy"
+    ]
   },
   {
     "id": 75,
     "name": "Changing area",
-    "description": "Give your look a once-over in the mirror after you change clothes. A place to become your ideal self!"
+    "description": "Give your look a once-over in the mirror after you change clothes. A place to become your ideal self!",
+    "requirements": [
+      {
+        "item": "Closet",
+        "qty": 1
+      },
+      {
+        "item": "Mirror (large)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Minccino"
+    ]
   },
   {
     "id": 76,
     "name": "Private makeup stand",
-    "description": "The partition helps keep prying eyes away before you're ready for the public"
+    "description": "The partition helps keep prying eyes away before you're ready for the public",
+    "requirements": [
+      {
+        "item": "Partition",
+        "qty": 2
+      },
+      {
+        "item": "Closet",
+        "qty": 1
+      },
+      {
+        "item": "Dresser",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Minccino",
+      "Cinccino"
+    ]
   },
   {
     "id": 77,
     "name": "Knitting station",
-    "description": "Pokémon will be fascinated by the fluffy yarn and the adorable crafts that can be made from it"
+    "description": "Pokémon will be fascinated by the fluffy yarn and the adorable crafts that can be made from it",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Knitting supplies",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mareep",
+      "Flaaffy"
+    ]
   },
   {
     "id": 78,
@@ -392,72 +1338,310 @@
   {
     "id": 79,
     "name": "Resort meal prep",
-    "description": "Sitting by a campfire underneat a palm treeâ¦Let's kick back and cook some food"
+    "description": "Sitting by a campfire underneat a palm treeâ¦Let's kick back and cook some food",
+    "requirements": [
+      {
+        "item": "Large palm tree",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      },
+      {
+        "item": "Campfire",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Growlithe",
+      "Torchic",
+      "Combusken"
+    ]
   },
   {
     "id": 80,
     "name": "All packed up",
-    "description": "Let's pack some cardboard boxes full of stuff and stack them on top of a cart!"
+    "description": "Let's pack some cardboard boxes full of stuff and stack them on top of a cart!",
+    "requirements": [
+      {
+        "item": "Cart",
+        "qty": 1
+      },
+      {
+        "item": "Cardboard boxes",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Farfetch'd",
+      "Makuhita",
+      "Hariyama"
+    ]
   },
   {
     "id": 81,
     "name": "Full recovery",
-    "description": "Nothing like a good nap when you're feeling sick. A caring Pokémon might even come to check in!"
+    "description": "Nothing like a good nap when you're feeling sick. A caring Pokémon might even come to check in!",
+    "requirements": [
+      {
+        "item": "Bed",
+        "qty": 1
+      },
+      {
+        "item": "Plain chest",
+        "qty": 1
+      },
+      {
+        "item": "First aid kit",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Chansey",
+      "Peakychu"
+    ]
   },
   {
     "id": 82,
     "name": "Alarm clock sleep zone",
-    "description": "Setting the bedside alarm clock makes waking up in the morning a breeze"
+    "description": "Setting the bedside alarm clock makes waking up in the morning a breeze",
+    "requirements": [
+      {
+        "item": "Bed",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Alarm clock",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Happiny"
+    ]
   },
   {
     "id": 83,
     "name": "Vending machine break area",
-    "description": "A long bench beside a vending machine. Pokémon might swing by to take a breather."
+    "description": "A long bench beside a vending machine. Pokémon might swing by to take a breather.",
+    "requirements": [
+      {
+        "item": "Vending machine",
+        "qty": 1
+      },
+      {
+        "item": "Seat (Wide)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Grubbin",
+      "Charjabug"
+    ]
   },
   {
     "id": 84,
     "name": "Vending machine set",
-    "description": "A trash can beside a vending machine. Doesn't look like there are any empty cans inside"
+    "description": "A trash can beside a vending machine. Doesn't look like there are any empty cans inside",
+    "requirements": [
+      {
+        "item": "Waste bin",
+        "qty": 1
+      },
+      {
+        "item": "Vending Machine",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Elekid",
+      "Electivire"
+    ]
   },
   {
     "id": 85,
     "name": "Mini Game Corner",
-    "description": "When you're done playing arcade games, you can hit up the punching game to get your body moving!"
+    "description": "When you're done playing arcade games, you can hit up the punching game to get your body moving!",
+    "requirements": [
+      {
+        "item": "Arcade Machine",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Punching game",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Magneton",
+      "Magnezone"
+    ]
   },
   {
     "id": 86,
     "name": "Waterwheel Spot",
-    "description": "This amazing facility generaes electriciy through the power of a waterfall"
+    "description": "This amazing facility generaes electriciy through the power of a waterfall",
+    "requirements": [
+      {
+        "item": "Waterwheel",
+        "qty": 1
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      },
+      {
+        "item": "Waterfall",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Prinplup",
+      "Empoleon"
+    ]
   },
   {
     "id": 87,
     "name": "Furnace Spot",
-    "description": "When you fuel this amazing contraption, it generates electricity with the power of fire"
+    "description": "When you fuel this amazing contraption, it generates electricity with the power of fire",
+    "requirements": [
+      {
+        "item": "Metal drum",
+        "qty": 1
+      },
+      {
+        "item": "Furnace",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Combusken",
+      "Blaziken"
+    ]
   },
   {
     "id": 88,
     "name": "Dock",
-    "description": "A cozy little dock on the beach. Swimming Pokémon might stop by now and then."
+    "description": "A cozy little dock on the beach. Swimming Pokémon might stop by now and then.",
+    "requirements": [
+      {
+        "item": "Walkway",
+        "qty": 4
+      },
+      {
+        "item": "Streetlight",
+        "qty": 1
+      },
+      {
+        "item": "Ocean Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Marill",
+      "Azumarill"
+    ]
   },
   {
     "id": 89,
     "name": "Spooky study",
-    "description": "Light thre candle to read by firelight! This place feels spooky when night falls"
+    "description": "Light thre candle to read by firelight! This place feels spooky when night falls",
+    "requirements": [
+      {
+        "item": "Bookcase",
+        "qty": 1
+      },
+      {
+        "item": "Chic sofa",
+        "qty": 1
+      },
+      {
+        "item": "Plain table",
+        "qty": 1
+      },
+      {
+        "item": "Slender candle",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gastly",
+      "Haunter"
+    ]
   },
   {
     "id": 90,
     "name": "Playing pirate",
-    "description": "Stand in front of the wheel or ight by the cannons, and you'll feel like you're sailing the open seas!"
+    "description": "Stand in front of the wheel or ight by the cannons, and you'll feel like you're sailing the open seas!",
+    "requirements": [
+      {
+        "item": "Barrel",
+        "qty": 2
+      },
+      {
+        "item": "Ship's wheel",
+        "qty": 1
+      },
+      {
+        "item": "Cannon",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Voltorb",
+      "Electrode"
+    ]
   },
   {
     "id": 91,
     "name": "Working the register",
-    "description": "Put a register on a table, power it on, and boom! You'll be ready for business in no time"
+    "description": "Put a register on a table, power it on, and boom! You'll be ready for business in no time",
+    "requirements": [
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Cash register",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Meowth",
+      "Audino",
+      "Happiny",
+      "Mawile"
+    ]
   },
   {
     "id": 92,
     "name": "Tiny Atelier",
-    "description": "Take a seat in front of the canvas and let your imagination run wild. Inspiration is waiting to strike!"
+    "description": "Take a seat in front of the canvas and let your imagination run wild. Inspiration is waiting to strike!",
+    "requirements": [
+      {
+        "item": "Canvas",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Smeargle"
+    ]
   },
   {
     "id": 93,
@@ -467,27 +1651,120 @@
   {
     "id": 94,
     "name": "Pikachu space",
-    "description": "The sofa and doll are both Pikachu! Some Pokémon might mistake them for the real Pikachu and stop by"
+    "description": "The sofa and doll are both Pikachu! Some Pokémon might mistake them for the real Pikachu and stop by",
+    "requirements": [
+      {
+        "item": "Pikachu sofa",
+        "qty": 1
+      },
+      {
+        "item": "Pikachu doll",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mimikyu"
+    ]
   },
   {
     "id": 95,
     "name": "Cuteness overload",
-    "description": "Being surrounded by all this cute furniture will make you feel perfectly pampered"
+    "description": "Being surrounded by all this cute furniture will make you feel perfectly pampered",
+    "requirements": [
+      {
+        "item": "Cute sofa",
+        "qty": 1
+      },
+      {
+        "item": "Cute table",
+        "qty": 1
+      },
+      {
+        "item": "Cute lamp",
+        "qty": 1
+      },
+      {
+        "item": "Cute bed",
+        "qty": 1
+      },
+      {
+        "item": "Cute dresser",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Blissey"
+    ]
   },
   {
     "id": 96,
     "name": "Welcoming resort",
-    "description": "Relax on the sofa or lie down on the hammock, and you'll feel like you're in the lap of luxury."
+    "description": "Relax on the sofa or lie down on the hammock, and you'll feel like you're in the lap of luxury.",
+    "requirements": [
+      {
+        "item": "Resort sofa",
+        "qty": 1
+      },
+      {
+        "item": "Resort table",
+        "qty": 1
+      },
+      {
+        "item": "Resort hammock",
+        "qty": 1
+      },
+      {
+        "item": "Resort light",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Absol"
+    ]
   },
   {
     "id": 97,
     "name": "Plain life",
-    "description": "A simple yet calming space. Pokémon are sure to be comfortable here."
+    "description": "A simple yet calming space. Pokémon are sure to be comfortable here.",
+    "requirements": [
+      {
+        "item": "Plain bed",
+        "qty": 1
+      },
+      {
+        "item": "Plain sofa",
+        "qty": 1
+      },
+      {
+        "item": "Plain table",
+        "qty": 1
+      },
+      {
+        "item": "Plain lamp",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Ampharos"
+    ]
   },
   {
     "id": 98,
     "name": "Red tall grass",
-    "description": "A small plot made up of four tufts of red tall grass. Spots like this are often found in valleys"
+    "description": "A small plot made up of four tufts of red tall grass. Spots like this are often found in valleys",
+    "requirements": [
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Scorbunny",
+      "Riolu",
+      "Cinderace",
+      "Kricketot",
+      "Exeggcute"
+    ]
   },
   {
     "id": 99,
@@ -502,22 +1779,78 @@
   {
     "id": 101,
     "name": "Hydrated red tall grass",
-    "description": "While red tall grass often grows in valleys, it also thrives just fine on the waterside"
+    "description": "While red tall grass often grows in valleys, it also thrives just fine on the waterside",
+    "requirements": [
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Lotad",
+      "Lombre"
+    ]
   },
   {
     "id": 102,
     "name": "Elevated red tall grass",
-    "description": "Red tall grass flourishes even in high-altitude areas like mountaintops"
+    "description": "Red tall grass flourishes even in high-altitude areas like mountaintops",
+    "requirements": [
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      },
+      {
+        "item": "High-up location",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Murkrow",
+      "Chatot",
+      "Chatot"
+    ]
   },
   {
     "id": 103,
     "name": "Grassy training field",
-    "description": "The bags of dirt can be used as dumbbells. Perfect for Pokémon who love to train"
+    "description": "The bags of dirt can be used as dumbbells. Perfect for Pokémon who love to train",
+    "requirements": [
+      {
+        "item": "Sandbags",
+        "qty": 2
+      },
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Machoke",
+      "Machamp"
+    ]
   },
   {
     "id": 104,
     "name": "Graceful flower bed",
-    "description": "Numerous mountain flowers bloom to form an elegant and beautiful flower bed."
+    "description": "Numerous mountain flowers bloom to form an elegant and beautiful flower bed.",
+    "requirements": [
+      {
+        "item": "Mountain flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Cleffa",
+      "Fidough",
+      "Clefable",
+      "Clefairy",
+      "Dachsbun"
+    ]
   },
   {
     "id": 105,
@@ -527,37 +1860,135 @@
   {
     "id": 106,
     "name": "Hydrated graceful flower bed",
-    "description": "These elegant mountain flowers bloom beautifully, even right beside thew ater."
+    "description": "These elegant mountain flowers bloom beautifully, even right beside thew ater.",
+    "requirements": [
+      {
+        "item": "Mountain flowers",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Ekans",
+      "Arbok",
+      "Politoed"
+    ]
   },
   {
     "id": 107,
     "name": "Flower garden stump stage",
-    "description": "A stage set up in a field of flowers. Hop on the stump to bathe in the spotlight and feel just like a star"
+    "description": "A stage set up in a field of flowers. Hop on the stump to bathe in the spotlight and feel just like a star",
+    "requirements": [
+      {
+        "item": "Mountain flowers",
+        "qty": 4
+      },
+      {
+        "item": "Tree stump",
+        "qty": 1
+      },
+      {
+        "item": "Mushroom lamp",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Igglybuff",
+      "Jigglypuff",
+      "Politoed"
+    ]
   },
   {
     "id": 108,
     "name": "Toil in the soil",
-    "description": "A thriving vegetable field. Replacing the soil every so often provides fresh nutrients"
+    "description": "A thriving vegetable field. Replacing the soil every so often provides fresh nutrients",
+    "requirements": [
+      {
+        "item": "Vegetable field",
+        "qty": 4
+      },
+      {
+        "item": "Wheelbarrow",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tyranitar"
+    ]
   },
   {
     "id": 109,
     "name": "Uplifting duckweed",
-    "description": "You can walk on top of the duckweed or jump into the water and float next to them"
+    "description": "You can walk on top of the duckweed or jump into the water and float next to them",
+    "requirements": [
+      {
+        "item": "Duckweed",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Lotad",
+      "Ludicolo"
+    ]
   },
   {
     "id": 110,
     "name": "Mossy rest spot",
-    "description": "All that nice, damp moss makes this a great location for Pokémon who love humid places"
+    "description": "All that nice, damp moss makes this a great location for Pokémon who love humid places",
+    "requirements": [
+      {
+        "item": "Moss",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Larvitar",
+      "Tyranitar"
+    ]
   },
   {
     "id": 111,
     "name": "Mossy boulder",
-    "description": "A quiet, peaceful atmosphere. It looks like Pokémon could really unwind here"
+    "description": "A quiet, peaceful atmosphere. It looks like Pokémon could really unwind here",
+    "requirements": [
+      {
+        "item": "Moss",
+        "qty": 4
+      },
+      {
+        "item": "Mossy Boulder",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Graveler",
+      "Golem"
+    ]
   },
   {
     "id": 112,
     "name": "Mossy hot spring",
-    "description": "A hot spring surrounded by green moss. Soak up the calming atmosphere as you soak in warm water."
+    "description": "A hot spring surrounded by green moss. Soak up the calming atmosphere as you soak in warm water.",
+    "requirements": [
+      {
+        "item": "Moss",
+        "qty": 4
+      },
+      {
+        "item": "Hot-spring water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Torkoal"
+    ]
   },
   {
     "id": 113,
@@ -567,7 +1998,24 @@
   {
     "id": 114,
     "name": "Harmonious hot spring",
-    "description": "Some Pokémon enjoy moving between the hot spring and the cold bath to feel light and refreshed"
+    "description": "Some Pokémon enjoy moving between the hot spring and the cold bath to feel light and refreshed",
+    "requirements": [
+      {
+        "item": "Hot-spring spout",
+        "qty": 1
+      },
+      {
+        "item": "Water Basin",
+        "qty": 1
+      },
+      {
+        "item": "Hot-spring water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Politoed"
+    ]
   },
   {
     "id": 115,
@@ -577,7 +2025,24 @@
   {
     "id": 116,
     "name": "Digging and burning",
-    "description": "A big furnace with equipment next to it. Someone might come to light the flame"
+    "description": "A big furnace with equipment next to it. Someone might come to light the flame",
+    "requirements": [
+      {
+        "item": "Wheelbarrow",
+        "qty": 1
+      },
+      {
+        "item": "Smelting furnace",
+        "qty": 1
+      },
+      {
+        "item": "Excavation tools",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Magmar"
+    ]
   },
   {
     "id": 117,
@@ -587,32 +2052,151 @@
   {
     "id": 118,
     "name": "Creepy white rocks",
-    "description": "The thick moss near the stalagmites and the long glowing lantern create a slightly creepy vibe."
+    "description": "The thick moss near the stalagmites and the long glowing lantern create a slightly creepy vibe.",
+    "requirements": [
+      {
+        "item": "Stalagmites",
+        "qty": 1
+      },
+      {
+        "item": "Moss",
+        "qty": 4
+      },
+      {
+        "item": "Wooden crate",
+        "qty": 1
+      },
+      {
+        "item": "Lantern",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Glimmet",
+      "Glimmora"
+    ]
   },
   {
     "id": 119,
     "name": "Container snacking",
-    "description": "Looks like someone snuck a snack by some storage containers. Pokémon might like a spot like this"
+    "description": "Looks like someone snuck a snack by some storage containers. Pokémon might like a spot like this",
+    "requirements": [
+      {
+        "item": "Barrel",
+        "qty": 1
+      },
+      {
+        "item": "Wooden crate",
+        "qty": 1
+      },
+      {
+        "item": "Lantern",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Diglett",
+      "Glimmet",
+      "Glimmora"
+    ]
   },
   {
     "id": 120,
     "name": "Dinner table surprise",
-    "description": "There's no better thrill than lifting the lid off a dish to reveal today's meal"
+    "description": "There's no better thrill than lifting the lid off a dish to reveal today's meal",
+    "requirements": [
+      {
+        "item": "Seat (wide)",
+        "qty": 2
+      },
+      {
+        "item": "Table (large)",
+        "qty": 1
+      },
+      {
+        "item": "Party Platter",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Swalot"
+    ]
   },
   {
     "id": 121,
     "name": "Best bread bakery",
-    "description": "Prepare some side dishes while you wait for bread to finish baking."
+    "description": "Prepare some side dishes while you wait for bread to finish baking.",
+    "requirements": [
+      {
+        "item": "Bread oven",
+        "qty": 1
+      },
+      {
+        "item": "Counter",
+        "qty": 2
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Fidough",
+      "Dachsbun"
+    ]
   },
   {
     "id": 122,
     "name": "Mini kitchen",
-    "description": "Wash your dishes and ingredients, then cook away on the stove. What's on the menu for today?"
+    "description": "Wash your dishes and ingredients, then cook away on the stove. What's on the menu for today?",
+    "requirements": [
+      {
+        "item": "Kitchen table",
+        "qty": 1
+      },
+      {
+        "item": "Cooking stove",
+        "qty": 1
+      },
+      {
+        "item": "Frying pan",
+        "qty": 1
+      },
+      {
+        "item": "Modern sink",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Magmortar"
+    ]
   },
   {
     "id": 123,
     "name": "House party",
-    "description": "Help yourself to food and drinks, and have a total blast with all your friends"
+    "description": "Help yourself to food and drinks, and have a total blast with all your friends",
+    "requirements": [
+      {
+        "item": "Food counter",
+        "qty": 1
+      },
+      {
+        "item": "Paper party cups",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Dugtrio",
+      "Sudowoodo"
+    ]
   },
   {
     "id": 124,
@@ -622,42 +2206,185 @@
   {
     "id": 125,
     "name": "Chirping recital",
-    "description": "Bird Pokémon may swoop in and use the microphone to show off their singing skills"
+    "description": "Bird Pokémon may swoop in and use the microphone to show off their singing skills",
+    "requirements": [
+      {
+        "item": "Perch",
+        "qty": 1
+      },
+      {
+        "item": "Standing mic",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Chatot",
+      "Honchkrow"
+    ]
   },
   {
     "id": 126,
     "name": "Recital stage",
-    "description": "This stage was made for just one thing-now get up there and SING!"
+    "description": "This stage was made for just one thing-now get up there and SING!",
+    "requirements": [
+      {
+        "item": "Speaker",
+        "qty": 2
+      },
+      {
+        "item": "Small stage",
+        "qty": 1
+      },
+      {
+        "item": "Standing mic",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Jigglypuff",
+      "Wigglytuff"
+    ]
   },
   {
     "id": 127,
     "name": "Box to the rhythm",
-    "description": "Pokémon can feel the rhythm here and get pumped for a training session"
+    "description": "Pokémon can feel the rhythm here and get pumped for a training session",
+    "requirements": [
+      {
+        "item": "Punching bag",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "CD player",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Machoke",
+      "Riolu",
+      "Lucario"
+    ]
   },
   {
     "id": 128,
     "name": "Music and magazines",
-    "description": "Reading feels even more relaxing when you throw on some background music"
+    "description": "Reading feels even more relaxing when you throw on some background music",
+    "requirements": [
+      {
+        "item": "CD Player",
+        "qty": 1
+      },
+      {
+        "item": "CD rack",
+        "qty": 1
+      },
+      {
+        "item": "Magazine rack",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Kricketot",
+      "Kricketune",
+      "Stereo Rotom"
+    ]
   },
   {
     "id": 129,
     "name": "Mini museum",
-    "description": "Anything can look like a masterpiece if you pop it on an exhibition stand!"
+    "description": "Anything can look like a masterpiece if you pop it on an exhibition stand!",
+    "requirements": [
+      {
+        "item": "Post",
+        "qty": 3
+      },
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Lost relic (large)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gimmighoul",
+      "Arcanine"
+    ]
   },
   {
     "id": 130,
     "name": "Refreshing locker room",
-    "description": "Even a simple locker room can have a refreshing atmosphere with the addition of a houseplant or two."
+    "description": "Even a simple locker room can have a refreshing atmosphere with the addition of a houseplant or two.",
+    "requirements": [
+      {
+        "item": "Office locker",
+        "qty": 2
+      },
+      {
+        "item": "Potted plant",
+        "qty": 1
+      },
+      {
+        "item": "Seat (wide",
+        "qty": 1
+      },
+      {
+        "item": "Punching game",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Raboot",
+      "Cinderace"
+    ]
   },
   {
     "id": 131,
     "name": "Bronze landmark",
-    "description": "A photoworthy bronze statue of three Pokémon. Their combined cuteness is sure to attract a crowd!"
+    "description": "A photoworthy bronze statue of three Pokémon. Their combined cuteness is sure to attract a crowd!",
+    "requirements": [
+      {
+        "item": "Hedge",
+        "qty": 4
+      },
+      {
+        "item": "Moonlight dance statue",
+        "qty": 1
+      },
+      {
+        "item": "Sign",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Clefairy",
+      "Clefable"
+    ]
   },
   {
     "id": 132,
     "name": "Railroad crossing",
-    "description": "Absolutely no crossing while the bar is lowered! Butâ¦will Pokémon actually sotp and wait?"
+    "description": "Absolutely no crossing while the bar is lowered! Butâ¦will Pokémon actually sotp and wait?",
+    "requirements": [
+      {
+        "item": "Railway track",
+        "qty": 1
+      },
+      {
+        "item": "Crossing gate",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Carkol",
+      "Rolycoly",
+      "Coalossal"
+    ]
   },
   {
     "id": 133,
@@ -667,22 +2394,94 @@
   {
     "id": 134,
     "name": "Absolute luxury",
-    "description": "Every single piece of this furniture set is top-noth, creating the ultimate air of luxury"
+    "description": "Every single piece of this furniture set is top-noth, creating the ultimate air of luxury",
+    "requirements": [
+      {
+        "item": "Luxury lamp",
+        "qty": 1
+      },
+      {
+        "item": "Luxury bed",
+        "qty": 1
+      },
+      {
+        "item": "Luxury sofa",
+        "qty": 1
+      },
+      {
+        "item": "Luxury table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gholdengo"
+    ]
   },
   {
     "id": 135,
     "name": "Heavy iron",
-    "description": "A monochromatic space with weighty furniture. Light the lantern to add another layer of calm"
+    "description": "A monochromatic space with weighty furniture. Light the lantern to add another layer of calm",
+    "requirements": [
+      {
+        "item": "Iron bed",
+        "qty": 1
+      },
+      {
+        "item": "Iron table",
+        "qty": 1
+      },
+      {
+        "item": "Iron chair",
+        "qty": 1
+      },
+      {
+        "item": "Lantern",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Coalossal"
+    ]
   },
   {
     "id": 136,
     "name": "Modern living",
-    "description": "Stylishly simple. The modern design gives off a sense of classiness"
+    "description": "Stylishly simple. The modern design gives off a sense of classiness",
+    "requirements": [
+      {
+        "item": "Industrial bed",
+        "qty": 1
+      },
+      {
+        "item": "Industrial desk",
+        "qty": 1
+      },
+      {
+        "item": "Industrial chair",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Decidueye"
+    ]
   },
   {
     "id": 137,
     "name": "Pink tall grass",
-    "description": "A small plot made up of four tufts of pink tall grass. Spots like this are often found in the skylands"
+    "description": "A small plot made up of four tufts of pink tall grass. Spots like this are often found in the skylands",
+    "requirements": [
+      {
+        "item": "Pink tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Trapinch",
+      "Duskull",
+      "Vibrava",
+      "Swablu",
+      "Flygon"
+    ]
   },
   {
     "id": 138,
@@ -692,22 +2491,76 @@
   {
     "id": 139,
     "name": "Hydrated pink tall grass",
-    "description": "The pink of the tall grass contrasts beautifully with the blue hues of the water."
+    "description": "The pink of the tall grass contrasts beautifully with the blue hues of the water.",
+    "requirements": [
+      {
+        "item": "Pink tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Froakie",
+      "Frogadier",
+      "Greninja"
+    ]
   },
   {
     "id": 140,
     "name": "Elevated pink tall grass",
-    "description": "Tall pink grass from way above the clouds. Even strong winds can't stop it from growing"
+    "description": "Tall pink grass from way above the clouds. Even strong winds can't stop it from growing",
+    "requirements": [
+      {
+        "item": "Pink tall grass",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Corvisquire",
+      "Kilowattrel",
+      "Wattrel",
+      "Corviknight"
+    ]
   },
   {
     "id": 141,
     "name": "Concrete pipe secret base",
-    "description": "A concrete pipe that hasn't been used in al ong time. The hollow interior is perfect for a secret base."
+    "description": "A concrete pipe that hasn't been used in al ong time. The hollow interior is perfect for a secret base.",
+    "requirements": [
+      {
+        "item": "Concrete Pipe",
+        "qty": 3
+      },
+      {
+        "item": "Tall Grass (any)",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Cyndaquil",
+      "Quilava"
+    ]
   },
   {
     "id": 142,
     "name": "Fluffy flower bed",
-    "description": "A cute field full of lots of puffy skyland flowers"
+    "description": "A cute field full of lots of puffy skyland flowers",
+    "requirements": [
+      {
+        "item": "Skyland flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Vulpix",
+      "Rookidee",
+      "Mismagius",
+      "Misdreavus",
+      "Ninetales"
+    ]
   },
   {
     "id": 143,
@@ -717,42 +2570,167 @@
   {
     "id": 144,
     "name": "Hydrated fluffy flower bed",
-    "description": "Water can't diminish the gentle aroma wafting from these skyland flowers."
+    "description": "Water can't diminish the gentle aroma wafting from these skyland flowers.",
+    "requirements": [
+      {
+        "item": "Skyland flowers",
+        "qty": 4
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Dratini",
+      "Poliwhirl",
+      "Dragonair"
+    ]
   },
   {
     "id": 145,
     "name": "Waterside dinghy",
-    "description": "Board the canoe, or just enjoy some tranquil time relaxing by the waterside"
+    "description": "Board the canoe, or just enjoy some tranquil time relaxing by the waterside",
+    "requirements": [
+      {
+        "item": "Canoe",
+        "qty": 1
+      },
+      {
+        "item": "Duckweed",
+        "qty": 2
+      },
+      {
+        "item": "Water",
+        "qty": 2
+      },
+      {
+        "item": "High-up location",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Dragonite"
+    ]
   },
   {
     "id": 146,
     "name": "Illuminated waterfall",
-    "description": "Use the torches to light a path to the waterfall. Pokémon might stop by to check it out"
+    "description": "Use the torches to light a path to the waterfall. Pokémon might stop by to check it out",
+    "requirements": [
+      {
+        "item": "Stepping stones",
+        "qty": 3
+      },
+      {
+        "item": "Torch",
+        "qty": 2
+      },
+      {
+        "item": "Water",
+        "qty": 3
+      },
+      {
+        "item": "Waterfall",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gyarados"
+    ]
   },
   {
     "id": 147,
     "name": "Birdsong garden",
-    "description": "A comfy birdhouse with a neatly trimmed hedge. You can almost hear chirping"
+    "description": "A comfy birdhouse with a neatly trimmed hedge. You can almost hear chirping",
+    "requirements": [
+      {
+        "item": "Stylish hedge",
+        "qty": 1
+      },
+      {
+        "item": "Wooden Birdhouse",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Altaria"
+    ]
   },
   {
     "id": 148,
     "name": "Simple bathroom",
-    "description": "An ordinary bathroom. Pokémon might stop by to wash themselves."
+    "description": "An ordinary bathroom. Pokémon might stop by to wash themselves.",
+    "requirements": [
+      {
+        "item": "Shower",
+        "qty": 1
+      },
+      {
+        "item": "Bathtub",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Dratini",
+      "Dragonair"
+    ]
   },
   {
     "id": 149,
     "name": "Cycling rest stop",
-    "description": "Stop your bicycle here for a quick break. Pokémon sometimes hide behind the vending machine."
+    "description": "Stop your bicycle here for a quick break. Pokémon sometimes hide behind the vending machine.",
+    "requirements": [
+      {
+        "item": "Bike",
+        "qty": 1
+      },
+      {
+        "item": "Vending Machine",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Beldum"
+    ]
   },
   {
     "id": 150,
     "name": "Fireplace nap spot",
-    "description": "If you're feeling chilly, you can sit by this fireplace and it will gently warm you."
+    "description": "If you're feeling chilly, you can sit by this fireplace and it will gently warm you.",
+    "requirements": [
+      {
+        "item": "Stone fireplace",
+        "qty": 1
+      },
+      {
+        "item": "Seat (wide",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Quilava",
+      "Typhlosion"
+    ]
   },
   {
     "id": 151,
     "name": "Surging psychic power",
-    "description": "Sit in front of the crystal ball and focus to gain mastery over your psychic powersâ¦maybe."
+    "description": "Sit in front of the crystal ball and focus to gain mastery over your psychic powersâ¦maybe.",
+    "requirements": [
+      {
+        "item": "Simple cushion",
+        "qty": 1
+      },
+      {
+        "item": "Crystal Ball",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Abra",
+      "Alakazam"
+    ]
   },
   {
     "id": 152,
@@ -762,82 +2740,374 @@
   {
     "id": 153,
     "name": "Trash site TV",
-    "description": "A lone TV left out with the garbage. It looks like it can still be turned on."
+    "description": "A lone TV left out with the garbage. It looks like it can still be turned on.",
+    "requirements": [
+      {
+        "item": "Garbage bags",
+        "qty": 2
+      },
+      {
+        "item": "Television",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Dusclops",
+      "Dusknoir"
+    ]
   },
   {
     "id": 154,
     "name": "Oversized dumping ground",
-    "description": "A dumping ground where you can even throw away large items. Unwanted appliances can go here!"
+    "description": "A dumping ground where you can even throw away large items. Unwanted appliances can go here!",
+    "requirements": [
+      {
+        "item": "Iron beam or column",
+        "qty": 3
+      },
+      {
+        "item": "Tires",
+        "qty": 1
+      },
+      {
+        "item": "Waste bin (any)",
+        "qty": 1
+      },
+      {
+        "item": "Microwave oven",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tinkatink",
+      "Tinkaton"
+    ]
   },
   {
     "id": 155,
     "name": "Interrogation desk",
-    "description": "You and Arcanine, interrogating perps side by sideâ¦ The tension in the air is palpable"
+    "description": "You and Arcanine, interrogating perps side by sideâ¦ The tension in the air is palpable",
+    "requirements": [
+      {
+        "item": "Arcanine doll",
+        "qty": 1
+      },
+      {
+        "item": "Folding chair",
+        "qty": 2
+      },
+      {
+        "item": "Industrial desk",
+        "qty": 1
+      },
+      {
+        "item": "Desk light",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Sprigatito",
+      "Floragato"
+    ]
   },
   {
     "id": 156,
     "name": "Sewer hole inspection",
-    "description": "Looks like repairs are being carried out here. Only workers are allowed in-no exceptions!"
+    "description": "Looks like repairs are being carried out here. Only workers are allowed in-no exceptions!",
+    "requirements": [
+      {
+        "item": "Iron Pipes",
+        "qty": 1
+      },
+      {
+        "item": "Sewer-hole cover",
+        "qty": 1
+      },
+      {
+        "item": "Excavation tools",
+        "qty": 1
+      },
+      {
+        "item": "Traffic cone",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tinkatink",
+      "Corviknight",
+      "Poliwrath"
+    ]
   },
   {
     "id": 157,
     "name": "Spotless Washing station",
-    "description": "Washing your face and drying it off with a towel feels refreshing. Check out how you look in the mirror!"
+    "description": "Washing your face and drying it off with a towel feels refreshing. Check out how you look in the mirror!",
+    "requirements": [
+      {
+        "item": "Towel Rack",
+        "qty": 1
+      },
+      {
+        "item": "Wall mirror",
+        "qty": 1
+      },
+      {
+        "item": "Sink",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mime Jr.",
+      "Mr. Mime"
+    ]
   },
   {
     "id": 158,
     "name": "Home theater",
-    "description": "Some big speakers and a TV make this space feel just likea movie theater"
+    "description": "Some big speakers and a TV make this space feel just likea movie theater",
+    "requirements": [
+      {
+        "item": "Speaker",
+        "qty": 2
+      },
+      {
+        "item": "Stand",
+        "qty": 1
+      },
+      {
+        "item": "Television",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mismagius"
+    ]
   },
   {
     "id": 159,
     "name": "Study Area",
-    "description": "Just sitting at this desk with a pencil in hand is enough to make you feel a little smarter"
+    "description": "Just sitting at this desk with a pencil in hand is enough to make you feel a little smarter",
+    "requirements": [
+      {
+        "item": "Bookcase",
+        "qty": 1
+      },
+      {
+        "item": "Seat (any)",
+        "qty": 1
+      },
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Pencil holder",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Ralts",
+      "Kirlia"
+    ]
   },
   {
     "id": 160,
     "name": "Rhythmic Living room",
-    "description": "A large TV with a rhythm game hooked up to it. Step on the mats in time with the beat!"
+    "description": "A large TV with a rhythm game hooked up to it. Step on the mats in time with the beat!",
+    "requirements": [
+      {
+        "item": "Speaker",
+        "qty": 2
+      },
+      {
+        "item": "Television",
+        "qty": 1
+      },
+      {
+        "item": "Music mat",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Noibat",
+      "Noivern"
+    ]
   },
   {
     "id": 161,
     "name": "Squeaky clean",
-    "description": "Put lots of cleaner on the Mareep spone and make that bathroom shine"
+    "description": "Put lots of cleaner on the Mareep spone and make that bathroom shine",
+    "requirements": [
+      {
+        "item": "Bathtub",
+        "qty": 1
+      },
+      {
+        "item": "Cleaning supplies",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Poliwag"
+    ]
   },
   {
     "id": 162,
     "name": "Moisturizing makeup stand",
-    "description": "Making sure your skin is moisturized will ensure your makeup comes out even more perfectly than usual!"
+    "description": "Making sure your skin is moisturized will ensure your makeup comes out even more perfectly than usual!",
+    "requirements": [
+      {
+        "item": "Dresser (any)",
+        "qty": 1
+      },
+      {
+        "item": "Seat (any)",
+        "qty": 1
+      },
+      {
+        "item": "Humidifier",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Kirlia",
+      "Gardevoir"
+    ]
   },
   {
     "id": 163,
     "name": "Mini library",
-    "description": "Light the lamp to peruse the books at your leisure, even in the dark ofnight"
+    "description": "Light the lamp to peruse the books at your leisure, even in the dark ofnight",
+    "requirements": [
+      {
+        "item": "Bookcase",
+        "qty": 2
+      },
+      {
+        "item": "Step stool",
+        "qty": 1
+      },
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Lighting (any)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Gardevoir"
+    ]
   },
   {
     "id": 164,
     "name": "Game Corner battle zone",
-    "description": "Players site side by side here to game against each other!P okémon might come here to play."
+    "description": "Players site side by side here to game against each other!P okémon might come here to play.",
+    "requirements": [
+      {
+        "item": "Arcade Machine",
+        "qty": 2
+      },
+      {
+        "item": "Seat (any)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Porygon-Z"
+    ]
   },
   {
     "id": 165,
     "name": "Playland",
-    "description": "To play on the big slide or with the toysâ¦ Now that's a hard choice"
+    "description": "To play on the big slide or with the toysâ¦ Now that's a hard choice",
+    "requirements": [
+      {
+        "item": "Slide",
+        "qty": 1
+      },
+      {
+        "item": "Toy (Any)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Snivy"
+    ]
   },
   {
     "id": 166,
     "name": "Work desk",
-    "description": "Sit on the office chair and type away at the computer. If you feel tired, grab a beverage and take a break!"
+    "description": "Sit on the office chair and type away at the computer. If you feel tired, grab a beverage and take a break!",
+    "requirements": [
+      {
+        "item": "Office desk",
+        "qty": 1
+      },
+      {
+        "item": "Laptop",
+        "qty": 1
+      },
+      {
+        "item": "Mug",
+        "qty": 1
+      },
+      {
+        "item": "Office chair",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Porygon2"
+    ]
   },
   {
     "id": 167,
     "name": "Office storeroom",
-    "description": "Packed with old documents and unused equipment. Lost Pokémon sometimes wander inside."
+    "description": "Packed with old documents and unused equipment. Lost Pokémon sometimes wander inside.",
+    "requirements": [
+      {
+        "item": "Office shelf",
+        "qty": 1
+      },
+      {
+        "item": "Step stool",
+        "qty": 1
+      },
+      {
+        "item": "Cardboard boxes",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Misdreavus",
+      "Mismagius",
+      "Drakloak",
+      "Dragapult"
+    ]
   },
   {
     "id": 168,
     "name": "Experiment Space",
-    "description": "A space for conducting experiments. Someone may have left their research notes behind."
+    "description": "A space for conducting experiments. Someone may have left their research notes behind.",
+    "requirements": [
+      {
+        "item": "Science Experiment",
+        "qty": 1
+      },
+      {
+        "item": "Microscope",
+        "qty": 1
+      },
+      {
+        "item": "Papers",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Alakazam"
+    ]
   },
   {
     "id": 169,
@@ -852,7 +3122,21 @@
   {
     "id": 171,
     "name": "Public reading material",
-    "description": "Anyone can freely pick up and enjoy the newspapers and magazines found here"
+    "description": "Anyone can freely pick up and enjoy the newspapers and magazines found here",
+    "requirements": [
+      {
+        "item": "Magazine rack",
+        "qty": 1
+      },
+      {
+        "item": "Newspaper",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mime Jr.",
+      "Serperior"
+    ]
   },
   {
     "id": 172,
@@ -862,17 +3146,66 @@
   {
     "id": 173,
     "name": "Prank button",
-    "description": "A conspicuous button next to a boo-in-the-box. To press, or not to press, that is the questino."
+    "description": "A conspicuous button next to a boo-in-the-box. To press, or not to press, that is the questino.",
+    "requirements": [
+      {
+        "item": "Floor switch",
+        "qty": 1
+      },
+      {
+        "item": "Boo-in-thebox",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Frogadier",
+      "Greninja"
+    ]
   },
   {
     "id": 174,
     "name": "Picturesque photo cutout board",
-    "description": "Say cheese! Stick your face in the cutoutboard and snap a photo to commemorate your hoke."
+    "description": "Say cheese! Stick your face in the cutoutboard and snap a photo to commemorate your hoke.",
+    "requirements": [
+      {
+        "item": "Photo cutout board",
+        "qty": 1
+      },
+      {
+        "item": "Spotlight",
+        "qty": 2
+      },
+      {
+        "item": "High-up location",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Plusle",
+      "Minun"
+    ]
   },
   {
     "id": 175,
     "name": "Tire Park",
-    "description": "For some reason, the tires are more enticing than the big slideâ¦ Yeah! Let's play with all the different tires!"
+    "description": "For some reason, the tires are more enticing than the big slideâ¦ Yeah! Let's play with all the different tires!",
+    "requirements": [
+      {
+        "item": "Slide",
+        "qty": 1
+      },
+      {
+        "item": "Tires",
+        "qty": 1
+      },
+      {
+        "item": "Tire Toy",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Dedenne"
+    ]
   },
   {
     "id": 176,
@@ -887,22 +3220,84 @@
   {
     "id": 178,
     "name": "Dojo training",
-    "description": "Once you emply the spirit of the warrior, you will be able to move even the heaviest of boulders"
+    "description": "Once you emply the spirit of the warrior, you will be able to move even the heaviest of boulders",
+    "requirements": [
+      {
+        "item": "Hanging scroll",
+        "qty": 2
+      },
+      {
+        "item": "Strength rock",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Poliwrath",
+      "Gallade"
+    ]
   },
   {
     "id": 179,
     "name": "Evil organization HQ",
-    "description": "A comfy couch in front of an organization's emblem. Sitting here makes you feel like a boss."
+    "description": "A comfy couch in front of an organization's emblem. Sitting here makes you feel like a boss.",
+    "requirements": [
+      {
+        "item": "Potted plant (any)",
+        "qty": 2
+      },
+      {
+        "item": "Team Rocket wall hanging",
+        "qty": 1
+      },
+      {
+        "item": "Luxury sofa",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Persian"
+    ]
   },
   {
     "id": 180,
     "name": "Nine flames",
-    "description": "The gentle sway of these nine blazing flames gives their surroundings a subtly mystical ambeience"
+    "description": "The gentle sway of these nine blazing flames gives their surroundings a subtly mystical ambeience",
+    "requirements": [
+      {
+        "item": "Firepit",
+        "qty": 9
+      }
+    ],
+    "pokemon": [
+      "Ninetales"
+    ]
   },
   {
     "id": 181,
     "name": "Plush central",
-    "description": "Some Pokémon might mistake all these dolls for the real things"
+    "description": "Some Pokémon might mistake all these dolls for the real things",
+    "requirements": [
+      {
+        "item": "Arcanine doll",
+        "qty": 1
+      },
+      {
+        "item": "Pikachu doll",
+        "qty": 1
+      },
+      {
+        "item": "Dragonite doll",
+        "qty": 1
+      },
+      {
+        "item": "Eevee Doll",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Drifloon",
+      "Drifblim"
+    ]
   },
   {
     "id": 182,
@@ -912,22 +3307,90 @@
   {
     "id": 183,
     "name": "Top pop",
-    "description": "The colorful pop-art furniture gives off a cheerful atmosphere that'll lift your spirits in no time!"
+    "description": "The colorful pop-art furniture gives off a cheerful atmosphere that'll lift your spirits in no time!",
+    "requirements": [
+      {
+        "item": "Pop art bed",
+        "qty": 1
+      },
+      {
+        "item": "Pop art sofa",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Typhlosion"
+    ]
   },
   {
     "id": 184,
     "name": "Fishing pond",
-    "description": "Cast a line and wait patiently. Perhaps a Water-type Pokémon will appear!"
+    "description": "Cast a line and wait patiently. Perhaps a Water-type Pokémon will appear!",
+    "requirements": [
+      {
+        "item": "Fishing Rod",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Water",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Slowking"
+    ]
   },
   {
     "id": 185,
     "name": "Ocean fishing spot",
-    "description": "Ocean fishing can be fun! You may meet different species of Pokémon than you would in fresh water."
+    "description": "Ocean fishing can be fun! You may meet different species of Pokémon than you would in fresh water.",
+    "requirements": [
+      {
+        "item": "Fishing Rod",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Ocean Water",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Magikarp",
+      "Gastrodon",
+      "Gastrodon East Sea"
+    ]
   },
   {
     "id": 186,
     "name": "Marsh fishing spot",
-    "description": "Pokémon live in marshlands too! Try casting your lin into some swampy water sometime"
+    "description": "Pokémon live in marshlands too! Try casting your lin into some swampy water sometime",
+    "requirements": [
+      {
+        "item": "Fishing Rod",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Muddy water",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Grimer",
+      "Muk",
+      "Clodsire"
+    ]
   },
   {
     "id": 187,
@@ -937,12 +3400,50 @@
   {
     "id": 188,
     "name": "Magma fishing spot",
-    "description": "Catch Pokémon by fishing in magma. Wait, how do you do that without the line melting?!"
+    "description": "Catch Pokémon by fishing in magma. Wait, how do you do that without the line melting?!",
+    "requirements": [
+      {
+        "item": "Fishing rod",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Lava",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Arcanine"
+    ]
   },
   {
     "id": 189,
     "name": "Amped rock stage",
-    "description": "The wail of the guitar marks the start of this amped-up performance"
+    "description": "The wail of the guitar marks the start of this amped-up performance",
+    "requirements": [
+      {
+        "item": "Speaker",
+        "qty": 2
+      },
+      {
+        "item": "Small stage",
+        "qty": 1
+      },
+      {
+        "item": "Cool electric guitar",
+        "qty": 1
+      },
+      {
+        "item": "Standing mic",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Toxtricity Amped Form"
+    ]
   },
   {
     "id": 190,
@@ -962,57 +3463,260 @@
   {
     "id": 193,
     "name": "Wing Fossil Display",
-    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once ruler of the skies"
+    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once ruler of the skies",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Wing fossil (head)",
+        "qty": 1
+      },
+      {
+        "item": "Wing fossil (body)",
+        "qty": 1
+      },
+      {
+        "item": "Wing fossil (left wing)",
+        "qty": 1
+      },
+      {
+        "item": "Wing fossil (right wing)",
+        "qty": 1
+      },
+      {
+        "item": "Wing fossil (tail)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Aerodactyl"
+    ]
   },
   {
     "id": 194,
     "name": "Skull Fossil display",
-    "description": "A display of an ancient Pokémon fossil. This fossilized skull is as hard as iron"
+    "description": "A display of an ancient Pokémon fossil. This fossilized skull is as hard as iron",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Skull Fossil",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Cranidos"
+    ]
   },
   {
     "id": 195,
     "name": "Headbutt Fossil display",
-    "description": "A display of ancient Pokémon fossils. This speciment's skull was harder than steel"
+    "description": "A display of ancient Pokémon fossils. This speciment's skull was harder than steel",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Headbutt fossil (head)",
+        "qty": 1
+      },
+      {
+        "item": "Headbutt fossil (body)",
+        "qty": 1
+      },
+      {
+        "item": "Headbutt fossil (tail)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Rampardos"
+    ]
   },
   {
     "id": 196,
     "name": "Armor Fossil display",
-    "description": "A display of an ancient Pokémon fossil. It features a hard neck frill that looks like a shield."
+    "description": "A display of an ancient Pokémon fossil. It features a hard neck frill that looks like a shield.",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Armor Fossil",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Shieldon"
+    ]
   },
   {
     "id": 197,
     "name": "Shield Fossil display",
-    "description": "A display of ancient Pokémon fossils. This speciment's large neck frill was as sturdy as a fortress wall."
+    "description": "A display of ancient Pokémon fossils. This speciment's large neck frill was as sturdy as a fortress wall.",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 2
+      },
+      {
+        "item": "Shield fossil (head)",
+        "qty": 1
+      },
+      {
+        "item": "Shield fossil (body)",
+        "qty": 1
+      },
+      {
+        "item": "Shield fossil (tail)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Bastiodon"
+    ]
   },
   {
     "id": 198,
     "name": "Jaw Fossil display",
-    "description": "A display of an ancient Pokémon fossil. It features a piece of a jawbone that could crush anything,"
+    "description": "A display of an ancient Pokémon fossil. It features a piece of a jawbone that could crush anything,",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Jaw Fossil",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tyrunt"
+    ]
   },
   {
     "id": 199,
     "name": "Despot fossil display",
-    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once the ruler of the land."
+    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once the ruler of the land.",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 2
+      },
+      {
+        "item": "Despot fossil (head)",
+        "qty": 1
+      },
+      {
+        "item": "Despot fossil (body)",
+        "qty": 1
+      },
+      {
+        "item": "Despot fossil (legs)",
+        "qty": 1
+      },
+      {
+        "item": "Despot fossil(tail)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tyrantrum"
+    ]
   },
   {
     "id": 200,
     "name": "Sail Fossil display",
-    "description": "A display of an ancient Pokémon fossil. This piece of neck sail was once frozen in ice."
+    "description": "A display of an ancient Pokémon fossil. This piece of neck sail was once frozen in ice.",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Sail Fossil",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Amaura"
+    ]
   },
   {
     "id": 201,
     "name": "Tundra fossil display",
-    "description": "A display of ancient Pokémon fossils. The specimen's beautiful neck sail resembles an aurora."
+    "description": "A display of ancient Pokémon fossils. The specimen's beautiful neck sail resembles an aurora.",
+    "requirements": [
+      {
+        "item": "Pedestal",
+        "qty": 1
+      },
+      {
+        "item": "Tundra fossil (head)",
+        "qty": 1
+      },
+      {
+        "item": "Tundra fossil (body)",
+        "qty": 1
+      },
+      {
+        "item": "Tundra fossil (tail)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Aurorus"
+    ]
   },
   {
     "id": 202,
     "name": "Boundless blue beverage",
-    "description": "A clear-blue ice-cream float. It's like looking deep into the ocean"
+    "description": "A clear-blue ice-cream float. It's like looking deep into the ocean",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Soda Float",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Vaporeon"
+    ]
   },
   {
     "id": 203,
     "name": "Electrifying potatoes",
-    "description": "A basket of crispy potato stars. They're shockingly delicious!"
+    "description": "A basket of crispy potato stars. They're shockingly delicious!",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Fried Potatoes",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Jolteon"
+    ]
   },
   {
     "id": 204,
@@ -1022,7 +3726,24 @@
   {
     "id": 205,
     "name": "Elegant daytime treats",
-    "description": "Teatime is always midday. Take a seat, have a snack, and bask in the elegance of it all."
+    "description": "Teatime is always midday. Take a seat, have a snack, and bask in the elegance of it all.",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Afternoon tea set",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Espeon"
+    ]
   },
   {
     "id": 206,
@@ -1032,22 +3753,80 @@
   {
     "id": 207,
     "name": "Leafy greens sandwich",
-    "description": "A sandwich packed with greens and veggies would really hit the spot right now"
+    "description": "A sandwich packed with greens and veggies would really hit the spot right now",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Sandwiches",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Leafeon"
+    ]
   },
   {
     "id": 208,
     "name": "Chilly shaved ice",
-    "description": "Shaved ice served with frozen toppings. Eating this could make you feel teeth-chatteringly chilly"
+    "description": "Shaved ice served with frozen toppings. Eating this could make you feel teeth-chatteringly chilly",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Shaved ice",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Glaceon"
+    ]
   },
   {
     "id": 209,
     "name": "Lovely ribbon cake",
-    "description": "The large ribbon and heart decorations make this cake look quite lovely. It tastes incredibly sweet."
+    "description": "The large ribbon and heart decorations make this cake look quite lovely. It tastes incredibly sweet.",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Sylveon"
+    ]
   },
   {
     "id": 1,
     "name": "Yellow carpet",
-    "description": "A field of warm, blooming yellow flowers. Just looking at it seems to fill you with energy"
+    "description": "A field of warm, blooming yellow flowers. Just looking at it seems to fill you with energy",
+    "requirements": [
+      {
+        "item": "Dandy flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Hoppip",
+      "Skiploom",
+      "Jumpluff"
+    ]
   },
   {
     "id": 2,
@@ -1057,6 +3836,27 @@
   {
     "id": 3,
     "name": "Dandelion lunchtime",
-    "description": "Lunch box? Check. Tableware? Check. Time for a picnic lunch break!"
+    "description": "Lunch box? Check. Tableware? Check. Time for a picnic lunch break!",
+    "requirements": [
+      {
+        "item": "Dandy flowers",
+        "qty": 1
+      },
+      {
+        "item": "Flower cushion",
+        "qty": 1
+      },
+      {
+        "item": "Lunch box",
+        "qty": 1
+      },
+      {
+        "item": "Flowery table setting",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Jumpluff"
+    ]
   }
 ]
