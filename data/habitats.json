@@ -16,6 +16,9 @@
       "Geodude",
       "Oddish",
       "Charizard"
+    ],
+    "types": [
+      "Tall Grass"
     ]
   },
   {
@@ -39,6 +42,10 @@
       "Bellsprout",
       "Skwovet",
       "Heracross"
+    ],
+    "types": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -59,6 +66,10 @@
       "Timburr",
       "Machop",
       "Gurdurr"
+    ],
+    "types": [
+      "Large Boulder",
+      "Tall Grass"
     ]
   },
   {
@@ -81,6 +92,10 @@
       "Blastoise",
       "Cramorant",
       "Wartortle"
+    ],
+    "types": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -101,6 +116,10 @@
       "Slowpoke",
       "Slowbro",
       "Slowking"
+    ],
+    "types": [
+      "Ocean Water",
+      "Tall Grass"
     ]
   },
   {
@@ -118,6 +137,9 @@
       "Pidgeotto",
       "Hoothoot",
       "Noctowl"
+    ],
+    "types": [
+      "Tall Grass"
     ]
   },
   {
@@ -137,6 +159,9 @@
     "pokemon": [
       "Venonat",
       "Venomoth"
+    ],
+    "types": [
+      "Tall Grass"
     ]
   },
   {
@@ -156,6 +181,9 @@
       "Hoothoot",
       "Magby",
       "Pidgeotto"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -176,6 +204,10 @@
       "Goomy",
       "Cacturne",
       "Vikavolt"
+    ],
+    "types": [
+      "Berry Tree",
+      "Wildflowers"
     ]
   },
   {
@@ -191,6 +223,9 @@
     "pokemon": [
       "Volbeat",
       "Illumise"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -207,6 +242,9 @@
       "Vespiquen",
       "Ivysaur",
       "Venusaur"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -222,6 +260,9 @@
     "pokemon": [
       "Paras",
       "Parasect"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -241,6 +282,9 @@
     "pokemon": [
       "Cubone",
       "Marowak"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -260,6 +304,9 @@
     "pokemon": [
       "Paras",
       "Parasect"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -276,7 +323,8 @@
       "Drilbur",
       "Rowlet",
       "Excadrill"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 16,
@@ -290,7 +338,8 @@
     ],
     "pokemon": [
       "Drifloon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 17,
@@ -312,7 +361,8 @@
     ],
     "pokemon": [
       "Charmeleon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 18,
@@ -334,6 +384,10 @@
     ],
     "pokemon": [
       "Tyrogue"
+    ],
+    "types": [
+      "Water",
+      "Waterfall"
     ]
   },
   {
@@ -356,7 +410,8 @@
     ],
     "pokemon": [
       "Gulpin"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 20,
@@ -379,7 +434,8 @@
     "pokemon": [
       "Pichu",
       "Pikachu"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 21,
@@ -402,7 +458,8 @@
     "pokemon": [
       "Weepinbell",
       "Victreebel"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 22,
@@ -422,7 +479,8 @@
       "Bulbasaur",
       "Ivysaur",
       "Tangrowth"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 23,
@@ -441,7 +499,8 @@
     "pokemon": [
       "Venonat",
       "Venomoth"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 24,
@@ -459,7 +518,8 @@
     ],
     "pokemon": [
       "Hitmonchan"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 25,
@@ -481,7 +541,8 @@
     ],
     "pokemon": [
       "Hitmonlee"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 26,
@@ -503,7 +564,8 @@
     ],
     "pokemon": [
       "Hitmontop"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 27,
@@ -522,7 +584,8 @@
     "pokemon": [
       "Shellos",
       "Shellos East Sea"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 28,
@@ -542,12 +605,39 @@
       "Tinkatink",
       "Gurdurr",
       "Tinkatuff"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 29,
     "name": "Lumberjack's workplace",
-    "description": "Haul logs with the cart and split them on the tree stump. The chair is there for taking breaks"
+    "description": "Haul logs with the cart and split them on the tree stump. The chair is there for taking breaks",
+    "requirements": [
+      {
+        "item": "Log chair",
+        "qty": 1
+      },
+      {
+        "item": "Cart",
+        "qty": 1
+      },
+      {
+        "item": "Tree Stump",
+        "qty": 1
+      },
+      {
+        "item": "Log table",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Axew",
+      "Fraxure",
+      "Haxorus"
+    ],
+    "types": [
+      "Tree Stump"
+    ]
   },
   {
     "id": 30,
@@ -568,7 +658,8 @@
       "Slowbro",
       "Munchlax",
       "Slowking"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 31,
@@ -591,7 +682,8 @@
     "pokemon": [
       "Hoothoot",
       "Noctowl"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 32,
@@ -614,7 +706,8 @@
     "pokemon": [
       "Litwick",
       "Lampent"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 33,
@@ -634,7 +727,8 @@
       "Litwick",
       "Lampent",
       "Chandelure"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 34,
@@ -657,6 +751,9 @@
     "pokemon": [
       "Vileplume",
       "Bellossom"
+    ],
+    "types": [
+      "Chansey Plant"
     ]
   },
   {
@@ -680,7 +777,8 @@
     "pokemon": [
       "Weepinbell",
       "Victreebel"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 36,
@@ -702,6 +800,9 @@
     ],
     "pokemon": [
       "Blastoise"
+    ],
+    "types": [
+      "Water"
     ]
   },
   {
@@ -720,6 +821,10 @@
     ],
     "pokemon": [
       "Onix"
+    ],
+    "types": [
+      "Dry Tall Grass",
+      "Smooth Rock"
     ]
   },
   {
@@ -746,7 +851,8 @@
     ],
     "pokemon": [
       "Magnemite"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 39,
@@ -764,7 +870,8 @@
     ],
     "pokemon": [
       "Pidgeot"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 40,
@@ -790,6 +897,9 @@
     ],
     "pokemon": [
       "Charizard"
+    ],
+    "types": [
+      "High-Up Location"
     ]
   },
   {
@@ -808,7 +918,8 @@
     ],
     "pokemon": [
       "Goomy"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 42,
@@ -826,12 +937,31 @@
     ],
     "pokemon": [
       "Cacnea"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 43,
     "name": "Professor's treasure trove",
-    "description": "It may look like a bunch of junk, but every single piece here is worthy of study to a professor"
+    "description": "It may look like a bunch of junk, but every single piece here is worthy of study to a professor",
+    "requirements": [
+      {
+        "item": "Professor's treasure trove",
+        "qty": 1
+      },
+      {
+        "item": "Lost relic (large)",
+        "qty": 4
+      },
+      {
+        "item": "Bed (any)",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Professor Tangrowth"
+    ],
+    "types": []
   },
   {
     "id": 44,
@@ -855,7 +985,8 @@
       "Axew",
       "Fraxure",
       "Haxorus"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 45,
@@ -881,7 +1012,8 @@
     ],
     "pokemon": [
       "Goodra"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 46,
@@ -907,6 +1039,9 @@
     ],
     "pokemon": [
       "Venusaur"
+    ],
+    "types": [
+      "Wildflowers"
     ]
   },
   {
@@ -922,6 +1057,9 @@
     "pokemon": [
       "Munchlax",
       "Snorlax"
+    ],
+    "types": [
+      "Large Tree"
     ]
   },
   {
@@ -949,12 +1087,35 @@
     "pokemon": [
       "Weezing",
       "Snorlax"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 49,
     "name": "Nothin' but Poke Balls",
-    "description": "All Poké Ballsâ¦or so you thought! Living here is oddly comforting somehow"
+    "description": "All Poké Ballsâ¦or so you thought! Living here is oddly comforting somehow",
+    "requirements": [
+      {
+        "item": "Poke Ball Sofa",
+        "qty": 1
+      },
+      {
+        "item": "Poke Ball Bed",
+        "qty": 1
+      },
+      {
+        "item": "Poke Ball table",
+        "qty": 1
+      },
+      {
+        "item": "Poke Ball Light",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Tangela"
+    ],
+    "types": []
   },
   {
     "id": 50,
@@ -970,6 +1131,9 @@
       "Spinarak",
       "Grubbin",
       "Ariados"
+    ],
+    "types": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -991,6 +1155,10 @@
       "Golbat",
       "Makuhita",
       "Hariyama"
+    ],
+    "types": [
+      "Large Tree",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -1011,6 +1179,10 @@
       "Wingull",
       "Pelipper",
       "Crobat"
+    ],
+    "types": [
+      "High-Up Location",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -1032,6 +1204,10 @@
       "Marill",
       "Piplup",
       "Prinplup"
+    ],
+    "types": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -1051,6 +1227,10 @@
     "pokemon": [
       "Paldean Wooper",
       "Clodsire"
+    ],
+    "types": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -1069,6 +1249,9 @@
     ],
     "pokemon": [
       "Mareep"
+    ],
+    "types": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -1085,6 +1268,9 @@
       "Pawmi",
       "Zorua",
       "Zoroark"
+    ],
+    "types": [
+      "Seashore Flowers"
     ]
   },
   {
@@ -1105,6 +1291,10 @@
       "Gloom",
       "Exeggcute",
       "Exeggutor"
+    ],
+    "types": [
+      "Large Palm Tree",
+      "Seashore Flowers"
     ]
   },
   {
@@ -1124,6 +1314,9 @@
     "pokemon": [
       "Wingull",
       "Pelipper"
+    ],
+    "types": [
+      "Seashore Flowers"
     ]
   },
   {
@@ -1143,6 +1336,9 @@
     "pokemon": [
       "Exeggcute",
       "Exeggutor"
+    ],
+    "types": [
+      "Large Palm Tree"
     ]
   },
   {
@@ -1165,6 +1361,10 @@
     ],
     "pokemon": [
       "Lapras"
+    ],
+    "types": [
+      "Large Palm Tree",
+      "Ocean Water"
     ]
   },
   {
@@ -1183,7 +1383,8 @@
     ],
     "pokemon": [
       "Meowth"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 62,
@@ -1202,7 +1403,8 @@
     "pokemon": [
       "Growlithe",
       "Azurill"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 63,
@@ -1227,7 +1429,8 @@
       "Koffing",
       "Weezing",
       "Garbodor"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 64,
@@ -1243,7 +1446,8 @@
       "Magneton",
       "Electabuzz",
       "Magnezone"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 65,
@@ -1261,7 +1465,8 @@
     ],
     "pokemon": [
       "Crobat"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 66,
@@ -1281,7 +1486,8 @@
       "Zubat",
       "Voltorb",
       "Electrode"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 67,
@@ -1308,7 +1514,8 @@
     "pokemon": [
       "Pawmo",
       "Pawmi"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 68,
@@ -1338,7 +1545,8 @@
     ],
     "pokemon": [
       "Empoleon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 69,
@@ -1361,12 +1569,40 @@
     "pokemon": [
       "Torchic",
       "Blaziken"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 70,
     "name": "Café space",
-    "description": "Enjoy teatime while admiring the potted tree. Pokémon can feel refreshed here"
+    "description": "Enjoy teatime while admiring the potted tree. Pokémon can feel refreshed here",
+    "requirements": [
+      {
+        "item": "Seat (any)",
+        "qty": 2
+      },
+      {
+        "item": "Potted Plant",
+        "qty": 1
+      },
+      {
+        "item": "Counter",
+        "qty": 2
+      },
+      {
+        "item": "Mug",
+        "qty": 1
+      },
+      {
+        "item": "Menu board",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Pawmo",
+      "Pawmot"
+    ],
+    "types": []
   },
   {
     "id": 71,
@@ -1390,7 +1626,8 @@
       "Tatsugiri Curly Form",
       "Tatsugiri Droopy Form",
       "Tatsugiri Stretchy Form"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 72,
@@ -1409,7 +1646,8 @@
     "pokemon": [
       "Electabuzz",
       "Electivire"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 73,
@@ -1429,7 +1667,8 @@
       "Haunter",
       "Zoroark",
       "Gengar"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 74,
@@ -1447,7 +1686,8 @@
     ],
     "pokemon": [
       "Flaaffy"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 75,
@@ -1465,7 +1705,8 @@
     ],
     "pokemon": [
       "Minccino"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 76,
@@ -1488,7 +1729,8 @@
     "pokemon": [
       "Minccino",
       "Cinccino"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 77,
@@ -1511,7 +1753,8 @@
     "pokemon": [
       "Mareep",
       "Flaaffy"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 78,
@@ -1534,6 +1777,9 @@
     "pokemon": [
       "Psyduck",
       "Golduck"
+    ],
+    "types": [
+      "Hot-Spring Water"
     ]
   },
   {
@@ -1562,6 +1808,9 @@
       "Growlithe",
       "Torchic",
       "Combusken"
+    ],
+    "types": [
+      "Large Palm Tree"
     ]
   },
   {
@@ -1582,7 +1831,8 @@
       "Farfetch'd",
       "Makuhita",
       "Hariyama"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 81,
@@ -1605,7 +1855,8 @@
     "pokemon": [
       "Chansey",
       "Peakychu"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 82,
@@ -1627,7 +1878,8 @@
     ],
     "pokemon": [
       "Happiny"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 83,
@@ -1646,7 +1898,8 @@
     "pokemon": [
       "Grubbin",
       "Charjabug"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 84,
@@ -1665,7 +1918,8 @@
     "pokemon": [
       "Elekid",
       "Electivire"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 85,
@@ -1688,7 +1942,8 @@
     "pokemon": [
       "Magneton",
       "Magnezone"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 86,
@@ -1711,6 +1966,10 @@
     "pokemon": [
       "Prinplup",
       "Empoleon"
+    ],
+    "types": [
+      "Water",
+      "Waterfall"
     ]
   },
   {
@@ -1730,7 +1989,8 @@
     "pokemon": [
       "Combusken",
       "Blaziken"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 88,
@@ -1753,6 +2013,9 @@
     "pokemon": [
       "Marill",
       "Azumarill"
+    ],
+    "types": [
+      "Ocean Water"
     ]
   },
   {
@@ -1780,7 +2043,8 @@
     "pokemon": [
       "Gastly",
       "Haunter"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 90,
@@ -1803,7 +2067,8 @@
     "pokemon": [
       "Voltorb",
       "Electrode"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 91,
@@ -1824,7 +2089,8 @@
       "Audino",
       "Happiny",
       "Mawile"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 92,
@@ -1842,12 +2108,23 @@
     ],
     "pokemon": [
       "Smeargle"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 93,
     "name": "Gourmet's altar",
-    "description": "Putting an offering of food on this platter would surely delight Pokémon who live to eat"
+    "description": "Putting an offering of food on this platter would surely delight Pokémon who live to eat",
+    "requirements": [
+      {
+        "item": "Offering dish",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Mosslax"
+    ],
+    "types": []
   },
   {
     "id": 94,
@@ -1865,7 +2142,8 @@
     ],
     "pokemon": [
       "Mimikyu"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 95,
@@ -1895,7 +2173,8 @@
     ],
     "pokemon": [
       "Blissey"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 96,
@@ -1921,7 +2200,8 @@
     ],
     "pokemon": [
       "Absol"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 97,
@@ -1947,7 +2227,8 @@
     ],
     "pokemon": [
       "Ampharos"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 98,
@@ -1963,8 +2244,10 @@
       "Scorbunny",
       "Riolu",
       "Cinderace",
-      "Kricketot",
-      "Exeggcute"
+      "Kricketot"
+    ],
+    "types": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -1986,6 +2269,10 @@
       "Dugtrio",
       "Bonsly",
       "Sudowoodo"
+    ],
+    "types": [
+      "Large Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -2009,6 +2296,11 @@
     "pokemon": [
       "Dartrix",
       "Decidueye"
+    ],
+    "types": [
+      "Large Boulder",
+      "Pointy Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -2028,6 +2320,10 @@
     "pokemon": [
       "Lotad",
       "Lombre"
+    ],
+    "types": [
+      "Red Tall Grass",
+      "Water"
     ]
   },
   {
@@ -2048,6 +2344,10 @@
       "Murkrow",
       "Chatot",
       "Chatot"
+    ],
+    "types": [
+      "High-Up Location",
+      "Red Tall Grass"
     ]
   },
   {
@@ -2067,6 +2367,9 @@
     "pokemon": [
       "Machoke",
       "Machamp"
+    ],
+    "types": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -2085,6 +2388,9 @@
       "Clefable",
       "Clefairy",
       "Dachsbun"
+    ],
+    "types": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -2105,6 +2411,10 @@
       "Murkrow",
       "Larvesta",
       "Volcarona"
+    ],
+    "types": [
+      "Mountain Flowers",
+      "Pointy Tree"
     ]
   },
   {
@@ -2125,6 +2435,10 @@
       "Ekans",
       "Arbok",
       "Politoed"
+    ],
+    "types": [
+      "Mountain Flowers",
+      "Water"
     ]
   },
   {
@@ -2149,6 +2463,10 @@
       "Igglybuff",
       "Jigglypuff",
       "Politoed"
+    ],
+    "types": [
+      "Mountain Flowers",
+      "Tree Stump"
     ]
   },
   {
@@ -2167,6 +2485,9 @@
     ],
     "pokemon": [
       "Tyranitar"
+    ],
+    "types": [
+      "Vegetable Field"
     ]
   },
   {
@@ -2186,6 +2507,10 @@
     "pokemon": [
       "Lotad",
       "Ludicolo"
+    ],
+    "types": [
+      "Duckweed",
+      "Water"
     ]
   },
   {
@@ -2201,6 +2526,9 @@
     "pokemon": [
       "Larvitar",
       "Tyranitar"
+    ],
+    "types": [
+      "Moss"
     ]
   },
   {
@@ -2220,6 +2548,10 @@
     "pokemon": [
       "Graveler",
       "Golem"
+    ],
+    "types": [
+      "Moss",
+      "Mossy Boulder"
     ]
   },
   {
@@ -2238,6 +2570,10 @@
     ],
     "pokemon": [
       "Torkoal"
+    ],
+    "types": [
+      "Hot-Spring Water",
+      "Moss"
     ]
   },
   {
@@ -2256,6 +2592,9 @@
     ],
     "pokemon": [
       "Raboot"
+    ],
+    "types": [
+      "Hot-Spring Water"
     ]
   },
   {
@@ -2278,6 +2617,10 @@
     ],
     "pokemon": [
       "Politoed"
+    ],
+    "types": [
+      "Hot-Spring Water",
+      "Water"
     ]
   },
   {
@@ -2297,6 +2640,10 @@
     "pokemon": [
       "Charcadet",
       "Volcarona"
+    ],
+    "types": [
+      "Lava",
+      "Molten Rock"
     ]
   },
   {
@@ -2319,7 +2666,8 @@
     ],
     "pokemon": [
       "Magmar"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 117,
@@ -2346,7 +2694,8 @@
     "pokemon": [
       "Steelix",
       "Machamp"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 118,
@@ -2373,6 +2722,10 @@
     "pokemon": [
       "Glimmet",
       "Glimmora"
+    ],
+    "types": [
+      "Moss",
+      "Stalagmites"
     ]
   },
   {
@@ -2401,7 +2754,8 @@
       "Diglett",
       "Glimmet",
       "Glimmora"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 120,
@@ -2423,7 +2777,8 @@
     ],
     "pokemon": [
       "Swalot"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 121,
@@ -2446,7 +2801,8 @@
     "pokemon": [
       "Fidough",
       "Dachsbun"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 122,
@@ -2472,7 +2828,8 @@
     ],
     "pokemon": [
       "Magmortar"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 123,
@@ -2495,7 +2852,8 @@
     "pokemon": [
       "Dugtrio",
       "Sudowoodo"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 124,
@@ -2513,7 +2871,8 @@
     ],
     "pokemon": [
       "Toxel"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 125,
@@ -2532,7 +2891,8 @@
     "pokemon": [
       "Chatot",
       "Honchkrow"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 126,
@@ -2555,7 +2915,8 @@
     "pokemon": [
       "Jigglypuff",
       "Wigglytuff"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 127,
@@ -2579,7 +2940,8 @@
       "Machoke",
       "Riolu",
       "Lucario"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 128,
@@ -2603,7 +2965,8 @@
       "Kricketot",
       "Kricketune",
       "Stereo Rotom"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 129,
@@ -2626,7 +2989,8 @@
     "pokemon": [
       "Gimmighoul",
       "Arcanine"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 130,
@@ -2653,7 +3017,8 @@
     "pokemon": [
       "Raboot",
       "Cinderace"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 131,
@@ -2676,7 +3041,8 @@
     "pokemon": [
       "Clefairy",
       "Clefable"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 132,
@@ -2696,12 +3062,43 @@
       "Carkol",
       "Rolycoly",
       "Coalossal"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 133,
     "name": "Chef's kitchen",
-    "description": "With a stove, a sink, and some key cooking equipment, this place is a chef's dream"
+    "description": "With a stove, a sink, and some key cooking equipment, this place is a chef's dream",
+    "requirements": [
+      {
+        "item": "Cooking stove",
+        "qty": 1
+      },
+      {
+        "item": "Modern sink",
+        "qty": 1
+      },
+      {
+        "item": "Plain table",
+        "qty": 1
+      },
+      {
+        "item": "Stylish Cooking Pot",
+        "qty": 1
+      },
+      {
+        "item": "Cutting board",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Greedent"
+    ],
+    "types": []
   },
   {
     "id": 134,
@@ -2727,7 +3124,8 @@
     ],
     "pokemon": [
       "Gholdengo"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 135,
@@ -2753,7 +3151,8 @@
     ],
     "pokemon": [
       "Coalossal"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 136,
@@ -2775,7 +3174,8 @@
     ],
     "pokemon": [
       "Decidueye"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 137,
@@ -2793,6 +3193,9 @@
       "Vibrava",
       "Swablu",
       "Flygon"
+    ],
+    "types": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -2814,6 +3217,10 @@
       "Dreepy",
       "Pupitar",
       "Drakloak"
+    ],
+    "types": [
+      "Large Tree",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -2834,6 +3241,10 @@
       "Froakie",
       "Frogadier",
       "Greninja"
+    ],
+    "types": [
+      "Pink Tall Grass",
+      "Water"
     ]
   },
   {
@@ -2851,6 +3262,9 @@
       "Kilowattrel",
       "Wattrel",
       "Corviknight"
+    ],
+    "types": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -2870,6 +3284,9 @@
     "pokemon": [
       "Cyndaquil",
       "Quilava"
+    ],
+    "types": [
+      "Tall Grass"
     ]
   },
   {
@@ -2888,6 +3305,9 @@
       "Mismagius",
       "Misdreavus",
       "Ninetales"
+    ],
+    "types": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -2909,6 +3329,10 @@
       "Servine",
       "Farigiraf",
       "Serperior"
+    ],
+    "types": [
+      "Large Tree",
+      "Skyland Flowers"
     ]
   },
   {
@@ -2929,6 +3353,10 @@
       "Dratini",
       "Poliwhirl",
       "Dragonair"
+    ],
+    "types": [
+      "Skyland Flowers",
+      "Water"
     ]
   },
   {
@@ -2955,6 +3383,11 @@
     ],
     "pokemon": [
       "Dragonite"
+    ],
+    "types": [
+      "Duckweed",
+      "High-Up Location",
+      "Water"
     ]
   },
   {
@@ -2981,6 +3414,10 @@
     ],
     "pokemon": [
       "Gyarados"
+    ],
+    "types": [
+      "Water",
+      "Waterfall"
     ]
   },
   {
@@ -2999,7 +3436,8 @@
     ],
     "pokemon": [
       "Altaria"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 148,
@@ -3018,7 +3456,8 @@
     "pokemon": [
       "Dratini",
       "Dragonair"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 149,
@@ -3036,7 +3475,8 @@
     ],
     "pokemon": [
       "Beldum"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 150,
@@ -3055,7 +3495,8 @@
     "pokemon": [
       "Quilava",
       "Typhlosion"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 151,
@@ -3074,12 +3515,32 @@
     "pokemon": [
       "Abra",
       "Alakazam"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 152,
     "name": "Fortune-teller's table",
-    "description": "Maybe using psychic power to peer into the crystal ball will give you a glimpse of the futureâ¦"
+    "description": "Maybe using psychic power to peer into the crystal ball will give you a glimpse of the futureâ¦",
+    "requirements": [
+      {
+        "item": "Seat (any)",
+        "qty": 2
+      },
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Crystal Ball",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Abra",
+      "Kadabra"
+    ],
+    "types": []
   },
   {
     "id": 153,
@@ -3098,7 +3559,8 @@
     "pokemon": [
       "Dusclops",
       "Dusknoir"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 154,
@@ -3125,7 +3587,8 @@
     "pokemon": [
       "Tinkatink",
       "Tinkaton"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 155,
@@ -3152,7 +3615,8 @@
     "pokemon": [
       "Sprigatito",
       "Floragato"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 156,
@@ -3180,7 +3644,8 @@
       "Tinkatink",
       "Corviknight",
       "Poliwrath"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 157,
@@ -3203,7 +3668,8 @@
     "pokemon": [
       "Mime Jr.",
       "Mr. Mime"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 158,
@@ -3225,7 +3691,8 @@
     ],
     "pokemon": [
       "Mismagius"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 159,
@@ -3252,7 +3719,8 @@
     "pokemon": [
       "Ralts",
       "Kirlia"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 160,
@@ -3275,7 +3743,8 @@
     "pokemon": [
       "Noibat",
       "Noivern"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 161,
@@ -3293,7 +3762,8 @@
     ],
     "pokemon": [
       "Poliwag"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 162,
@@ -3316,7 +3786,8 @@
     "pokemon": [
       "Kirlia",
       "Gardevoir"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 163,
@@ -3342,7 +3813,8 @@
     ],
     "pokemon": [
       "Gardevoir"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 164,
@@ -3360,7 +3832,8 @@
     ],
     "pokemon": [
       "Porygon-Z"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 165,
@@ -3378,7 +3851,8 @@
     ],
     "pokemon": [
       "Snivy"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 166,
@@ -3404,7 +3878,8 @@
     ],
     "pokemon": [
       "Porygon2"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 167,
@@ -3429,7 +3904,8 @@
       "Mismagius",
       "Drakloak",
       "Dragapult"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 168,
@@ -3451,17 +3927,54 @@
     ],
     "pokemon": [
       "Alakazam"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 169,
     "name": "Professor's apprentice program",
-    "description": "Keep up with your research, and someday you might become as wide and learned as Professor Tangrowth!"
+    "description": "Keep up with your research, and someday you might become as wide and learned as Professor Tangrowth!",
+    "requirements": [
+      {
+        "item": "Whiteboard",
+        "qty": 1
+      },
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Jumbled cords",
+        "qty": 1
+      },
+      {
+        "item": "Laptop",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Metang"
+    ],
+    "types": []
   },
   {
     "id": 170,
     "name": "Researcher's desk",
-    "description": "Today's research topic is Pokémon's role in science! Some data has been entered into the computer"
+    "description": "Today's research topic is Pokémon's role in science! Some data has been entered into the computer",
+    "requirements": [
+      {
+        "item": "Table (any)",
+        "qty": 2
+      },
+      {
+        "item": "Computer",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Porygon"
+    ],
+    "types": []
   },
   {
     "id": 171,
@@ -3480,7 +3993,8 @@
     "pokemon": [
       "Mime Jr.",
       "Serperior"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 172,
@@ -3502,7 +4016,8 @@
     ],
     "pokemon": [
       "Meowscarada"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 173,
@@ -3521,7 +4036,8 @@
     "pokemon": [
       "Frogadier",
       "Greninja"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 174,
@@ -3544,6 +4060,9 @@
     "pokemon": [
       "Plusle",
       "Minun"
+    ],
+    "types": [
+      "High-Up Location"
     ]
   },
   {
@@ -3566,12 +4085,38 @@
     ],
     "pokemon": [
       "Dedenne"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 176,
     "name": "Nature's market",
-    "description": "Just power up the cash register, and you'll be able to trade with your friends-even out in nature!"
+    "description": "Just power up the cash register, and you'll be able to trade with your friends-even out in nature!",
+    "requirements": [
+      {
+        "item": "Large tree",
+        "qty": 1
+      },
+      {
+        "item": "Large boulder",
+        "qty": 1
+      },
+      {
+        "item": "Table (any)",
+        "qty": 1
+      },
+      {
+        "item": "Cash register",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Raichu"
+    ],
+    "types": [
+      "Large Boulder",
+      "Large Tree"
+    ]
   },
   {
     "id": 177,
@@ -3593,7 +4138,8 @@
     ],
     "pokemon": [
       "Conkeldurr"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 178,
@@ -3612,7 +4158,8 @@
     "pokemon": [
       "Poliwrath",
       "Gallade"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 179,
@@ -3634,7 +4181,8 @@
     ],
     "pokemon": [
       "Persian"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 180,
@@ -3648,7 +4196,8 @@
     ],
     "pokemon": [
       "Ninetales"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 181,
@@ -3675,12 +4224,39 @@
     "pokemon": [
       "Drifloon",
       "Drifblim"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 182,
     "name": "Gamer's paradise",
-    "description": "A space perfectly tailored for gaming. Take a seat and immerse yourself in the world of games!"
+    "description": "A space perfectly tailored for gaming. Take a seat and immerse yourself in the world of games!",
+    "requirements": [
+      {
+        "item": "Gaming bed",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Gaming PC",
+        "qty": 1
+      },
+      {
+        "item": "Gaming Chair",
+        "qty": 1
+      },
+      {
+        "item": "Gaming Fridge",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Metagross"
+    ],
+    "types": []
   },
   {
     "id": 183,
@@ -3698,7 +4274,8 @@
     ],
     "pokemon": [
       "Typhlosion"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 184,
@@ -3718,8 +4295,9 @@
         "qty": 1
       }
     ],
-    "pokemon": [
-      "Slowking"
+    "pokemon": [],
+    "types": [
+      "Water"
     ]
   },
   {
@@ -3744,6 +4322,9 @@
       "Magikarp",
       "Gastrodon",
       "Gastrodon East Sea"
+    ],
+    "types": [
+      "Ocean Water"
     ]
   },
   {
@@ -3768,6 +4349,9 @@
       "Grimer",
       "Muk",
       "Clodsire"
+    ],
+    "types": [
+      "Water"
     ]
   },
   {
@@ -3787,7 +4371,8 @@
     "pokemon": [
       "Lotad",
       "Lombre"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 188,
@@ -3809,6 +4394,9 @@
     ],
     "pokemon": [
       "Arcanine"
+    ],
+    "types": [
+      "Lava"
     ]
   },
   {
@@ -3835,7 +4423,8 @@
     ],
     "pokemon": [
       "Toxtricity Amped Form"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 190,
@@ -3861,17 +4450,62 @@
     ],
     "pokemon": [
       "Toxtricity Low Key Form"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 191,
     "name": "Malicious knight's shrine",
-    "description": "A slightly eerie space where a mysterious ritual appears to be underway..."
+    "description": "A slightly eerie space where a mysterious ritual appears to be underway...",
+    "requirements": [
+      {
+        "item": "Pedastal",
+        "qty": 1
+      },
+      {
+        "item": "Malicious Armor",
+        "qty": 1
+      },
+      {
+        "item": "Stepping Stones",
+        "qty": 2
+      },
+      {
+        "item": "Firepit",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Ceruledge"
+    ],
+    "types": []
   },
   {
     "id": 192,
     "name": "Auspicious knight's shrine",
-    "description": "A slightly mystical space where a mysterious ritual appears to be underway..."
+    "description": "A slightly mystical space where a mysterious ritual appears to be underway...",
+    "requirements": [
+      {
+        "item": "Pedastal",
+        "qty": 1
+      },
+      {
+        "item": "Auspicious Armor",
+        "qty": 1
+      },
+      {
+        "item": "Stepping Stones",
+        "qty": 2
+      },
+      {
+        "item": "Firepit",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Armarouge"
+    ],
+    "types": []
   },
   {
     "id": 193,
@@ -3905,7 +4539,8 @@
     ],
     "pokemon": [
       "Aerodactyl"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 194,
@@ -3923,7 +4558,8 @@
     ],
     "pokemon": [
       "Cranidos"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 195,
@@ -3949,7 +4585,8 @@
     ],
     "pokemon": [
       "Rampardos"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 196,
@@ -3967,7 +4604,8 @@
     ],
     "pokemon": [
       "Shieldon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 197,
@@ -3993,7 +4631,8 @@
     ],
     "pokemon": [
       "Bastiodon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 198,
@@ -4011,7 +4650,8 @@
     ],
     "pokemon": [
       "Tyrunt"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 199,
@@ -4041,7 +4681,8 @@
     ],
     "pokemon": [
       "Tyrantrum"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 200,
@@ -4059,7 +4700,8 @@
     ],
     "pokemon": [
       "Amaura"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 201,
@@ -4085,7 +4727,8 @@
     ],
     "pokemon": [
       "Aurorus"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 202,
@@ -4107,7 +4750,8 @@
     ],
     "pokemon": [
       "Vaporeon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 203,
@@ -4129,7 +4773,8 @@
     ],
     "pokemon": [
       "Jolteon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 204,
@@ -4151,7 +4796,8 @@
     ],
     "pokemon": [
       "Flareon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 205,
@@ -4173,7 +4819,8 @@
     ],
     "pokemon": [
       "Espeon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 206,
@@ -4195,7 +4842,8 @@
     ],
     "pokemon": [
       "Umbreon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 207,
@@ -4217,7 +4865,8 @@
     ],
     "pokemon": [
       "Leafeon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 208,
@@ -4239,7 +4888,8 @@
     ],
     "pokemon": [
       "Glaceon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 209,
@@ -4257,7 +4907,8 @@
     ],
     "pokemon": [
       "Sylveon"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 1,
@@ -4273,6 +4924,9 @@
       "Hoppip",
       "Skiploom",
       "Jumpluff"
+    ],
+    "types": [
+      "Dandy Flowers"
     ]
   },
   {
@@ -4295,7 +4949,8 @@
     ],
     "pokemon": [
       "Skiploom"
-    ]
+    ],
+    "types": []
   },
   {
     "id": 3,
@@ -4321,6 +4976,9 @@
     ],
     "pokemon": [
       "Jumpluff"
+    ],
+    "types": [
+      "Dandy Flowers"
     ]
   }
 ]

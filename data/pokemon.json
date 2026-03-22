@@ -19,12 +19,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -53,6 +51,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -82,6 +83,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -99,17 +103,14 @@
       "Night"
     ],
     "weather": [
-      "Sun",
       "Cloud",
-      "Rain"
+      "Sun"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -119,7 +120,7 @@
       "Burn"
     ],
     "source": "main",
-    "rarity": "Common",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -127,9 +128,8 @@
       "Night"
     ],
     "weather": [
-      "Sun",
       "Cloud",
-      "Rain"
+      "Sun"
     ],
     "zones": [
       "Bleak Beach",
@@ -138,7 +138,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 6,
@@ -148,7 +149,7 @@
       "Fly"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -166,6 +167,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Tall Grass"
     ]
   },
   {
@@ -188,12 +193,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -222,6 +226,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -251,6 +259,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -263,10 +275,9 @@
     "source": "main",
     "rarity": "Common",
     "time": [
-      "Morning",
       "Day",
       "Evening",
-      "Night"
+      "Morning"
     ],
     "weather": [
       "Sun",
@@ -274,12 +285,12 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Tall Grass",
+      "Wildflowers"
     ]
   },
   {
@@ -308,6 +319,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Tall Grass",
+      "Wildflowers"
     ]
   },
   {
@@ -361,6 +377,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -389,6 +408,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Palm Tree",
+      "Seashore Flowers"
     ]
   },
   {
@@ -418,6 +441,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Chansey Plant"
     ]
   },
   {
@@ -447,6 +473,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Chansey Plant"
     ]
   },
   {
@@ -475,6 +504,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Wildflowers"
     ]
   },
   {
@@ -503,6 +536,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Wildflowers"
     ]
   },
   {
@@ -528,6 +565,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -553,6 +593,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -582,6 +625,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -592,7 +639,7 @@
       "Litter"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -611,7 +658,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 23,
@@ -621,7 +669,7 @@
       "Chop"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -640,7 +688,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 24,
@@ -663,12 +712,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water",
+      "Tall Grass"
     ]
   },
   {
@@ -679,7 +727,7 @@
       "Trade"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -698,6 +746,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water",
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -708,7 +761,7 @@
       "Teleport"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -727,6 +780,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water",
+      "Tall Grass"
     ]
   },
   {
@@ -764,7 +821,7 @@
       "Generate"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -783,7 +840,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 29,
@@ -835,12 +893,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Dry Tall Grass",
+      "Smooth Rock"
     ]
   },
   {
@@ -870,7 +927,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 32,
@@ -898,6 +956,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -926,6 +987,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -935,7 +999,7 @@
       "Trade"
     ],
     "source": "main",
-    "rarity": "CommonCommon",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -954,6 +1018,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Waterfall"
     ]
   },
   {
@@ -982,7 +1050,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 36,
@@ -1004,13 +1073,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 37,
@@ -1038,7 +1103,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 38,
@@ -1060,9 +1126,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 39,
@@ -1071,7 +1137,32 @@
       "Recycle"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Palette Town"
+    ],
+    "habitat_type": []
+  },
+  {
+    "id": 40,
+    "name": "Tangela",
+    "specialties": [
+      "Grow",
+      "Litter"
+    ],
+    "source": "main",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -1089,21 +1180,32 @@
     ]
   },
   {
-    "id": 40,
-    "name": "Tangela",
-    "specialties": [
-      "Grow",
-      "Litter"
-    ],
-    "source": "main"
-  },
-  {
     "id": 41,
     "name": "Professor Tangrowth",
     "specialties": [
       "Appraise"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 41,
@@ -1149,12 +1251,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -1177,8 +1278,11 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -1202,12 +1306,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -1228,12 +1331,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water"
     ]
   },
   {
@@ -1296,6 +1397,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Tall Grass",
+      "Wildflowers"
     ]
   },
   {
@@ -1306,11 +1412,8 @@
       "Fly"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
-      "Morning",
-      "Day",
-      "Evening",
       "Night"
     ],
     "weather": [
@@ -1325,6 +1428,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Tall Grass"
     ]
   },
   {
@@ -1354,6 +1461,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -1382,6 +1493,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Wildflowers"
     ]
   },
   {
@@ -1410,6 +1525,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Wildflowers"
     ]
   },
   {
@@ -1431,9 +1550,10 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Withered Wastelands"
-    ]
+    ],
+    "rarity": "Common",
+    "habitat_type": []
   },
   {
     "id": 54,
@@ -1487,7 +1607,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 56,
@@ -1497,7 +1618,7 @@
       "Litter"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Night"
     ],
@@ -1513,6 +1634,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Berry Tree",
+      "Wildflowers"
     ]
   },
   {
@@ -1535,12 +1660,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -1564,12 +1687,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -1579,7 +1700,7 @@
       "Water"
     ],
     "source": "main",
-    "rarity": "Common",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -1598,7 +1719,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 59,
@@ -1607,7 +1729,7 @@
       "Water"
     ],
     "source": "main",
-    "rarity": "Common",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -1626,7 +1748,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 60,
@@ -1655,6 +1778,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water"
     ]
   },
   {
@@ -1684,6 +1810,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water"
     ]
   },
   {
@@ -1706,13 +1835,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 62,
@@ -1763,12 +1888,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Vegetable Field"
     ]
   },
   {
@@ -1820,12 +1943,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Boulder",
+      "Tall Grass"
     ]
   },
   {
@@ -1854,6 +1976,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Boulder",
+      "Tall Grass"
     ]
   },
   {
@@ -1911,7 +2037,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 69,
@@ -1920,7 +2047,7 @@
       "Burn"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -1939,7 +2066,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 70,
@@ -1967,7 +2095,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 71,
@@ -1995,6 +2124,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tree Stump"
     ]
   },
   {
@@ -2002,6 +2134,38 @@
     "name": "Fraxure",
     "specialties": [
       "Chop"
+    ],
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tree Stump"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Haxorus",
+    "specialties": [
+      "Chop",
+      "Litter"
     ],
     "source": "main",
     "rarity": "Rare",
@@ -2023,35 +2187,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
-  },
-  {
-    "id": 73,
-    "name": "Haxorus",
-    "specialties": [
-      "Chop",
-      "Litter"
     ],
-    "source": "main",
-    "rarity": "Very Rare",
-    "time": [
-      "Morning",
-      "Day",
-      "Evening",
-      "Night"
-    ],
-    "weather": [
-      "Sun",
-      "Cloud",
-      "Rain"
-    ],
-    "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+    "habitat_type": [
+      "Tree Stump"
     ]
   },
   {
@@ -2078,7 +2216,11 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "rarity": "Common"
+    "rarity": "Common",
+    "habitat_type": [
+      "Berry Tree",
+      "Wildflowers"
+    ]
   },
   {
     "id": 75,
@@ -2104,6 +2246,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -2154,8 +2300,11 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Tall Grass",
+      "Water"
     ]
   },
   {
@@ -2178,9 +2327,14 @@
       "Rain"
     ],
     "zones": [
+      "Bleak Beach",
       "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 79,
@@ -2217,7 +2371,7 @@
       "Generate"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -2230,9 +2384,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 80,
@@ -2241,7 +2395,27 @@
       "Generate",
       "Hype"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 81,
@@ -2260,12 +2434,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -2291,6 +2464,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -2301,7 +2478,7 @@
       "Chop"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Night"
     ],
@@ -2317,6 +2494,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -2339,13 +2519,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Bleak Beach"
+    ],
+    "habitat_type": []
   },
   {
     "id": 85,
@@ -2402,6 +2578,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water"
     ]
   },
   {
@@ -2459,6 +2638,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Palm Tree"
     ]
   },
   {
@@ -2469,7 +2651,7 @@
       "Search"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -2482,12 +2664,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Lava"
     ]
   },
   {
@@ -2517,7 +2697,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 91,
@@ -2625,7 +2806,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 95,
@@ -2680,7 +2862,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 97,
@@ -2690,7 +2873,7 @@
       "Explode"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -2709,7 +2892,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 98,
@@ -2738,6 +2922,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Palm Tree",
+      "Seashore Flowers"
     ]
   },
   {
@@ -2748,7 +2936,7 @@
       "Teleport"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -2767,6 +2955,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Palm Tree",
+      "Seashore Flowers"
     ]
   },
   {
@@ -2789,13 +2981,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Palette Town"
+    ],
+    "habitat_type": []
   },
   {
     "id": 101,
@@ -2823,7 +3011,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 102,
@@ -2874,13 +3063,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Bleak Beach"
+    ],
+    "habitat_type": []
   },
   {
     "id": 104,
@@ -2889,7 +3074,7 @@
       "Generate"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -2908,7 +3093,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 105,
@@ -2937,7 +3123,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 106,
@@ -2959,12 +3146,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Large Palm Tree",
+      "Ocean Water"
     ]
   },
   {
@@ -2997,7 +3183,27 @@
     "specialties": [
       "Eat"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 108,
@@ -3020,8 +3226,10 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Large Tree"
     ]
   },
   {
@@ -3050,6 +3258,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3078,6 +3289,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3088,7 +3302,7 @@
       "Litter"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -3101,12 +3315,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3136,7 +3348,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 113,
@@ -3165,7 +3378,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 114,
@@ -3194,6 +3408,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3204,7 +3422,7 @@
       "Hype"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -3223,6 +3441,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water",
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3250,6 +3473,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Ocean Water"
     ]
   },
   {
@@ -3353,12 +3579,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Large Palm Tree"
     ]
   },
   {
@@ -3369,7 +3593,7 @@
       "Build"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -3388,6 +3612,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Palm Tree"
     ]
   },
   {
@@ -3417,7 +3644,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 123,
@@ -3445,6 +3673,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Seashore Flowers",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3473,6 +3705,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Seashore Flowers",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3496,12 +3732,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3531,6 +3766,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3581,12 +3820,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3616,6 +3854,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Waterfall",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3693,13 +3936,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Bleak Beach"
+    ],
+    "habitat_type": []
   },
   {
     "id": 133,
@@ -3728,7 +3967,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 134,
@@ -3750,12 +3990,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Seashore Flowers"
     ]
   },
   {
@@ -3785,6 +4023,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Seashore Flowers"
     ]
   },
   {
@@ -3813,7 +4054,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 137,
@@ -3870,6 +4112,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3899,7 +4144,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 140,
@@ -3922,8 +4168,11 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Berry Tree",
+      "Wildflowers"
     ]
   },
   {
@@ -3952,7 +4201,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 142,
@@ -3974,12 +4224,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Bleak Beach"
+    ],
+    "habitat_type": [
+      "Seashore Flowers"
     ]
   },
   {
@@ -4009,7 +4257,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 144,
@@ -4018,7 +4267,26 @@
       "Generate",
       "Crush"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 145,
@@ -4111,7 +4379,7 @@
       "Search"
     ],
     "source": "main",
-    "rarity": "Common",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -4130,6 +4398,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers",
+      "Water"
     ]
   },
   {
@@ -4158,6 +4430,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers",
+      "Water"
     ]
   },
   {
@@ -4183,6 +4459,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -4208,6 +4487,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -4218,7 +4500,7 @@
       "Trade"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Night"
     ],
@@ -4234,6 +4516,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -4262,6 +4547,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers",
+      "Tree Stump"
     ]
   },
   {
@@ -4290,6 +4579,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers",
+      "Tree Stump"
     ]
   },
   {
@@ -4347,6 +4640,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -4376,6 +4673,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -4399,8 +4700,11 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Large Boulder",
+      "Tall Grass"
     ]
   },
   {
@@ -4424,12 +4728,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -4459,6 +4761,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -4481,8 +4786,10 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -4505,12 +4812,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Moss",
+      "Mossy Boulder"
     ]
   },
   {
@@ -4534,12 +4840,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Moss",
+      "Mossy Boulder"
     ]
   },
   {
@@ -4562,8 +4867,10 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -4586,13 +4893,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Rocky Ridges"
+    ],
+    "habitat_type": []
   },
   {
     "id": 164,
@@ -4649,6 +4952,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -4677,6 +4984,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -4703,6 +5014,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers",
+      "Red Tall Grass"
     ]
   },
   {
@@ -4729,6 +5044,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -4758,6 +5076,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Moss"
     ]
   },
   {
@@ -4787,6 +5108,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -4816,6 +5141,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Moss",
+      "Vegetable Field"
     ]
   },
   {
@@ -4844,6 +5173,12 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Duckweed",
+      "Hot-Spring Water",
+      "Red Tall Grass",
+      "Water"
     ]
   },
   {
@@ -4853,7 +5188,7 @@
       "Water"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -4872,6 +5207,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water",
+      "Red Tall Grass",
+      "Water"
     ]
   },
   {
@@ -4901,6 +5241,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Duckweed",
+      "Water"
     ]
   },
   {
@@ -4924,9 +5268,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 176,
@@ -4948,12 +5292,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water",
+      "Moss"
     ]
   },
   {
@@ -4982,6 +5325,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5010,6 +5356,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5038,6 +5387,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5066,6 +5418,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5094,7 +5449,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 182,
@@ -5150,6 +5506,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -5160,7 +5519,7 @@
       "Litter"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -5179,6 +5538,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Lava",
+      "Molten Rock",
+      "Mountain Flowers"
     ]
   },
   {
@@ -5201,8 +5565,10 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Vegetable Field"
     ]
   },
   {
@@ -5226,12 +5592,12 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Large Boulder",
+      "Pointy Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -5261,6 +5627,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Boulder",
+      "Pointy Tree",
+      "Red Tall Grass"
     ]
   },
   {
@@ -5283,12 +5654,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5311,12 +5680,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water"
     ]
   },
   {
@@ -5327,7 +5694,7 @@
       "Hype"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -5346,6 +5713,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Red Tall Grass"
     ]
   },
   {
@@ -5369,8 +5739,11 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Tall Grass"
     ]
   },
   {
@@ -5379,7 +5752,27 @@
     "specialties": [
       "Party"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 193,
@@ -5408,7 +5801,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 194,
@@ -5431,13 +5825,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Rocky Ridges"
+    ],
+    "habitat_type": []
   },
   {
     "id": 195,
@@ -5488,9 +5878,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Rocky Ridges"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 197,
@@ -5575,6 +5965,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -5603,6 +5996,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mountain Flowers"
     ]
   },
   {
@@ -5625,12 +6021,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Rocky Ridges"
+    ],
+    "habitat_type": [
+      "Lava",
+      "Molten Rock"
     ]
   },
   {
@@ -5640,7 +6035,27 @@
       "Burn",
       "Trade"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 202,
@@ -5649,7 +6064,28 @@
       "Burn",
       "Trade"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ],
+    "habitat_type": []
   },
   {
     "id": 203,
@@ -5677,6 +6113,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Moss",
+      "Stalagmites"
     ]
   },
   {
@@ -5686,7 +6126,7 @@
       "Litter"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -5705,6 +6145,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Moss",
+      "Stalagmites"
     ]
   },
   {
@@ -5727,13 +6171,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Rocky Ridges"
+    ],
+    "habitat_type": []
   },
   {
     "id": 206,
@@ -5789,6 +6229,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -5798,7 +6241,7 @@
       "Burn"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -5817,6 +6260,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -5873,6 +6319,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers",
+      "Water"
     ]
   },
   {
@@ -5912,7 +6362,7 @@
       "Hype"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -5931,6 +6381,12 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water",
+      "Mountain Flowers",
+      "Tree Stump",
+      "Water"
     ]
   },
   {
@@ -5967,7 +6423,27 @@
     "specialties": [
       "Teleport"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 215,
@@ -6061,7 +6537,23 @@
     "specialties": [
       "Recycle"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Sparkling Skylands"
+    ],
+    "habitat_type": []
   },
   {
     "id": 219,
@@ -6145,6 +6637,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers",
+      "Water"
     ]
   },
   {
@@ -6258,6 +6754,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -6312,6 +6811,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -6322,7 +6824,7 @@
       "Trade"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Night"
     ],
@@ -6338,6 +6840,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -6366,6 +6871,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Skyland Flowers"
     ]
   },
   {
@@ -6395,6 +6904,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Skyland Flowers"
     ]
   },
   {
@@ -6423,7 +6936,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 232,
@@ -6594,6 +7108,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -6623,6 +7140,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -6652,6 +7172,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -6680,6 +7203,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -6734,6 +7260,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass"
     ]
   },
   {
@@ -6759,7 +7288,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 244,
@@ -6821,7 +7351,23 @@
     "specialties": [
       "Recycle"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Sparkling Skylands"
+    ],
+    "habitat_type": []
   },
   {
     "id": 247,
@@ -6830,7 +7376,27 @@
       "Recycle",
       "Crush"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 248,
@@ -6853,13 +7419,9 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
-    ]
+      "Sparkling Skylands"
+    ],
+    "habitat_type": []
   },
   {
     "id": 249,
@@ -6888,6 +7450,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Skyland Flowers"
     ]
   },
   {
@@ -6917,6 +7483,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Skyland Flowers"
     ]
   },
   {
@@ -6939,12 +7509,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Sparkling Skylands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass",
+      "Water"
     ]
   },
   {
@@ -6954,7 +7523,7 @@
       "Water"
     ],
     "source": "main",
-    "rarity": "Common",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -6973,6 +7542,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass",
+      "Water"
     ]
   },
   {
@@ -7002,6 +7575,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Pink Tall Grass",
+      "Water"
     ]
   },
   {
@@ -7024,9 +7601,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Sparkling Skylands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 255,
@@ -7054,7 +7631,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 256,
@@ -7105,12 +7683,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Sparkling Skylands"
+    ],
+    "habitat_type": [
+      "Skyland Flowers"
     ]
   },
   {
@@ -7139,6 +7715,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7149,7 +7729,7 @@
       "Fly"
     ],
     "source": "main",
-    "rarity": "Very Rare",
+    "rarity": "Rare",
     "time": [
       "Morning",
       "Day",
@@ -7168,6 +7748,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7197,6 +7781,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7226,6 +7814,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7277,12 +7869,11 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Sparkling Skylands"
+    ],
+    "habitat_type": [
+      "Large Tree",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7368,6 +7959,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7397,6 +7992,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location",
+      "Pink Tall Grass"
     ]
   },
   {
@@ -7419,9 +8018,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 269,
@@ -7430,7 +8029,7 @@
       "Build"
     ],
     "source": "main",
-    "rarity": "Rare",
+    "rarity": "Common",
     "time": [
       "Morning",
       "Day",
@@ -7443,9 +8042,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 270,
@@ -7501,7 +8100,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 272,
@@ -7558,7 +8158,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 274,
@@ -7586,7 +8187,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 275,
@@ -7615,7 +8217,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 276,
@@ -7643,7 +8246,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 277,
@@ -7672,7 +8276,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 278,
@@ -7729,7 +8334,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 280,
@@ -7751,12 +8357,10 @@
       "Rain"
     ],
     "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+      "Palette Town"
+    ],
+    "habitat_type": [
+      "Wildflowers"
     ]
   },
   {
@@ -7779,9 +8383,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 282,
@@ -7803,9 +8407,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 283,
@@ -7827,9 +8431,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 284,
@@ -7840,10 +8444,9 @@
     "source": "main",
     "rarity": "Common",
     "time": [
-      "Morning",
       "Day",
       "Evening",
-      "Night"
+      "Morning"
     ],
     "weather": [
       "Sun",
@@ -7851,9 +8454,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 285,
@@ -7864,9 +8467,6 @@
     "source": "main",
     "rarity": "Common",
     "time": [
-      "Morning",
-      "Day",
-      "Evening",
       "Night"
     ],
     "weather": [
@@ -7875,9 +8475,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 286,
@@ -7899,9 +8499,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 287,
@@ -7923,9 +8523,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 288,
@@ -7947,9 +8547,9 @@
       "Rain"
     ],
     "zones": [
-      "Cloud Island",
       "Palette Town"
-    ]
+    ],
+    "habitat_type": []
   },
   {
     "id": 289,
@@ -8067,6 +8667,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Dandy Flowers"
     ]
   },
   {
@@ -8074,6 +8677,39 @@
     "name": "Skiploom",
     "specialties": [
       "Grow"
+    ],
+    "source": "event",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Dandy Flowers",
+      "Water"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Jumpluff",
+    "specialties": [
+      "Grow",
+      "Litter"
     ],
     "source": "event",
     "rarity": "Rare",
@@ -8095,35 +8731,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Jumpluff",
-    "specialties": [
-      "Grow",
-      "Litter"
     ],
-    "source": "event",
-    "rarity": "Very Rare",
-    "time": [
-      "Morning",
-      "Day",
-      "Evening",
-      "Night"
-    ],
-    "weather": [
-      "Sun",
-      "Cloud",
-      "Rain"
-    ],
-    "zones": [
-      "Bleak Beach",
-      "Cloud Island",
-      "Palette Town",
-      "Rocky Ridges",
-      "Sparkling Skylands",
-      "Withered Wastelands"
+    "habitat_type": [
+      "Dandy Flowers"
     ]
   }
 ]

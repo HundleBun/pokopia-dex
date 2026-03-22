@@ -1,0 +1,558 @@
+======================================================================
+FULL CROSS-REFERENCE REPORT  (Serebii vs game8.co)
+======================================================================
+
+Checked : 256 pokemon
+Match   : 119
+Diff    : 107
+No page : 55
+Errors  : 30
+
+----------------------------------------------------------------------
+DISCREPANCIES  (current → game8 correct)
+----------------------------------------------------------------------
+
+Arcanine
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+  rarity     current: Rare
+             game8  : Common
+
+Bulbasaur
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Cacturne
+  rarity     current: Rare
+             game8  : Common
+
+Carkol
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Charcadet
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Charizard
+  rarity     current: Very Rare
+             game8  : Rare
+
+Charmander
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+  weather    current: ['Cloud', 'Rain', 'Sun']
+             game8  : ['Cloud', 'Sun']
+
+Charmeleon
+  weather    current: ['Cloud', 'Rain', 'Sun']
+             game8  : ['Cloud', 'Sun']
+  rarity     current: Common
+             game8  : Rare
+
+Cinderace
+  rarity     current: Very Rare
+             game8  : Rare
+
+Clefable
+  rarity     current: Very Rare
+             game8  : Rare
+
+Combee
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Combusken
+  rarity     current: Rare
+             game8  : Common
+
+Corviknight
+  rarity     current: Very Rare
+             game8  : Rare
+
+Cramorant
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Crobat
+  rarity     current: Very Rare
+             game8  : Rare
+
+Dartrix
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Dedenne
+  zones      current: ['Cloud Island', 'Sparkling Skylands']
+             game8  : ['Sparkling Skylands']
+
+Drifloon
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Drilbur
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Eevee
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Palette Town']
+
+Ekans
+  rarity     current: Common
+             game8  : Rare
+
+Electabuzz
+  rarity     current: Rare
+             game8  : Common
+
+Electrode
+  rarity     current: Very Rare
+             game8  : Common
+
+Elekid
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Espeon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+  time       current: ['Day', 'Evening', 'Morning', 'Night']
+             game8  : ['Day', 'Evening', 'Morning']
+
+Exeggutor
+  rarity     current: Very Rare
+             game8  : Rare
+
+Flareon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Fraxure
+  rarity     current: Rare
+             game8  : Common
+
+Froakie
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Frogadier
+  rarity     current: Common
+             game8  : Rare
+
+Geodude
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Gimmighoul
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Glaceon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Glimmora
+  rarity     current: Rare
+             game8  : Common
+
+Golem
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Graveler
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Gulpin
+  zones      current: ['Cloud Island', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+  rarity     current: 
+             game8  : Common
+
+Happiny
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Palette Town']
+
+Haxorus
+  rarity     current: Very Rare
+             game8  : Rare
+
+Hitmonchan
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Jolteon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Jumpluff
+  rarity     current: Very Rare
+             game8  : Rare
+
+Koffing
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Lampent
+  rarity     current: Rare
+             game8  : Common
+
+Lapras
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Leafeon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Lombre
+  rarity     current: Rare
+             game8  : Common
+
+Machoke
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Machop
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Magby
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Magikarp
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Magmar
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Magneton
+  rarity     current: Rare
+             game8  : Common
+
+Makuhita
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Mareep
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+  rarity     current: Rare
+             game8  : Common
+
+Marill
+  rarity     current: Rare
+             game8  : Common
+
+Mawile
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Meowth
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Metang
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Mismagius
+  rarity     current: Very Rare
+             game8  : Rare
+
+Ninetales
+  rarity     current: Rare
+             game8  : Common
+
+Noctowl
+  time       current: ['Day', 'Evening', 'Morning', 'Night']
+             game8  : ['Night']
+  rarity     current: Rare
+             game8  : Common
+
+Onix
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Pawmi
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Pichu
+  zones      current: ['Cloud Island', 'Withered Wastelands']
+             game8  : ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+
+Pidgey
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+  time       current: ['Day', 'Evening', 'Morning', 'Night']
+             game8  : ['Day', 'Evening', 'Morning']
+
+Pikachu
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+  rarity     current: Rare
+             game8  : Common
+
+Pinsir
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Piplup
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Politoed
+  rarity     current: Rare
+             game8  : Common
+
+Porygon
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Raboot
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Rookidee
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Rowlet
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Scizor
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Scorbunny
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Scyther
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Shellos
+  rarity     current: Common
+             game8  : Rare
+
+Shellos East Sea
+  rarity     current: Common
+             game8  : Rare
+
+Skiploom
+  rarity     current: Rare
+             game8  : Common
+
+Skwovet
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Slowbro
+  rarity     current: Very Rare
+             game8  : Rare
+
+Slowking
+  rarity     current: Very Rare
+             game8  : Rare
+
+Slowpoke
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Snivy
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Snorlax
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Sprigatito
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Sparkling Skylands']
+
+Squirtle
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Sylveon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Timburr
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Tinkatink
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Tinkatuff
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+  rarity     current: Rare
+             game8  : Common
+
+Torchic
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Torkoal
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Rocky Ridges']
+
+Toxel
+  zones      current: ['Cloud Island', 'Rocky Ridges']
+             game8  : ['Rocky Ridges']
+
+Trubbish
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Tyrogue
+  rarity     current: CommonCommon
+             game8  : Common
+
+Umbreon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+  time       current: ['Day', 'Evening', 'Morning', 'Night']
+             game8  : ['Night']
+
+Vaporeon
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Vespiquen
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Withered Wastelands']
+
+Victreebel
+  rarity     current: Very Rare
+             game8  : Common
+
+Vikavolt
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+
+Volcarona
+  rarity     current: Very Rare
+             game8  : Rare
+
+Weepinbell
+  rarity     current: Rare
+             game8  : Common
+
+Weezing
+  zones      current: ['Cloud Island', 'Palette Town']
+             game8  : ['Palette Town']
+  rarity     current: Rare
+             game8  : Common
+
+Zorua
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+Zubat
+  zones      current: ['Bleak Beach', 'Cloud Island', 'Palette Town', 'Rocky Ridges', 'Sparkling Skylands', 'Withered Wastelands']
+             game8  : ['Bleak Beach']
+
+----------------------------------------------------------------------
+NO GAME8 PAGE (skipped)
+----------------------------------------------------------------------
+  Absol
+  Amaura
+  Armarouge
+  Articuno
+  Beldum
+  Blissey
+  Cinccino
+  Coalossal
+  Cranidos
+  Ditto
+  Dragapult
+  Drifblim
+  Empoleon
+  Entei
+  Floragato
+  Gardevoir
+  Gengar
+  Gholdengo
+  Golduck
+  Goodra
+  Greedent
+  Ho-Oh
+  Kadabra
+  Kirlia
+  Kyogre
+  Lugia
+  Magmortar
+  Metagross
+  Mew
+  Mewtwo
+  Moltres
+  Mosslax
+  Munchlax
+  Noivern
+  Peakychu
+  Pidgeot
+  Poliwag
+  Professor Tangrowth
+  Raikou
+  Smeargle
+  Stereo Rotom
+  Suicune
+  Swalot
+  Tangela
+  Tangrowth
+  Tatsugiri Curly Form
+  Tatsugiri Droopy Form
+  Tatsugiri Stretchy Form
+  Tinkaton
+  Toxtricity Amped Form
+  Toxtricity Low Key Form
+  Typhlosion
+  Volcanion
+  Wigglytuff
+  Zapdos
+
+----------------------------------------------------------------------
+PARSE / FETCH FAILURES
+----------------------------------------------------------------------
+  Abra: no zones found on page
+  Alakazam: no zones found on page
+  Altaria: no zones found on page
+  Audino: no zones found on page
+  Clodsire: no zones found on page
+  Conkeldurr: no zones found on page
+  Cyndaquil: no zones found on page
+  Dragonair: no zones found on page
+  Dragonite: no zones found on page
+  Dusknoir: no zones found on page
+  Excadrill: no zones found on page
+  Gallade: no zones found on page
+  Gastly: no zones found on page
+  Grimer: no zones found on page
+  Gyarados: no zones found on page
+  Magnemite: no zones found on page
+  Magnezone: no zones found on page
+  Meowscarada: no zones found on page
+  Mime Jr.: no zones found on page
+  Minun: no zones found on page
+  Mr. Mime: no zones found on page
+  Muk: no zones found on page
+  Paldean Wooper: no zones found on page
+  Pawmot: no zones found on page
+  Persian: no zones found on page
+  Plusle: no zones found on page
+  Poliwrath: no zones found on page
+  Porygon-Z: no zones found on page
+  Porygon2: no zones found on page
+  Raichu: no zones found on page

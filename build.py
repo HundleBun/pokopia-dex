@@ -215,6 +215,7 @@ body::before{{
 .fpill.f-zone.active{{background:rgba(41,182,246,0.15);border-color:rgba(41,182,246,0.5);color:#81d4fa}}
 .fpill.f-time.active{{background:rgba(255,183,77,0.15);border-color:rgba(255,183,77,0.5);color:#ffe082}}
 .fpill.f-weather.active{{background:rgba(100,181,246,0.15);border-color:rgba(100,181,246,0.5);color:#bbdefb}}
+.fpill.f-habitat.active{{background:rgba(102,187,106,0.15);border-color:rgba(102,187,106,0.5);color:#a5d6a7}}
 .combo-toggle{{
   display:flex;align-items:center;gap:8px;margin-top:4px;
   cursor:pointer;font-size:0.78rem;color:var(--muted);
@@ -302,6 +303,9 @@ body::before{{
 .ic-zone{{background:rgba(41,182,246,0.1);border-color:rgba(41,182,246,0.25);color:#81d4fa}}
 .ic-time{{background:rgba(255,183,77,0.1);border-color:rgba(255,183,77,0.25);color:#ffe082}}
 .ic-weather{{background:rgba(100,181,246,0.1);border-color:rgba(100,181,246,0.25);color:#bbdefb}}
+.ic-habitat{{background:rgba(102,187,106,0.1);border-color:rgba(102,187,106,0.25);color:#a5d6a7}}
+.ic-clickable{{cursor:pointer;transition:filter 0.15s,transform 0.15s}}
+.ic-clickable:hover{{filter:brightness(1.3);transform:translateY(-1px)}}
 
 /* ── HABITAT GRID ── */
 .hab-grid{{
@@ -335,6 +339,8 @@ body::before{{
 .hab-poke-section{{margin-top:10px;}}
 .hab-poke-title{{font-size:0.6rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:5px;}}
 .hab-poke-list{{font-size:0.75rem;color:var(--text-soft);line-height:1.7;}}
+.hab-poke-link{{cursor:pointer;color:var(--text-soft);transition:color 0.15s}}
+.hab-poke-link:hover{{color:var(--accent)}}
 .hab-poke-more{{font-size:0.72rem;color:var(--muted);font-style:italic;cursor:pointer;}}
 .hab-poke-more:hover{{color:var(--accent)}}
 .hab-poke-extra{{display:none}}
@@ -432,6 +438,10 @@ body::before{{
           Zone
           <button class="clear-btn" id="clearZone" onclick="clearFilter('zone')">Clear</button>
         </div>
+        <div class="combo-toggle">
+          <input type="checkbox" id="zoneStrict" onchange="applyFilters()"/>
+          <label for="zoneStrict">Exclusive (selected zones only)</label>
+        </div>
         <div class="filter-pills" id="zoneFilters"></div>
       </div>
 
@@ -461,9 +471,21 @@ body::before{{
           <button class="fpill f-weather" data-weather="Fog"   onclick="toggleFilter('weather',this)">🌫️ Fog</button>
         </div>
       </div>
+      <div class="filter-group" id="habitatTypeFilterGroup">
+        <div class="filter-group-title">
+          Habitat Type
+          <button class="clear-btn" id="clearHabitatType" onclick="clearFilter('habitat_type')">Clear</button>
+        </div>
+        <div class="filter-pills" id="habitatTypeFilters"></div>
+      </div>
     </div>
 
     <div id="habitatFilters" class="hidden">
+      <div id="habitatNavBanner" class="filter-group" style="display:none">
+        <div class="filter-group-title">Viewing habitats for</div>
+        <div id="habitatNavInfo" style="font-size:0.82rem;line-height:1.6;padding:0 2px"></div>
+        <button class="clear-btn visible" style="margin-top:8px" onclick="clearHabitatNav()">Clear &amp; show all</button>
+      </div>
       <div class="filter-group">
         <div class="filter-group-title">Search habitats</div>
         <div style="font-size:0.78rem;color:var(--muted);padding:0 2px;line-height:1.5">
@@ -507,16 +529,18 @@ const ALL_ZONES = (() => {{
 const state = {{
   tab: 'pokedex',
   search: '',
-  filters: {{ spec: [], rarity: [], zone: [], time: [], weather: [] }},
+  filters: {{ spec: [], rarity: [], zone: [], time: [], weather: [], habitat_type: [] }},
   pokePage: 1,
   habPage:  1,
   PAGE_SIZE: 24,
+  habitatNav: null,   // {{pokemonName, habitatType}} when navigating from a card chip
 }};
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 function init() {{
   buildSpecFilters();
   buildZoneFilters();
+  buildHabitatTypeFilters();
   renderPokedex();
   renderHabitatDex();
   updateResultsCount();
@@ -559,10 +583,29 @@ function buildZoneFilters() {{
   if (!hasWeather) document.getElementById('weatherFilterGroup').style.display = 'none';
 }}
 
+function buildHabitatTypeFilters() {{
+  const container = document.getElementById('habitatTypeFilters');
+  container.innerHTML = '';
+  const allTypes = [...new Set(POKEMON.flatMap(p => p.habitat_type || []))].sort();
+  if (allTypes.length === 0) {{
+    document.getElementById('habitatTypeFilterGroup').style.display = 'none';
+    return;
+  }}
+  allTypes.forEach(ht => {{
+    const btn = document.createElement('button');
+    btn.className = 'fpill f-habitat';
+    btn.dataset.habitat_type = ht;
+    btn.textContent = ht;
+    btn.onclick = function() {{ toggleFilter('habitat_type', this); }};
+    container.appendChild(btn);
+  }});
+}}
+
 // ── TAB SWITCHING ─────────────────────────────────────────────────────────────
 function switchTab(tab, btn) {{
   state.tab = tab;
   state.search = '';
+  state.habitatNav = null;   // clear card-chip navigation when user switches tabs manually
   document.getElementById('searchInput').value = '';
   document.querySelectorAll('.htab').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
@@ -578,7 +621,8 @@ function switchTab(tab, btn) {{
 // ── FILTERS ───────────────────────────────────────────────────────────────────
 function toggleFilter(group, btn) {{
   const val = btn.dataset[group] || btn.dataset.spec || btn.dataset.rarity ||
-              btn.dataset.zone  || btn.dataset.time  || btn.dataset.weather;
+              btn.dataset.zone  || btn.dataset.time  || btn.dataset.weather ||
+              btn.dataset.habitat_type;
   const arr = state.filters[group];
   const idx = arr.indexOf(val);
   if (idx === -1) arr.push(val); else arr.splice(idx, 1);
@@ -607,7 +651,8 @@ function clearFilter(group) {{
   state.filters[group] = [];
   const idMap = {{
     spec: 'specFilters', rarity: 'rarityFilters',
-    zone: 'zoneFilters', time: 'timeFilters', weather: 'weatherFilters'
+    zone: 'zoneFilters', time: 'timeFilters', weather: 'weatherFilters',
+    habitat_type: 'habitatTypeFilters'
   }};
   const container = document.getElementById(idMap[group]);
   if (container) {{
@@ -630,7 +675,8 @@ function applyFilters() {{
 
 function updateClearButtons() {{
   [['clearSpec','spec'],['clearRarity','rarity'],
-   ['clearZone','zone'],['clearTime','time'],['clearWeather','weather']].forEach(([btnId, key]) => {{
+   ['clearZone','zone'],['clearTime','time'],['clearWeather','weather'],
+   ['clearHabitatType','habitat_type']].forEach(([btnId, key]) => {{
     const el = document.getElementById(btnId);
     if (el) el.classList.toggle('visible', (state.filters[key]||[]).length > 0);
   }});
@@ -645,7 +691,8 @@ function onSearch() {{
 }}
 
 function clearAllFilters() {{
-  ['spec','rarity','zone','time','weather'].forEach(g => state.filters[g] = []);
+  state.habitatNav = null;
+  ['spec','rarity','zone','time','weather','habitat_type'].forEach(g => state.filters[g] = []);
   document.querySelectorAll('.fpill.active').forEach(b => {{
     b.classList.remove('active');
     b.style.background = b.style.borderColor = b.style.color = '';
@@ -661,15 +708,26 @@ function clearAllFilters() {{
 
 // ── FILTERING ─────────────────────────────────────────────────────────────────
 function filterPokemon() {{
-  const {{ spec, rarity, zone, time, weather }} = state.filters;
+  const {{ spec, rarity, zone, time, weather, habitat_type }} = state.filters;
   const and = document.getElementById('comboAnd')?.checked;
   const q   = state.search;
   return POKEMON.filter(p => {{
     if (q && !p.name.toLowerCase().includes(q)) return false;
     if (rarity.length && !rarity.includes(p.rarity)) return false;
-    if (zone.length    && !zone.some(z    => (p.zones   ||[]).includes(z)))    return false;
-    if (time.length    && !time.some(t    => (p.time    ||[]).includes(t)))    return false;
-    if (weather.length && !weather.some(w => (p.weather ||[]).includes(w)))    return false;
+    if (zone.length) {{
+      const pZones = p.zones || [];
+      const strict = document.getElementById('zoneStrict')?.checked;
+      if (strict) {{
+        // Pokémon must spawn in exactly the selected zones — no more, no fewer
+        if (!zone.every(z => pZones.includes(z))) return false;
+        if (pZones.some(z => !zone.includes(z)))  return false;
+      }} else {{
+        if (!zone.some(z => pZones.includes(z))) return false;
+      }}
+    }}
+    if (time.length         && !time.some(t  => (p.time         ||[]).includes(t)))  return false;
+    if (weather.length      && !weather.some(w => (p.weather    ||[]).includes(w)))  return false;
+    if (habitat_type.length && !habitat_type.some(h => (p.habitat_type||[]).includes(h))) return false;
     if (spec.length) {{
       if (and) return spec.every(s => (p.specialties || []).includes(s));
       else     return spec.some(s  => (p.specialties || []).includes(s));
@@ -679,6 +737,14 @@ function filterPokemon() {{
 }}
 
 function filterHabitats() {{
+  // Pokémon card chip navigation takes priority over text search
+  if (state.habitatNav) {{
+    const {{ pokemonName, habitatType }} = state.habitatNav;
+    return HABITATS.filter(h =>
+      (h.types || []).includes(habitatType) &&
+      (h.pokemon || []).includes(pokemonName)
+    );
+  }}
   const q = state.search;
   if (!q) return HABITATS;
   return HABITATS.filter(h =>
@@ -776,8 +842,10 @@ function buildPokeCard(p) {{
     row.className = 'info-row';
     zones.forEach(z => {{
       const chip = document.createElement('span');
-      chip.className = 'info-chip ic-zone';
+      chip.className = 'info-chip ic-zone ic-clickable';
       chip.textContent = z;
+      chip.title = 'Filter by zone';
+      chip.onclick = () => applyChipFilter('zone', z);
       row.appendChild(chip);
     }});
     card.appendChild(row);
@@ -803,8 +871,10 @@ function buildPokeCard(p) {{
       const TICONS = {{Morning:'🌅',Day:'☀️',Evening:'🌇',Night:'🌙'}};
       timeVals.forEach(t => {{
         const chip = document.createElement('span');
-        chip.className = 'info-chip ic-time';
+        chip.className = 'info-chip ic-time ic-clickable';
         chip.textContent = (TICONS[t]||'') + ' ' + t;
+        chip.title = 'Filter by time';
+        chip.onclick = () => applyChipFilter('time', t);
         row.appendChild(chip);
       }});
       card.appendChild(row);
@@ -819,12 +889,35 @@ function buildPokeCard(p) {{
       const WICONS = {{Sun:'☀️',Cloud:'☁️',Rain:'🌧️',Snow:'❄️',Fog:'🌫️'}};
       weatherVals.forEach(w => {{
         const chip = document.createElement('span');
-        chip.className = 'info-chip ic-weather';
+        chip.className = 'info-chip ic-weather ic-clickable';
         chip.textContent = (WICONS[w]||'') + ' ' + w;
+        chip.title = 'Filter by weather';
+        chip.onclick = () => applyChipFilter('weather', w);
         row.appendChild(chip);
       }});
       card.appendChild(row);
     }}
+  }}
+
+  // Habitat Type
+  const habitatTypes = p.habitat_type || [];
+  if (habitatTypes.length > 0) {{
+    card.appendChild(makeDivider());
+    const lbl = document.createElement('div');
+    lbl.className = 'section-lbl';
+    lbl.textContent = 'Habitat';
+    card.appendChild(lbl);
+    const row = document.createElement('div');
+    row.className = 'info-row';
+    habitatTypes.forEach(ht => {{
+      const chip = document.createElement('span');
+      chip.className = 'info-chip ic-habitat ic-clickable';
+      chip.textContent = ht;
+      chip.title = 'View habitats for this Pokémon';
+      chip.onclick = () => goToHabitatsByType(p.name, ht);
+      row.appendChild(chip);
+    }});
+    card.appendChild(row);
   }}
 
   // bottom padding
@@ -836,7 +929,25 @@ function buildPokeCard(p) {{
 }}
 
 // ── HABITAT DEX RENDER ────────────────────────────────────────────────────────
+function clearHabitatNav() {{
+  state.habitatNav = null;
+  state.habPage = 1;
+  renderHabitatDex();
+  updateResultsCount();
+}}
+
 function renderHabitatDex() {{
+  // Show/hide the nav context banner in the sidebar
+  const banner = document.getElementById('habitatNavBanner');
+  const info   = document.getElementById('habitatNavInfo');
+  if (state.habitatNav && banner && info) {{
+    const {{ pokemonName, habitatType }} = state.habitatNav;
+    info.innerHTML = `<strong>${{pokemonName}}</strong><br><span style="color:var(--muted)">${{habitatType}}</span>`;
+    banner.style.display = '';
+  }} else if (banner) {{
+    banner.style.display = 'none';
+  }}
+
   const filtered   = filterHabitats();
   const totalPages = Math.max(1, Math.ceil(filtered.length / state.PAGE_SIZE));
   state.habPage    = Math.min(state.habPage, totalPages);
@@ -895,13 +1006,14 @@ function buildHabCard(h) {{
     const preview = pokes.slice(0, 6);
     const extra   = pokes.slice(6);
     const uid = `hpx-${{h.id}}`;
+    const pokeLink = name => `<span class="hab-poke-link" onclick="goToPokemon(this)" data-name="${{name}}">${{name}}</span>`;
     html += `<div class="hab-poke-section">
       <div class="hab-poke-title">Pokémon (${{pokes.length}})</div>
       <div class="hab-poke-list">
-        ${{preview.join(', ')}}`;
+        ${{preview.map(pokeLink).join(', ')}}`;
     if (extra.length > 0) {{
       html += `<span class="hab-poke-more" onclick="toggleExtra('${{uid}}')"> +${{extra.length}} more</span>
-               <span class="hab-poke-extra" id="${{uid}}">${{extra.length > 0 ? ', ' + extra.join(', ') : ''}}</span>`;
+               <span class="hab-poke-extra" id="${{uid}}">, ${{extra.map(pokeLink).join(', ')}}</span>`;
     }}
     html += `</div></div>`;
   }}
@@ -917,6 +1029,87 @@ function toggleExtra(uid) {{
   el.classList.toggle('open');
   const btn = el.previousElementSibling;
   if (btn) btn.style.display = el.classList.contains('open') ? 'none' : '';
+}}
+
+// ── NAVIGATION HELPERS ────────────────────────────────────────────────────────
+function goToHabitat(zoneName) {{
+  const htab = document.querySelector('.htab:nth-child(2)');
+  switchTab('habitatdex', htab);
+  const filtered = filterHabitats();
+  const idx = filtered.findIndex(h => h.name === zoneName);
+  if (idx === -1) return;
+  state.habPage = Math.floor(idx / state.PAGE_SIZE) + 1;
+  renderHabitatDex();
+  setTimeout(() => {{
+    const hab = filtered[idx];
+    const card = document.getElementById(`hcard-${{hab.id}}`);
+    if (card) {{
+      card.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+      card.style.outline = '2px solid var(--accent)';
+      card.style.outlineOffset = '2px';
+      setTimeout(() => {{ card.style.outline = ''; card.style.outlineOffset = ''; }}, 1500);
+    }}
+  }}, 50);
+}}
+
+function goToPokemon(el) {{
+  const name = el.dataset.name;
+  const htab = document.querySelector('.htab:nth-child(1)');
+  switchTab('pokedex', htab);
+  const poke = POKEMON.find(p => p.name === name);
+  if (!poke) return;
+  let filtered = filterPokemon();
+  if (!filtered.find(p => p.name === name)) {{
+    clearAllFilters();
+    filtered = filterPokemon();
+  }}
+  const idx = filtered.findIndex(p => p.name === name);
+  if (idx === -1) return;
+  state.pokePage = Math.floor(idx / state.PAGE_SIZE) + 1;
+  renderPokedex();
+  setTimeout(() => {{
+    const card = document.getElementById(`pcard-${{poke.id}}`);
+    if (card) {{
+      card.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
+      card.style.outline = '2px solid var(--accent)';
+      card.style.outlineOffset = '2px';
+      setTimeout(() => {{ card.style.outline = ''; card.style.outlineOffset = ''; }}, 1500);
+    }}
+  }}, 50);
+}}
+
+function applyChipFilter(group, value) {{
+  const idMap   = {{ time: 'timeFilters', weather: 'weatherFilters', zone: 'zoneFilters', habitat_type: 'habitatTypeFilters' }};
+  const container = document.getElementById(idMap[group]);
+  if (!container) return;
+  const btn = container.querySelector(`[data-${{group}}="${{value}}"]`);
+  if (btn) toggleFilter(group, btn);
+}}
+
+// ── HABITAT NAVIGATION FROM POKÉMON CARD ──────────────────────────────────────
+// Called when a user clicks a habitat chip on a Pokémon card.
+// Switches to the Habitat Dex and shows only the habitats that:
+//   (a) are of the clicked terrain type, AND
+//   (b) this specific Pokémon actually spawns in.
+function goToHabitatsByType(pokemonName, habitatType) {{
+  state.habitatNav = {{ pokemonName, habitatType }};
+  state.search = '';
+  state.habPage = 1;
+  document.getElementById('searchInput').value = '';
+
+  // Activate the Habitat Dex tab visually (mirrors switchTab without clearing habitatNav)
+  state.tab = 'habitatdex';
+  document.querySelectorAll('.htab').forEach(b => b.classList.remove('active'));
+  const habTab = document.querySelector('.htab:nth-child(2)');
+  if (habTab) habTab.classList.add('active');
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-habitatdex').classList.add('active');
+  document.getElementById('pokedexFilters').classList.add('hidden');
+  document.getElementById('habitatFilters').classList.remove('hidden');
+
+  renderHabitatDex();
+  updateResultsCount();
+  document.getElementById('mainContent').scrollTop = 0;
 }}
 
 // ── QUICK FILTER SHORTCUT ─────────────────────────────────────────────────────

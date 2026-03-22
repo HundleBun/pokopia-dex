@@ -256,11 +256,13 @@ def scrape_legendary_pokemon():
 
 def make_slug(name):
     """Convert habitat name to Serebii URL slug.
-    Rule: lowercase, strip apostrophes + spaces, KEEP hyphens.
+    Rule: lowercase, strip spaces, KEEP hyphens and apostrophes.
+    e.g. "Chef's kitchen" → "chef'skitchen"
+         "Piping-hot lava" → "piping-hotlava"
     """
     slug = name.lower()
-    slug = slug.replace("'", "").replace(" ", "")  # strip apostrophes and spaces
-    slug = re.sub(r"[^a-z0-9\-]", "", slug)        # strip everything else except hyphens
+    slug = slug.replace(" ", "")                     # strip spaces only
+    slug = re.sub(r"[^a-z0-9\-'\u00c0-\u024f]", "", slug)  # keep hyphens, apostrophes, accented chars
     return slug
 
 
