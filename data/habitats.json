@@ -21,12 +21,45 @@
   {
     "id": 2,
     "name": "Tree-shaded tall grass",
-    "description": "Shaded tall grass that stays cool, even in the midday sun. Pokémon might stop by to relax"
+    "description": "Shaded tall grass that stays cool, even in the midday sun. Pokémon might stop by to relax",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      },
+      {
+        "item": "Tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Scyther",
+      "Scizor",
+      "Pinsir",
+      "Bellsprout",
+      "Skwovet",
+      "Heracross"
+    ]
   },
   {
     "id": 3,
     "name": "Boulder-shaded Tall Grass",
-    "description": "tall grass near a large boulder. Perfect for hide-and-seek"
+    "description": "tall grass near a large boulder. Perfect for hide-and-seek",
+    "requirements": [
+      {
+        "item": "Tall Grass",
+        "qty": 4
+      },
+      {
+        "item": "Large Boulder",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Timburr",
+      "Machop",
+      "Gurdurr"
+    ]
   },
   {
     "id": 4,
@@ -128,7 +161,22 @@
   {
     "id": 9,
     "name": "Tree-shaded flower bed",
-    "description": "Beautifully blooming flowers beneath the shade ofa tree. Pokémon are attracted by the damp scent"
+    "description": "Beautifully blooming flowers beneath the shade ofa tree. Pokémon are attracted by the damp scent",
+    "requirements": [
+      {
+        "item": "Wildflowers",
+        "qty": 4
+      },
+      {
+        "item": "Berry tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Goomy",
+      "Cacturne",
+      "Vikavolt"
+    ]
   },
   {
     "id": 10,
@@ -703,12 +751,46 @@
   {
     "id": 39,
     "name": "Luxury chirp-chirp meal",
-    "description": "Bird Pokémon can lounge in the birdhouse after enjoying a meal of various berries"
+    "description": "Bird Pokémon can lounge in the birdhouse after enjoying a meal of various berries",
+    "requirements": [
+      {
+        "item": "Wooden birdhouse",
+        "qty": 1
+      },
+      {
+        "item": "Berry Basket",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Pidgeot"
+    ]
   },
   {
     "id": 40,
     "name": "Berry-feast Campsite",
-    "description": "A cozy campfire underneat a clear sky. Prepare a big feast and have a good time!"
+    "description": "A cozy campfire underneat a clear sky. Prepare a big feast and have a good time!",
+    "requirements": [
+      {
+        "item": "Castform weather charm (sun)",
+        "qty": 2
+      },
+      {
+        "item": "Bonfire",
+        "qty": 1
+      },
+      {
+        "item": "Berry Basket",
+        "qty": 1
+      },
+      {
+        "item": "High-up Location",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Charizard"
+    ]
   },
   {
     "id": 41,
@@ -778,7 +860,28 @@
   {
     "id": 45,
     "name": "Very-berry space",
-    "description": "A berry table, a berry bedâ¦Everything's a berry! Just looking at them makes you hungry"
+    "description": "A berry table, a berry bedâ¦Everything's a berry! Just looking at them makes you hungry",
+    "requirements": [
+      {
+        "item": "Berry chair",
+        "qty": 1
+      },
+      {
+        "item": "Berry bed",
+        "qty": 1
+      },
+      {
+        "item": "Berry table",
+        "qty": 1
+      },
+      {
+        "item": "Berry table lamp",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Goodra"
+    ]
   },
   {
     "id": 46,
@@ -809,12 +912,44 @@
   {
     "id": 47,
     "name": "Tree-shaded snoozing Snorlax",
-    "description": "Pokémon might come here mistakenly thinking that this is an actual sleeping Snorlax!"
+    "description": "Pokémon might come here mistakenly thinking that this is an actual sleeping Snorlax!",
+    "requirements": [
+      {
+        "item": "Large tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Munchlax",
+      "Snorlax"
+    ]
   },
   {
     "id": 48,
     "name": "Good old-fashioned antiques",
-    "description": "Enjoy the retro vibe of this collection of wonderful antique furniture!"
+    "description": "Enjoy the retro vibe of this collection of wonderful antique furniture!",
+    "requirements": [
+      {
+        "item": "Antique closet",
+        "qty": 1
+      },
+      {
+        "item": "Antique bed",
+        "qty": 1
+      },
+      {
+        "item": "Antique dresser",
+        "qty": 1
+      },
+      {
+        "item": "Antique chair",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Weezing",
+      "Snorlax"
+    ]
   },
   {
     "id": 49,
@@ -840,7 +975,23 @@
   {
     "id": 51,
     "name": "Tree-shaded Yellow tall grass",
-    "description": "Yellow tall grass in the shade of a tree. The habitat has a melancholy feel to it."
+    "description": "Yellow tall grass in the shade of a tree. The habitat has a melancholy feel to it.",
+    "requirements": [
+      {
+        "item": "Yellow tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Large tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Zubat",
+      "Golbat",
+      "Makuhita",
+      "Hariyama"
+    ]
   },
   {
     "id": 52,
@@ -1192,7 +1343,25 @@
   {
     "id": 69,
     "name": "Chirp-chirp meal",
-    "description": "Bird Pokémon are sure to come and enjoy feasting on the plated food."
+    "description": "Bird Pokémon are sure to come and enjoy feasting on the plated food.",
+    "requirements": [
+      {
+        "item": "Wooden birdhouse",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Plated food",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Torchic",
+      "Blaziken"
+    ]
   },
   {
     "id": 70,
@@ -1226,7 +1395,21 @@
   {
     "id": 72,
     "name": "Light-up stage",
-    "description": "A stage bathed in dazzling light. It seems likely to attract attention-seeking Pokémon"
+    "description": "A stage bathed in dazzling light. It seems likely to attract attention-seeking Pokémon",
+    "requirements": [
+      {
+        "item": "Spotlight",
+        "qty": 2
+      },
+      {
+        "item": "Small Stage",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Electabuzz",
+      "Electivire"
+    ]
   },
   {
     "id": 73,
@@ -1333,7 +1516,25 @@
   {
     "id": 78,
     "name": "Hot-spring shower",
-    "description": "You can't jump in the hot spring without rinsing off at a shower first! Pokémon might enjoy soaking here"
+    "description": "You can't jump in the hot spring without rinsing off at a shower first! Pokémon might enjoy soaking here",
+    "requirements": [
+      {
+        "item": "Shower",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Hot-spring water",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Psyduck",
+      "Golduck"
+    ]
   },
   {
     "id": 79,
@@ -1769,12 +1970,46 @@
   {
     "id": 99,
     "name": "Tree-shaded red tall grass",
-    "description": "Pokmon are drawn to this place, invited by the damp aroma of the red tall grass."
+    "description": "Pokmon are drawn to this place, invited by the damp aroma of the red tall grass.",
+    "requirements": [
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Large tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Diglett",
+      "Dugtrio",
+      "Bonsly",
+      "Sudowoodo"
+    ]
   },
   {
     "id": 100,
     "name": "Pointy tree-shaded rocky tall grass",
-    "description": "Lean against the rock in the tall grass, and take a break while admiring the large pointy tree."
+    "description": "Lean against the rock in the tall grass, and take a break while admiring the large pointy tree.",
+    "requirements": [
+      {
+        "item": "Pointy tree",
+        "qty": 1
+      },
+      {
+        "item": "Red tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Large Boulder",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Dartrix",
+      "Decidueye"
+    ]
   },
   {
     "id": 101,
@@ -1855,7 +2090,22 @@
   {
     "id": 105,
     "name": "Tree-shaded graceful flower bed",
-    "description": "The elegant aroma of these mountain flowers wafts all throughout the area"
+    "description": "The elegant aroma of these mountain flowers wafts all throughout the area",
+    "requirements": [
+      {
+        "item": "Pointyt ree",
+        "qty": 1
+      },
+      {
+        "item": "Mountain flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Murkrow",
+      "Larvesta",
+      "Volcarona"
+    ]
   },
   {
     "id": 106,
@@ -1993,7 +2243,20 @@
   {
     "id": 113,
     "name": "Open-air bath",
-    "description": "Pokémon can also soak in a nice hot spring while enjoying beautiful scenery"
+    "description": "Pokémon can also soak in a nice hot spring while enjoying beautiful scenery",
+    "requirements": [
+      {
+        "item": "Hot-spring spout",
+        "qty": 1
+      },
+      {
+        "item": "Hot-spring water",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Raboot"
+    ]
   },
   {
     "id": 114,
@@ -2020,7 +2283,21 @@
   {
     "id": 115,
     "name": "Piping-hot lava",
-    "description": "Nothin' but piping-hot lava here! Fire-type Pokémon simply can't resist visiting"
+    "description": "Nothin' but piping-hot lava here! Fire-type Pokémon simply can't resist visiting",
+    "requirements": [
+      {
+        "item": "Molten rock",
+        "qty": 1
+      },
+      {
+        "item": "Lava",
+        "qty": 2
+      }
+    ],
+    "pokemon": [
+      "Charcadet",
+      "Volcarona"
+    ]
   },
   {
     "id": 116,
@@ -2047,7 +2324,29 @@
   {
     "id": 117,
     "name": "Clink-clang iron construction",
-    "description": "It looks like construction is underway. Some strong Pokémon might show up to help"
+    "description": "It looks like construction is underway. Some strong Pokémon might show up to help",
+    "requirements": [
+      {
+        "item": "Iron beam or column",
+        "qty": 3
+      },
+      {
+        "item": "Wheelbarrow",
+        "qty": 1
+      },
+      {
+        "item": "Sandbags",
+        "qty": 1
+      },
+      {
+        "item": "Excavation tools",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Steelix",
+      "Machamp"
+    ]
   },
   {
     "id": 118,
@@ -2201,7 +2500,20 @@
   {
     "id": 124,
     "name": "Lazy-photo album scrolling",
-    "description": "Kick back with a drink in your hand and use the tablet to reminisce over some photos"
+    "description": "Kick back with a drink in your hand and use the tablet to reminisce over some photos",
+    "requirements": [
+      {
+        "item": "Tablet",
+        "qty": 1
+      },
+      {
+        "item": "Paper party cups",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Toxel"
+    ]
   },
   {
     "id": 125,
@@ -2486,7 +2798,23 @@
   {
     "id": 138,
     "name": "Tree-shaded pink tall grass",
-    "description": "Growing in the shade of a tree, this pink grass is just the tiniest bit damp"
+    "description": "Growing in the shade of a tree, this pink grass is just the tiniest bit damp",
+    "requirements": [
+      {
+        "item": "Pink tall grass",
+        "qty": 4
+      },
+      {
+        "item": "Large tree",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Sprigatito",
+      "Dreepy",
+      "Pupitar",
+      "Drakloak"
+    ]
   },
   {
     "id": 139,
@@ -2565,7 +2893,23 @@
   {
     "id": 143,
     "name": "Tree-shaded fluffy flower bed",
-    "description": "Poofy skyland flowers bloom cutely-even in the cool shade of a tree"
+    "description": "Poofy skyland flowers bloom cutely-even in the cool shade of a tree",
+    "requirements": [
+      {
+        "item": "Large tree",
+        "qty": 1
+      },
+      {
+        "item": "Skyland flowers",
+        "qty": 4
+      }
+    ],
+    "pokemon": [
+      "Girafarig",
+      "Servine",
+      "Farigiraf",
+      "Serperior"
+    ]
   },
   {
     "id": 144,
@@ -3141,7 +3485,24 @@
   {
     "id": 172,
     "name": "Heart-pounding surprise box",
-    "description": "The rhythm of the big drum, the spotlights on the boo-in-the-boxâ¦ The suspense is palpable!"
+    "description": "The rhythm of the big drum, the spotlights on the boo-in-the-boxâ¦ The suspense is palpable!",
+    "requirements": [
+      {
+        "item": "Spotlight",
+        "qty": 2
+      },
+      {
+        "item": "Big drum",
+        "qty": 1
+      },
+      {
+        "item": "Boo-in-the-box",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Meowscarada"
+    ]
   },
   {
     "id": 173,
@@ -3215,7 +3576,24 @@
   {
     "id": 177,
     "name": "Construction-site generator",
-    "description": "Construction needs a lot of electricity! You can use any leftover lumber as fuel"
+    "description": "Construction needs a lot of electricity! You can use any leftover lumber as fuel",
+    "requirements": [
+      {
+        "item": "Furnace",
+        "qty": 1
+      },
+      {
+        "item": "Iron scaffold",
+        "qty": 2
+      },
+      {
+        "item": "Iron pipes",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Conkeldurr"
+    ]
   },
   {
     "id": 178,
@@ -3395,7 +3773,21 @@
   {
     "id": 187,
     "name": "Hot-spring Fishing Spot",
-    "description": "Pokémon enjoying a nice dip in the hot spring might be lure in with some bait."
+    "description": "Pokémon enjoying a nice dip in the hot spring might be lure in with some bait.",
+    "requirements": [
+      {
+        "item": "Fishing Rod",
+        "qty": 1
+      },
+      {
+        "item": "Seat",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Lotad",
+      "Lombre"
+    ]
   },
   {
     "id": 188,
@@ -3448,7 +3840,28 @@
   {
     "id": 190,
     "name": "Low-key rock stage",
-    "description": "The hum of the bass guitar marks the start of al ow-key musical performance"
+    "description": "The hum of the bass guitar marks the start of al ow-key musical performance",
+    "requirements": [
+      {
+        "item": "Speaker",
+        "qty": 2
+      },
+      {
+        "item": "Small stage",
+        "qty": 1
+      },
+      {
+        "item": "Cool bass guitar",
+        "qty": 1
+      },
+      {
+        "item": "Standing mic",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Toxtricity Low Key Form"
+    ]
   },
   {
     "id": 191,
@@ -3721,7 +4134,24 @@
   {
     "id": 204,
     "name": "Burning-hot spice",
-    "description": "Putting hot sauce on this round pizza will make it so spicy that you'll feel like you're breathing fire."
+    "description": "Putting hot sauce on this round pizza will make it so spicy that you'll feel like you're breathing fire.",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Pizza",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Flareon"
+    ]
   },
   {
     "id": 205,
@@ -3748,7 +4178,24 @@
   {
     "id": 206,
     "name": "Dark-chocolate cookies",
-    "description": "Cookies made from dark chocolate. They have a subtle, comforting taste without being overly sweet"
+    "description": "Cookies made from dark chocolate. They have a subtle, comforting taste without being overly sweet",
+    "requirements": [
+      {
+        "item": "Seat",
+        "qty": 1
+      },
+      {
+        "item": "Table",
+        "qty": 1
+      },
+      {
+        "item": "Chocolate cookies",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Umbreon"
+    ]
   },
   {
     "id": 207,
@@ -3831,7 +4278,24 @@
   {
     "id": 2,
     "name": "Field-trip friends",
-    "description": "Pack a lunch box and canteen inside your backpack, and you're all set for a field trip"
+    "description": "Pack a lunch box and canteen inside your backpack, and you're all set for a field trip",
+    "requirements": [
+      {
+        "item": "Flower backpack",
+        "qty": 1
+      },
+      {
+        "item": "Hoppip water bottle",
+        "qty": 1
+      },
+      {
+        "item": "Lunch box",
+        "qty": 1
+      }
+    ],
+    "pokemon": [
+      "Skiploom"
+    ]
   },
   {
     "id": 3,

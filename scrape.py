@@ -255,9 +255,12 @@ def scrape_legendary_pokemon():
 # ── 3. HABITATS ───────────────────────────────────────────────────────────────
 
 def make_slug(name):
-    """Convert habitat name to Serebii URL slug."""
+    """Convert habitat name to Serebii URL slug.
+    Rule: lowercase, strip apostrophes + spaces, KEEP hyphens.
+    """
     slug = name.lower()
-    slug = re.sub(r"[^a-z0-9]", "", slug)
+    slug = slug.replace("'", "").replace(" ", "")  # strip apostrophes and spaces
+    slug = re.sub(r"[^a-z0-9\-]", "", slug)        # strip everything else except hyphens
     return slug
 
 
@@ -628,5 +631,39 @@ def main():
     print(f"\nNext: run  python build.py  to generate pokopia-dex.html")
 
 
+def main_details_only():
+    """Re-run only the habitat detail scrape using existing JSON data files."""
+    print("=== Pokopia Dex — Habitat Details Re-Scrape ===")
+    print(f"Loading existing data from {DATA}\n")
+
+    try:
+        import requests
+        from bs4 import BeautifulSoup
+    except ImportError:
+        print("ERROR: Missing dependencies. Run:  pip install requests beautifulsoup4")
+        return
+
+    with open(DATA / "pokemon.json", encoding="utf-8") as f:
+        all_pokemon = json.load(f)
+    with open(DATA / "habitats.json", encoding="utf-8") as f:
+        habitats = json.load(f)
+
+    habitats, all_pokemon = scrape_habitat_details(habitats, all_pokemon)
+
+    write_json(DATA / "pokemon.json", all_pokemon)
+    write_json(DATA / "habitats.json", habitats)
+
+    has_zones = sum(1 for p in all_pokemon if p.get("zones"))
+    hab_with_reqs = sum(1 for h in habitats if h.get("requirements"))
+    print(f"\n=== Done ===")
+    print(f"  {has_zones}/{len(all_pokemon)} Pokémon with zone data")
+    print(f"  {hab_with_reqs}/{len(habitats)} habitats with build requirements")
+    print(f"\nNext: run  python build.py  to regenerate pokopia-dex.html")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--details-only" in sys.argv:
+        main_details_only()
+    else:
+        main()

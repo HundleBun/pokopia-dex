@@ -317,7 +317,26 @@
       "Fly",
       "Chop"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 13,
@@ -543,7 +562,27 @@
       "Grow",
       "Litter"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 22,
@@ -811,7 +850,27 @@
       "Crush",
       "Bulldoze"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 32,
@@ -1076,7 +1135,27 @@
     "specialties": [
       "Chop"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 43,
@@ -1084,7 +1163,23 @@
     "specialties": [
       "Chop"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 44,
@@ -1093,7 +1188,27 @@
       "Chop",
       "Build"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 45,
@@ -1219,7 +1334,27 @@
       "Chop",
       "Build"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 51,
@@ -1361,7 +1496,24 @@
       "Grow",
       "Litter"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 57,
@@ -1654,7 +1806,27 @@
     "specialties": [
       "Build"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 66,
@@ -1691,7 +1863,27 @@
       "Build",
       "Crush"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 68,
@@ -1885,7 +2077,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "rarity": "Common"
   },
   {
     "id": 75,
@@ -1920,7 +2113,25 @@
       "Water",
       "Trade"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 77,
@@ -2063,7 +2274,24 @@
     "specialties": [
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 83,
@@ -2154,7 +2382,27 @@
     "specialties": [
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 87,
@@ -2162,7 +2410,27 @@
     "specialties": [
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 88,
@@ -2738,7 +3006,23 @@
       "Trade",
       "Bulldoze"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 109,
@@ -3624,7 +3908,23 @@
       "Generate",
       "Chop"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 141,
@@ -4085,7 +4385,23 @@
       "Build",
       "Gather"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 157,
@@ -4313,7 +4629,27 @@
     "specialties": [
       "Bulldoze"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 166,
@@ -4431,7 +4767,27 @@
       "Crush",
       "Bulldoze"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 171,
@@ -4774,7 +5130,27 @@
     "specialties": [
       "Burn"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 184,
@@ -4783,7 +5159,27 @@
       "Burn",
       "Litter"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Very Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 185,
@@ -4816,7 +5212,27 @@
       "Grow",
       "Chop"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 187,
@@ -4939,7 +5355,23 @@
       "Search",
       "Hype"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 192,
@@ -5042,7 +5474,23 @@
     "specialties": [
       "Generate"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Rocky Ridges"
+    ]
   },
   {
     "id": 197,
@@ -5080,7 +5528,27 @@
       "Generate",
       "Hype"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 198,
@@ -5143,7 +5611,27 @@
     "specialties": [
       "Burn"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 201,
@@ -5858,7 +6346,27 @@
     "specialties": [
       "Gather"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 230,
@@ -5867,7 +6375,27 @@
       "Gather",
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 231,
@@ -6340,7 +6868,27 @@
       "Grow",
       "Litter"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 250,
@@ -6629,7 +7177,27 @@
       "Gather",
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 261,
@@ -6752,7 +7320,27 @@
       "Grow",
       "Hype"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Rare",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Bleak Beach",
+      "Cloud Island",
+      "Palette Town",
+      "Rocky Ridges",
+      "Sparkling Skylands",
+      "Withered Wastelands"
+    ]
   },
   {
     "id": 266,
@@ -7225,7 +7813,23 @@
     "specialties": [
       "Burn"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 284,
@@ -7257,7 +7861,23 @@
     "specialties": [
       "Search"
     ],
-    "source": "main"
+    "source": "main",
+    "rarity": "Common",
+    "time": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "weather": [
+      "Sun",
+      "Cloud",
+      "Rain"
+    ],
+    "zones": [
+      "Cloud Island",
+      "Palette Town"
+    ]
   },
   {
     "id": 286,
