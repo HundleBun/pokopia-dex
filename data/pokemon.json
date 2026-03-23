@@ -139,7 +139,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Campsite"
+    ]
   },
   {
     "id": 6,
@@ -352,6 +354,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Luxury chirp-chirp meal"
     ]
   },
   {
@@ -659,7 +664,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Irresistible scent and glow"
+    ]
   },
   {
     "id": 23,
@@ -689,7 +696,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Irresistible scent and glow"
+    ]
   },
   {
     "id": 24,
@@ -812,6 +821,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mini Game Corner"
     ]
   },
   {
@@ -841,7 +853,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Mini Game Corner"
+    ]
   },
   {
     "id": 29,
@@ -870,6 +884,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mini Game Corner"
     ]
   },
   {
@@ -928,7 +945,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Clink-clang iron construction"
+    ]
   },
   {
     "id": 32,
@@ -1051,7 +1070,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Urgent Care"
+    ]
   },
   {
     "id": 36,
@@ -1075,7 +1096,9 @@
     "zones": [
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Exercise resting spot"
+    ]
   },
   {
     "id": 37,
@@ -1104,7 +1127,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Gym first aid"
+    ]
   },
   {
     "id": 38,
@@ -1128,7 +1153,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Trash collection site"
+    ]
   },
   {
     "id": 39,
@@ -1152,7 +1179,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Good old-fashioned antiques"
+    ]
   },
   {
     "id": 40,
@@ -1177,6 +1206,9 @@
     "zones": [
       "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Nothin' but Poke Balls"
     ]
   },
   {
@@ -1229,6 +1261,9 @@
     ],
     "zones": [
       "Cloud Island"
+    ],
+    "habitat_type": [
+      "Bench with greenery"
     ]
   },
   {
@@ -1363,6 +1398,10 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Waterfall"
     ]
   },
   {
@@ -1399,9 +1438,8 @@
       "Withered Wastelands"
     ],
     "habitat_type": [
-      "High-Up Location",
       "Tall Grass",
-      "Wildflowers"
+      "High-Up Location"
     ]
   },
   {
@@ -1430,8 +1468,8 @@
       "Withered Wastelands"
     ],
     "habitat_type": [
-      "High-Up Location",
-      "Tall Grass"
+      "Tall Grass",
+      "High-Up Location"
     ]
   },
   {
@@ -1553,7 +1591,9 @@
       "Withered Wastelands"
     ],
     "rarity": "Common",
-    "habitat_type": []
+    "habitat_type": [
+      "Tantalizing restaurant"
+    ]
   },
   {
     "id": 54,
@@ -1581,6 +1621,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tantalizing restaurant"
     ]
   },
   {
@@ -1608,7 +1651,10 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Sunny Day site",
+      "Rain Dance site"
+    ]
   },
   {
     "id": 56,
@@ -1720,7 +1766,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Road Sign"
+    ]
   },
   {
     "id": 59,
@@ -1749,7 +1797,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Road Sign"
+    ]
   },
   {
     "id": 60,
@@ -1837,7 +1887,9 @@
     "zones": [
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Plush central"
+    ]
   },
   {
     "id": 62,
@@ -1866,6 +1918,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Plush central"
     ]
   },
   {
@@ -1921,6 +1976,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Toil in the soil"
     ]
   },
   {
@@ -2009,6 +2067,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Construction-site generator"
     ]
   },
   {
@@ -2038,7 +2099,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Creepy grave offering"
+    ]
   },
   {
     "id": 69,
@@ -2067,7 +2130,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Creepy grave offering"
+    ]
   },
   {
     "id": 70,
@@ -2096,7 +2161,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Creepy grave offering"
+    ]
   },
   {
     "id": 71,
@@ -2277,6 +2344,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Very-berry space"
     ]
   },
   {
@@ -2334,7 +2404,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Picnic Set"
+    ]
   },
   {
     "id": 79,
@@ -2386,7 +2458,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Picnic Set"
+    ]
   },
   {
     "id": 80,
@@ -2415,6 +2489,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Picnic Set"
     ]
   },
   {
@@ -2521,7 +2598,9 @@
     "zones": [
       "Bleak Beach"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Working the register"
+    ]
   },
   {
     "id": 85,
@@ -2550,6 +2629,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Working the register"
     ]
   },
   {
@@ -2609,6 +2691,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Hot-Spring Water"
     ]
   },
   {
@@ -2698,7 +2783,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "All packed up"
+    ]
   },
   {
     "id": 91,
@@ -2726,6 +2813,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Trash collection site"
     ]
   },
   {
@@ -2754,6 +2844,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Trash collection site"
     ]
   },
   {
@@ -2780,6 +2873,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Spooky study"
     ]
   },
   {
@@ -2807,7 +2903,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Spooky study"
+    ]
   },
   {
     "id": 95,
@@ -2833,6 +2931,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Spooky study"
     ]
   },
   {
@@ -2863,7 +2964,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Playing pirate"
+    ]
   },
   {
     "id": 97,
@@ -2893,7 +2996,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Playing pirate"
+    ]
   },
   {
     "id": 98,
@@ -2983,7 +3088,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Alarm clock sleep zone"
+    ]
   },
   {
     "id": 101,
@@ -3012,7 +3119,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Full recovery"
+    ]
   },
   {
     "id": 102,
@@ -3041,6 +3150,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Full recovery"
     ]
   },
   {
@@ -3065,7 +3177,9 @@
     "zones": [
       "Bleak Beach"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Vending machine set"
+    ]
   },
   {
     "id": 104,
@@ -3094,7 +3208,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Light-up stage"
+    ]
   },
   {
     "id": 105,
@@ -3124,7 +3240,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Vending machine set"
+    ]
   },
   {
     "id": 106,
@@ -3175,6 +3293,10 @@
     "zones": [
       "Cloud Island",
       "Palette Town"
+    ],
+    "habitat_type": [
+      "Bed with a plush",
+      "Tree-shaded snoozing Snorlax"
     ]
   },
   {
@@ -3203,7 +3325,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "npc": true
   },
   {
     "id": 108,
@@ -3349,7 +3472,10 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Knitting station",
+      "Night festival venue"
+    ]
   },
   {
     "id": 113,
@@ -3379,7 +3505,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Plain life"
+    ]
   },
   {
     "id": 114,
@@ -3500,6 +3628,10 @@
     "zones": [
       "Bleak Beach",
       "Cloud Island"
+    ],
+    "habitat_type": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
@@ -3529,11 +3661,15 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Water",
+      "Yellow Tall Grass"
     ]
   },
   {
     "id": 119,
-    "name": "Smeargle",
+    "name": "Smearguru",
     "specialties": [
       "Paint"
     ],
@@ -3557,6 +3693,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tiny Atelier"
     ]
   },
   {
@@ -3645,7 +3784,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Chirp-chirp meal"
+    ]
   },
   {
     "id": 123,
@@ -3798,6 +3939,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Welcoming resort"
     ]
   },
   {
@@ -3886,6 +4030,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tableside delivery cart"
     ]
   },
   {
@@ -3914,6 +4061,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Working the register"
     ]
   },
   {
@@ -3938,7 +4088,9 @@
     "zones": [
       "Bleak Beach"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Trash collection site"
+    ]
   },
   {
     "id": 133,
@@ -3968,7 +4120,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Trash collection site"
+    ]
   },
   {
     "id": 134,
@@ -4055,7 +4209,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Changing area"
+    ]
   },
   {
     "id": 137,
@@ -4084,6 +4240,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Changing area"
     ]
   },
   {
@@ -4145,7 +4304,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Vending machine break area"
+    ]
   },
   {
     "id": 140,
@@ -4202,7 +4363,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Pikachu space"
+    ]
   },
   {
     "id": 142,
@@ -4258,7 +4421,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Tantalizing restaurant"
+    ]
   },
   {
     "id": 144,
@@ -4286,6 +4451,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tantalizing restaurant"
     ]
   },
   {
@@ -4314,6 +4482,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Beach Set"
     ]
   },
   {
@@ -4342,6 +4513,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Beach Set"
     ]
   },
   {
@@ -4370,6 +4544,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Beach Set"
     ]
   },
   {
@@ -4612,6 +4789,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Recital stage"
     ]
   },
   {
@@ -4895,7 +5075,9 @@
     "zones": [
       "Rocky Ridges"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Digging and burning"
+    ]
   },
   {
     "id": 164,
@@ -4924,6 +5106,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Digging and burning"
     ]
   },
   {
@@ -5270,7 +5455,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Working the register"
+    ]
   },
   {
     "id": 176,
@@ -5450,7 +5637,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Box to the rhythm"
+    ]
   },
   {
     "id": 182,
@@ -5802,7 +5991,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Railroad crossing"
+    ]
   },
   {
     "id": 194,
@@ -5827,7 +6018,9 @@
     "zones": [
       "Rocky Ridges"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Railroad crossing"
+    ]
   },
   {
     "id": 195,
@@ -5856,6 +6049,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Railroad crossing"
     ]
   },
   {
@@ -5880,7 +6076,9 @@
     "zones": [
       "Rocky Ridges"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Lazy-photo album scrolling"
+    ]
   },
   {
     "id": 197,
@@ -5909,6 +6107,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Amped rock stage"
     ]
   },
   {
@@ -5938,6 +6139,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Low-key rock stage"
     ]
   },
   {
@@ -6055,6 +6259,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Auspicious knight's shrine"
     ]
   },
   {
@@ -6085,7 +6292,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Malicious knight's shrine"
+    ]
   },
   {
     "id": 203,
@@ -6173,7 +6382,9 @@
     "zones": [
       "Rocky Ridges"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Mini museum"
+    ]
   },
   {
     "id": 206,
@@ -6201,6 +6412,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Mini museum"
     ]
   },
   {
@@ -6291,6 +6505,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Squeaky clean"
     ]
   },
   {
@@ -6352,6 +6569,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Sewer hole inspection"
     ]
   },
   {
@@ -6415,6 +6635,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -6443,6 +6666,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -6472,6 +6698,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -6500,6 +6729,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Spotless Washing station"
     ]
   },
   {
@@ -6529,6 +6761,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Spotless Washing station"
     ]
   },
   {
@@ -6553,7 +6788,9 @@
     "zones": [
       "Sparkling Skylands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Researcher's desk"
+    ]
   },
   {
     "id": 219,
@@ -6581,6 +6818,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Researcher's desk"
     ]
   },
   {
@@ -6609,6 +6849,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Researcher's desk"
     ]
   },
   {
@@ -6669,6 +6912,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Simple bathroom"
     ]
   },
   {
@@ -6698,6 +6944,11 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Duckweed",
+      "High-Up Location",
+      "Water"
     ]
   },
   {
@@ -6726,6 +6977,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tall Grass"
     ]
   },
   {
@@ -6786,6 +7040,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Top pop"
     ]
   },
   {
@@ -6937,7 +7194,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Study Area"
+    ]
   },
   {
     "id": 232,
@@ -6965,6 +7224,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -6994,6 +7256,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -7023,6 +7288,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Study Area"
     ]
   },
   {
@@ -7051,6 +7319,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location"
     ]
   },
   {
@@ -7079,6 +7350,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "High-Up Location"
     ]
   },
   {
@@ -7235,6 +7509,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Birdsong garden"
     ]
   },
   {
@@ -7289,7 +7566,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Trash site TV"
+    ]
   },
   {
     "id": 244,
@@ -7315,6 +7594,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Trash site TV"
     ]
   },
   {
@@ -7343,6 +7625,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Cycling rest stop"
     ]
   },
   {
@@ -7367,7 +7652,9 @@
     "zones": [
       "Sparkling Skylands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Professor's apprentice program"
+    ]
   },
   {
     "id": 247,
@@ -7396,6 +7683,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Professor's apprentice program"
     ]
   },
   {
@@ -7421,7 +7711,9 @@
     "zones": [
       "Sparkling Skylands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Playland"
+    ]
   },
   {
     "id": 249,
@@ -7603,7 +7895,9 @@
     "zones": [
       "Sparkling Skylands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Tire Park"
+    ]
   },
   {
     "id": 255,
@@ -7632,7 +7926,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Rhythmic Living room"
+    ]
   },
   {
     "id": 256,
@@ -7661,6 +7957,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Rhythmic Living room"
     ]
   },
   {
@@ -7847,6 +8146,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Office storeroom"
     ]
   },
   {
@@ -7902,6 +8204,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Interrogation desk"
     ]
   },
   {
@@ -7931,6 +8236,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Heart-pounding surprise box"
     ]
   },
   {
@@ -8020,7 +8328,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Oversized dumping ground"
+    ]
   },
   {
     "id": 269,
@@ -8044,7 +8354,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Sewer hole inspection"
+    ]
   },
   {
     "id": 270,
@@ -8072,6 +8384,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Sewer hole inspection"
     ]
   },
   {
@@ -8101,7 +8416,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Wing Fossil Display"
+    ]
   },
   {
     "id": 272,
@@ -8129,6 +8446,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Headbutt Fossil display"
     ]
   },
   {
@@ -8159,7 +8479,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Headbutt Fossil display"
+    ]
   },
   {
     "id": 274,
@@ -8188,7 +8510,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Armor Fossil display"
+    ]
   },
   {
     "id": 275,
@@ -8218,7 +8542,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Shield Fossil display"
+    ]
   },
   {
     "id": 276,
@@ -8247,7 +8573,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Jaw Fossil display"
+    ]
   },
   {
     "id": 277,
@@ -8277,7 +8605,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Despot fossil display"
+    ]
   },
   {
     "id": 278,
@@ -8305,6 +8635,9 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
+    ],
+    "habitat_type": [
+      "Tundra fossil display"
     ]
   },
   {
@@ -8335,7 +8668,9 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Tundra fossil display"
+    ]
   },
   {
     "id": 280,
@@ -8385,7 +8720,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Boundless blue beverage"
+    ]
   },
   {
     "id": 282,
@@ -8409,7 +8746,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Electrifying potatoes"
+    ]
   },
   {
     "id": 283,
@@ -8433,7 +8772,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Burning-hot spice"
+    ]
   },
   {
     "id": 284,
@@ -8456,7 +8797,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Elegant daytime treats"
+    ]
   },
   {
     "id": 285,
@@ -8477,7 +8820,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Dark-chocolate cookies"
+    ]
   },
   {
     "id": 286,
@@ -8501,7 +8846,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Leafy greens sandwich"
+    ]
   },
   {
     "id": 287,
@@ -8525,7 +8872,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Chilly shaved ice"
+    ]
   },
   {
     "id": 288,
@@ -8549,7 +8898,9 @@
     "zones": [
       "Palette Town"
     ],
-    "habitat_type": []
+    "habitat_type": [
+      "Lovely ribbon cake"
+    ]
   },
   {
     "id": 289,
@@ -8595,7 +8946,10 @@
     "specialties": [
       "Fly"
     ],
-    "source": "main"
+    "source": "main",
+    "habitat_type": [
+      "Freezing chambers"
+    ]
   },
   {
     "id": 295,
@@ -8603,7 +8957,10 @@
     "specialties": [
       "Fly"
     ],
-    "source": "main"
+    "source": "main",
+    "habitat_type": [
+      "Abandoned powerplant"
+    ]
   },
   {
     "id": 296,
@@ -8611,7 +8968,10 @@
     "specialties": [
       "Fly"
     ],
-    "source": "main"
+    "source": "main",
+    "habitat_type": [
+      "Altar of flame"
+    ]
   },
   {
     "id": 297,
@@ -8639,7 +8999,8 @@
     "specialties": [
       "Teleport"
     ],
-    "source": "main"
+    "source": "main",
+    "npc": true
   },
   {
     "id": 1,
@@ -8701,7 +9062,7 @@
     ],
     "habitat_type": [
       "Dandy Flowers",
-      "Water"
+      "Field-trip friends"
     ]
   },
   {

@@ -265,6 +265,11 @@ body::before{{
 .rb-legendary{{background:rgba(240,128,48,0.12);color:#ffcc80;border:1px solid rgba(240,128,48,0.3)}}
 .rb-event{{background:rgba(171,71,188,0.12);color:#ce93d8;border:1px solid rgba(171,71,188,0.3)}}
 .rb-common{{display:none}}
+.rb-dex-only{{background:rgba(96,125,139,0.15);color:#b0bec5;border:1px solid rgba(96,125,139,0.4)}}
+.rb-npc{{background:rgba(255,167,38,0.12);color:#ffcc02;border:1px solid rgba(255,167,38,0.3)}}
+.hab-badge{{display:inline-block;padding:1px 7px;border-radius:4px;font-size:0.7rem;font-weight:600;margin-bottom:4px}}
+.hab-event{{background:rgba(171,71,188,0.12);color:#ce93d8;border:1px solid rgba(171,71,188,0.3)}}
+.hab-prefab{{color:var(--muted);font-size:0.8rem;font-style:italic;margin:6px 0 4px}}
 .card-body{{padding:10px 14px 0;}}
 .poke-name{{
   font-family:'Fredoka One',cursive;
@@ -741,7 +746,9 @@ function filterHabitats() {{
   if (state.habitatNav) {{
     const {{ pokemonName, habitatType }} = state.habitatNav;
     return HABITATS.filter(h =>
-      (h.types || []).includes(habitatType) &&
+      // Terrain habitats: match via h.types (e.g. "Tall Grass")
+      // Decoration habitats: match via h.name directly (e.g. "Campsite")
+      ((h.types || []).includes(habitatType) || h.name === habitatType) &&
       (h.pokemon || []).includes(pokemonName)
     );
   }}
@@ -796,7 +803,9 @@ function buildPokeCard(p) {{
   const rarityHtml = p.rarity
     ? `<span class="rarity-badge rb-${{p.rarity.toLowerCase()}}">${{p.rarity}}</span>`
     : '';
-  top.innerHTML = `<span class="dex-num">#${{String(p.id).padStart(3,'0')}}</span>${{rarityHtml}}`;
+  const dexOnlyHtml = p.dex_only ? `<span class="rarity-badge rb-dex-only">Dex Only</span>` : '';
+  const npcHtml     = p.npc     ? `<span class="rarity-badge rb-npc">NPC</span>`      : '';
+  top.innerHTML = `<span class="dex-num">#${{String(p.id).padStart(3,'0')}}</span>${{rarityHtml}}${{dexOnlyHtml}}${{npcHtml}}`;
   card.appendChild(top);
 
   const body = document.createElement('div');
@@ -899,9 +908,9 @@ function buildPokeCard(p) {{
     }}
   }}
 
-  // Habitat Type
+  // Habitat Type (suppressed for NPCs and dex-only entries)
   const habitatTypes = p.habitat_type || [];
-  if (habitatTypes.length > 0) {{
+  if (!p.npc && !p.dex_only && habitatTypes.length > 0) {{
     card.appendChild(makeDivider());
     const lbl = document.createElement('div');
     lbl.className = 'section-lbl';
@@ -983,14 +992,17 @@ function buildHabCard(h) {{
   const inner = document.createElement('div');
   inner.className = 'hab-card-inner';
 
+  const eventBadge = h.event  ? `<span class="hab-badge hab-event">★ Event</span>` : '';
   let html = `
     <div class="hab-num">Habitat #${{String(h.id).padStart(3,'0')}}</div>
-    <div class="hab-name">${{h.name}}</div>
+    <div class="hab-name">${{h.name}}${{eventBadge ? ' ' + eventBadge : ''}}</div>
     <div class="hab-desc">${{h.description || ''}}</div>`;
 
-  // Build requirements
+  // Build requirements (pre-fab habitats have none and show a note instead)
   const reqs = h.requirements || [];
-  if (reqs.length > 0) {{
+  if (h.prefab) {{
+    html += `<div class="hab-prefab">Pre-fabricated habitat — no build items required</div>`;
+  }} else if (reqs.length > 0) {{
     html += `<div class="hab-reqs">
       <div class="hab-reqs-title">Build Requirements</div>
       <div class="hab-req-list">`;
