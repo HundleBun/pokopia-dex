@@ -7,8 +7,8 @@ For these Pokémon, habitat_type is set to the habitat NAME (e.g. "Campsite")
 rather than a terrain keyword (e.g. "Tall Grass"). The JS navigation handles
 both by checking h.name as a fallback when h.types is empty.
 
-The mapping was derived by matching scraped game8 "How to Build" items in
-zone_corrections.json against the requirement items in habitats.json.
+The mapping was derived by manually cross-referencing game8 "How to Build"
+items against the requirement items in habitats.json.
 
 Run:
     cd C:/Users/jhund/Documents/pokopia-dex
@@ -207,9 +207,7 @@ def main():
         for hab_name in hab_names:
             hab = hab_by_name[hab_name]
             if poke_name not in hab.get("pokemon", []):
-                if "pokemon" not in hab:
-                    hab["pokemon"] = []
-                hab["pokemon"].append(poke_name)
+                hab.setdefault("pokemon", []).append(poke_name)
 
     poke_path.write_text(json.dumps(pokes, indent=2, ensure_ascii=False), encoding="utf-8")
     hab_path.write_text(json.dumps(habs, indent=2, ensure_ascii=False), encoding="utf-8")

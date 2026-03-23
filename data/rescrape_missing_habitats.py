@@ -2,7 +2,7 @@
 """
 rescrape_missing_habitats.py — Targeted re-scrape for two groups of Pokémon:
 
-  GROUP A — 17 Pokémon with no habitat_type at all (have game8 IDs)
+  GROUP A — 21 Pokémon with no habitat_type at all (have game8 IDs)
   GROUP B — 16 Pokémon with habitat_type set but not placed in any matching
              habitat's pokemon list (need specific habitat variant identified)
 
@@ -93,9 +93,8 @@ GROUP_B = {
 
 # ── Item name normalisation ───────────────────────────────────────────────────
 def normalize(item):
-    item = re.sub(r'^[・\s]+', '', item)          # strip Japanese bullet
-    item = re.sub(r'\s*x\s*\d+$', '', item, flags=re.IGNORECASE)  # strip "x 3"
-    item = re.sub(r'\s*x\d+', '', item)           # strip "x3"
+    item = re.sub(r'^[・\s]+', '', item)                    # strip Japanese bullet
+    item = re.sub(r'\s*x\s*\d+', '', item, flags=re.IGNORECASE)  # strip "x3" / "x 3"
     return item.strip().lower()
 
 

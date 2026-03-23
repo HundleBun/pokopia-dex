@@ -51,18 +51,12 @@ VALID_SPECS = {
 }
 
 
-def write_json(path, data, comment=""):
-    """Write data as a JSON file."""
+def write_json(path, data):
     Path(path).write_text(
         json.dumps(data, indent=2, ensure_ascii=False),
         encoding="utf-8"
     )
     print(f"  Wrote {path}  ({len(data)} entries)")
-
-# Keep old name as alias so call sites don't need changing
-def write_python(path, varname, data, comment=""):
-    json_path = Path(str(path).replace(".py", ".json"))
-    write_json(json_path, data, comment)
 
 
 # ── 1. SPECIALTIES ────────────────────────────────────────────────────────────
@@ -126,8 +120,7 @@ def scrape_specialties():
         if s["id"] in NPC_ONLY:
             s["npc_only"] = True
 
-    write_python(DATA / "specialties.py", "SPECIALTIES", specialties,
-                 "Pokémon Pokopia specialties from Serebii")
+    write_json(DATA / "specialties.json", specialties)
     return specialties
 
 
@@ -589,15 +582,6 @@ def main():
     print("=== Pokopia Dex Scraper ===")
     print(f"Output directory: {DATA}\n")
 
-    # Check dependencies
-    try:
-        import requests
-        from bs4 import BeautifulSoup
-    except ImportError:
-        print("ERROR: Missing dependencies. Run:")
-        print("  pip install requests beautifulsoup4")
-        return
-
     specialties   = scrape_specialties()
     main_pokemon  = scrape_available_pokemon()
     event_pokemon = scrape_event_pokemon()
@@ -615,14 +599,10 @@ def main():
     # Enrich with per-habitat detail data (zones, time, weather, build requirements)
     habitats, all_pokemon = scrape_habitat_details(habitats, all_pokemon)
 
-    write_python(DATA / "pokemon.py",     "POKEMON",     all_pokemon,
-                 "All Pokémon in Pokémon Pokopia from Serebii")
-    write_python(DATA / "habitats.py",    "HABITATS",    habitats,
-                 "All habitats in Pokémon Pokopia from Serebii")
-    write_python(DATA / "specialties.py", "SPECIALTIES", specialties,
-                 "All specialties in Pokémon Pokopia from Serebii")
-    write_python(DATA / "legendaries.py", "LEGENDARIES", legendaries,
-                 "Legendary/Mythical Pokémon details from Serebii")
+    write_json(DATA / "pokemon.json",     all_pokemon)
+    write_json(DATA / "habitats.json",    habitats)
+    write_json(DATA / "specialties.json", specialties)
+    write_json(DATA / "legendaries.json", legendaries)
 
     print(f"\n=== Done ===")
     print(f"  {len(main_pokemon)} main Pokémon")
@@ -637,13 +617,6 @@ def main_details_only():
     """Re-run only the habitat detail scrape using existing JSON data files."""
     print("=== Pokopia Dex — Habitat Details Re-Scrape ===")
     print(f"Loading existing data from {DATA}\n")
-
-    try:
-        import requests
-        from bs4 import BeautifulSoup
-    except ImportError:
-        print("ERROR: Missing dependencies. Run:  pip install requests beautifulsoup4")
-        return
 
     with open(DATA / "pokemon.json", encoding="utf-8") as f:
         all_pokemon = json.load(f)

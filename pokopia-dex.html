@@ -752,7 +752,7 @@ function buildPokeCard(p) {
     ? `<span class="rarity-badge rb-${p.rarity.toLowerCase()}">${p.rarity}</span>`
     : '';
   const dexOnlyHtml = p.dex_only ? `<span class="rarity-badge rb-dex-only">Dex Only</span>` : '';
-  const npcHtml     = p.npc     ? `<span class="rarity-badge rb-npc">NPC</span>`      : '';
+  const npcHtml     = p.npc     ? `<span class="rarity-badge rb-npc">NPC</span>` : '';
   top.innerHTML = `<span class="dex-num">#${String(p.id).padStart(3,'0')}</span>${rarityHtml}${dexOnlyHtml}${npcHtml}`;
   card.appendChild(top);
 
@@ -940,10 +940,10 @@ function buildHabCard(h) {
   const inner = document.createElement('div');
   inner.className = 'hab-card-inner';
 
-  const eventBadge = h.event  ? `<span class="hab-badge hab-event">★ Event</span>` : '';
+  const eventBadge = h.event ? ` <span class="hab-badge hab-event">★ Event</span>` : '';
   let html = `
     <div class="hab-num">Habitat #${String(h.id).padStart(3,'0')}</div>
-    <div class="hab-name">${h.name}${eventBadge ? ' ' + eventBadge : ''}</div>
+    <div class="hab-name">${h.name}${eventBadge}</div>
     <div class="hab-desc">${h.description || ''}</div>`;
 
   // Build requirements (pre-fab habitats have none and show a note instead)
@@ -992,26 +992,6 @@ function toggleExtra(uid) {
 }
 
 // ── NAVIGATION HELPERS ────────────────────────────────────────────────────────
-function goToHabitat(zoneName) {
-  const htab = document.querySelector('.htab:nth-child(2)');
-  switchTab('habitatdex', htab);
-  const filtered = filterHabitats();
-  const idx = filtered.findIndex(h => h.name === zoneName);
-  if (idx === -1) return;
-  state.habPage = Math.floor(idx / state.PAGE_SIZE) + 1;
-  renderHabitatDex();
-  setTimeout(() => {
-    const hab = filtered[idx];
-    const card = document.getElementById(`hcard-${hab.id}`);
-    if (card) {
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      card.style.outline = '2px solid var(--accent)';
-      card.style.outlineOffset = '2px';
-      setTimeout(() => { card.style.outline = ''; card.style.outlineOffset = ''; }, 1500);
-    }
-  }, 50);
-}
-
 function goToPokemon(el) {
   const name = el.dataset.name;
   const htab = document.querySelector('.htab:nth-child(1)');
