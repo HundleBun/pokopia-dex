@@ -1,7 +1,21 @@
-__pycache__/
-*.pyc
-*.pyo
-.env
-*.log
-.DS_Store
-Thumbs.db
+# Data collection scripts
+scrape.py
+data/rescrape_missing_habitats.py
+data/apply_decoration_habitats.py
+data/add_habitat_types.py
+data/cross_reference_game8.py
+
+# Intermediate data files
+data/habitats.py
+data/pokemon.py
+data/legendaries.py
+data/specialties.py
+data/zone_corrections.json
+data/zone_diff_report.txt
+
+# Working files
+missing pokemon.txt
+sprite_comparison.html
+
+# Claude internal
+.claude/

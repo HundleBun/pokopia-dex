@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build.py — Generate pokopia-dex.html from scraped data files.
+build.py — Generate pokopia-dex.html from data files.
 
 Usage:
     python build.py
