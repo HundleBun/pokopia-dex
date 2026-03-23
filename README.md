@@ -1,27 +1,24 @@
 # Pokopia Dex
 
-A single-page web app for browsing Pokémon and habitats in **Pokémon Pokopia**.
+An unofficial community reference tool for **Pokémon Pokopia**, covering the Pokédex, habitat dex, and specialties.
 
 ## Features
-- Browse all available Pokémon with types, specialties, zones, and habitat info
-- Browse all habitats with requirements and attracted Pokémon
-- Filter by zone, specialty, environment, and rarity
-- Cross-tab navigation between Pokédex and Habitat Dex
 
-## Project Structure
-```
-pokopia-dex/
-├── data/
-│   ├── pokemon.py      # All Pokémon data as Python dicts
-│   ├── habitats.py     # All habitat data as Python dicts
-│   └── specialties.py  # Specialties master list
-├── build.py            # Generates pokopia-dex.html from data files
-├── scrape.py           # Scrapes source data from the web
-└── pokopia-dex.html    # Generated output (open in browser)
-```
+- Browse all 311 Pokémon with zones, active times, weather conditions, and rarity
+- Filter by specialty, rarity, zone, time, and weather
+- Habitat dex with build requirements and Pokémon listings
+- Navigate directly from a Pokémon card to all its habitats
+- Official Pokémon artwork via PokéAPI
 
 ## Usage
+
+Open `pokopia-dex.html` directly in any modern browser — no server or install required.
+
+To regenerate the HTML from source data:
 ```bash
-python build.py         # Regenerate the HTML app
-python scrape.py        # Re-fetch source data (requires internet)
+python build.py
 ```
+
+## Disclaimer
+
+This is an unofficial fan project and is not affiliated with, endorsed by, or connected to Nintendo, The Pokémon Company, Game Freak, or Creatures Inc. All Pokémon names, characters, and game content are trademarks and © of their respective owners. Pokémon artwork is sourced from [PokéAPI](https://pokeapi.co).

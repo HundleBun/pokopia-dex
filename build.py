@@ -227,7 +227,7 @@ body::before{{
 /* ── MAIN CONTENT ── */
 .main-content{{
   flex:1;overflow-y:auto;overflow-x:hidden;
-  padding:20px;
+  padding:20px 20px 52px;
   scrollbar-width:thin;scrollbar-color:var(--card-hi) transparent;
 }}
 .main-content::-webkit-scrollbar{{width:6px}}
@@ -411,6 +411,18 @@ body::before{{
 .hidden{{display:none!important}}
 .tab-content{{display:none}}
 .tab-content.active{{display:block}}
+
+/* ── DISCLAIMER ── */
+.disclaimer{{
+  position:fixed;bottom:0;left:0;right:0;
+  background:var(--surface);
+  border-top:1px solid var(--border);
+  padding:6px 20px;
+  font-size:0.68rem;color:var(--muted);
+  text-align:center;line-height:1.5;
+  z-index:50;
+}}
+.disclaimer a{{color:var(--muted);text-decoration:underline;}}
 </style>
 </head>
 <body>
@@ -531,6 +543,11 @@ body::before{{
 </div>
 
 <div class="toast" id="toast"></div>
+<div class="disclaimer">
+  Pokopia Dex is an unofficial fan tool and is not affiliated with, endorsed by, or connected to Nintendo, The Pokémon Company, Game Freak, or Creatures Inc.
+  All Pokémon names, characters, and game content are trademarks and &copy; of their respective owners.
+  Pokémon artwork sourced from <a href="https://pokeapi.co" target="_blank">PokéAPI</a>.
+</div>
 
 <script>
 // ── DATA ──────────────────────────────────────────────────────────────────────
