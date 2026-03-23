@@ -895,25 +895,29 @@ function buildPokeCard(p) {
     }
   }
 
-  // Habitat Type (suppressed for NPCs and dex-only entries)
-  const habitatTypes = p.habitat_type || [];
-  if (!p.npc && !p.dex_only && habitatTypes.length > 0) {
-    card.appendChild(makeDivider());
-    const lbl = document.createElement('div');
-    lbl.className = 'section-lbl';
-    lbl.textContent = 'Habitat';
-    card.appendChild(lbl);
-    const row = document.createElement('div');
-    row.className = 'info-row';
-    habitatTypes.forEach(ht => {
-      const chip = document.createElement('span');
-      chip.className = 'info-chip ic-habitat ic-clickable';
-      chip.textContent = ht;
-      chip.title = 'View habitats for this Pokémon';
-      chip.onclick = () => goToHabitatsByType(p.name);
-      row.appendChild(chip);
-    });
-    card.appendChild(row);
+  // Habitats (suppressed for NPCs and dex-only entries)
+  // Look up actual habitat names rather than showing stored type keywords,
+  // so terrain and decoration habitats display consistently.
+  if (!p.npc && !p.dex_only) {
+    const myHabs = HABITATS.filter(h => (h.pokemon || []).includes(p.name));
+    if (myHabs.length > 0) {
+      card.appendChild(makeDivider());
+      const lbl = document.createElement('div');
+      lbl.className = 'section-lbl';
+      lbl.textContent = myHabs.length > 1 ? 'Habitats' : 'Habitat';
+      card.appendChild(lbl);
+      const row = document.createElement('div');
+      row.className = 'info-row';
+      myHabs.forEach(h => {
+        const chip = document.createElement('span');
+        chip.className = 'info-chip ic-habitat ic-clickable';
+        chip.textContent = h.name;
+        chip.title = 'View all habitats for this Pokémon';
+        chip.onclick = () => goToHabitatsByType(p.name);
+        row.appendChild(chip);
+      });
+      card.appendChild(row);
+    }
   }
 
   // bottom padding
