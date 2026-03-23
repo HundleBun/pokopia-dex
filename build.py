@@ -252,10 +252,27 @@ body::before{{
 }}
 .poke-card:hover{{transform:translateY(-3px);box-shadow:var(--shadow-lg);}}
 .card-accent-bar{{height:3px;width:100%;}}
-.card-top{{
-  display:flex;justify-content:space-between;align-items:center;
-  padding:12px 14px 0;
+.card-artwork-header{{position:relative;height:120px;overflow:hidden;}}
+.card-artwork-glow{{position:absolute;inset:0;opacity:0.10;pointer-events:none;}}
+.poke-sprite{{
+  position:absolute;right:8px;bottom:0;
+  height:120px;width:120px;
+  object-fit:contain;object-position:bottom;
+  filter:drop-shadow(0 4px 14px rgba(0,0,0,0.55));
 }}
+.poke-sprite-placeholder{{
+  position:absolute;right:16px;bottom:12px;
+  width:88px;height:88px;border-radius:50%;
+  background:rgba(255,255,255,0.03);
+  border:2px dashed rgba(255,255,255,0.10);
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.6rem;color:var(--muted);
+}}
+.card-top-meta{{
+  position:absolute;top:10px;left:14px;
+  display:flex;flex-direction:column;gap:5px;z-index:1;
+}}
+.card-top-badges{{display:flex;gap:4px;flex-wrap:wrap;}}
 .dex-num{{font-family:'Fredoka One',cursive;font-size:0.78rem;color:var(--muted);letter-spacing:1px;}}
 .rarity-badge{{
   font-size:0.65rem;font-weight:700;
@@ -798,15 +815,42 @@ function buildPokeCard(p) {{
   bar.style.background = `linear-gradient(90deg,${{accentColor}},${{accentColor}}44)`;
   card.appendChild(bar);
 
-  const top = document.createElement('div');
-  top.className = 'card-top';
-  const rarityHtml = p.rarity
-    ? `<span class="rarity-badge rb-${{p.rarity.toLowerCase()}}">${{p.rarity}}</span>`
-    : '';
+  const header = document.createElement('div');
+  header.className = 'card-artwork-header';
+
+  const glow = document.createElement('div');
+  glow.className = 'card-artwork-glow';
+  glow.style.background = `radial-gradient(circle at 80% 50%,${{accentColor}}55,transparent 70%)`;
+  header.appendChild(glow);
+
+  const ARTWORK_BASE = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/';
+  if (p.national_id) {{
+    const img = document.createElement('img');
+    img.className = 'poke-sprite';
+    img.src = `${{ARTWORK_BASE}}${{p.national_id}}.png`;
+    img.alt = p.name;
+    const ph = document.createElement('div');
+    ph.className = 'poke-sprite-placeholder';
+    ph.style.display = 'none';
+    ph.textContent = '?';
+    img.onerror = () => {{ img.style.display = 'none'; ph.style.display = 'flex'; }};
+    header.appendChild(img);
+    header.appendChild(ph);
+  }} else {{
+    const ph = document.createElement('div');
+    ph.className = 'poke-sprite-placeholder';
+    ph.textContent = '?';
+    header.appendChild(ph);
+  }}
+
+  const rarityHtml  = p.rarity   ? `<span class="rarity-badge rb-${{p.rarity.toLowerCase()}}">${{p.rarity}}</span>` : '';
   const dexOnlyHtml = p.dex_only ? `<span class="rarity-badge rb-dex-only">Dex Only</span>` : '';
-  const npcHtml     = p.npc     ? `<span class="rarity-badge rb-npc">NPC</span>` : '';
-  top.innerHTML = `<span class="dex-num">#${{String(p.id).padStart(3,'0')}}</span>${{rarityHtml}}${{dexOnlyHtml}}${{npcHtml}}`;
-  card.appendChild(top);
+  const npcHtml     = p.npc      ? `<span class="rarity-badge rb-npc">NPC</span>` : '';
+  const meta = document.createElement('div');
+  meta.className = 'card-top-meta';
+  meta.innerHTML = `<span class="dex-num">#${{String(p.id).padStart(3,'0')}}</span><div class="card-top-badges">${{rarityHtml}}${{dexOnlyHtml}}${{npcHtml}}</div>`;
+  header.appendChild(meta);
+  card.appendChild(header);
 
   const body = document.createElement('div');
   body.className = 'card-body';

@@ -23,7 +23,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 1
   },
   {
     "id": 2,
@@ -54,7 +55,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 2
   },
   {
     "id": 3,
@@ -86,7 +88,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 3
   },
   {
     "id": 4,
@@ -111,7 +114,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 4
   },
   {
     "id": 5,
@@ -141,7 +145,8 @@
     ],
     "habitat_type": [
       "Campsite"
-    ]
+    ],
+    "national_id": 5
   },
   {
     "id": 6,
@@ -173,7 +178,8 @@
     "habitat_type": [
       "High-Up Location",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 6
   },
   {
     "id": 7,
@@ -200,7 +206,8 @@
     "habitat_type": [
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 7
   },
   {
     "id": 8,
@@ -232,7 +239,8 @@
     "habitat_type": [
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 8
   },
   {
     "id": 9,
@@ -265,7 +273,8 @@
     "habitat_type": [
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 9
   },
   {
     "id": 10,
@@ -293,7 +302,8 @@
       "High-Up Location",
       "Tall Grass",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 16
   },
   {
     "id": 11,
@@ -326,7 +336,8 @@
       "High-Up Location",
       "Tall Grass",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 17
   },
   {
     "id": 12,
@@ -357,7 +368,8 @@
     ],
     "habitat_type": [
       "Luxury chirp-chirp meal"
-    ]
+    ],
+    "national_id": 18
   },
   {
     "id": 13,
@@ -385,7 +397,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 43
   },
   {
     "id": 14,
@@ -417,7 +430,8 @@
     "habitat_type": [
       "Large Palm Tree",
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 44
   },
   {
     "id": 15,
@@ -449,7 +463,8 @@
     ],
     "habitat_type": [
       "Chansey Plant"
-    ]
+    ],
+    "national_id": 45
   },
   {
     "id": 16,
@@ -481,7 +496,8 @@
     ],
     "habitat_type": [
       "Chansey Plant"
-    ]
+    ],
+    "national_id": 182
   },
   {
     "id": 17,
@@ -513,7 +529,8 @@
     "habitat_type": [
       "High-Up Location",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 46
   },
   {
     "id": 18,
@@ -545,7 +562,8 @@
     "habitat_type": [
       "High-Up Location",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 47
   },
   {
     "id": 19,
@@ -573,7 +591,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 48
   },
   {
     "id": 20,
@@ -601,7 +620,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 49
   },
   {
     "id": 21,
@@ -634,7 +654,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 69
   },
   {
     "id": 22,
@@ -666,7 +687,8 @@
     ],
     "habitat_type": [
       "Irresistible scent and glow"
-    ]
+    ],
+    "national_id": 70
   },
   {
     "id": 23,
@@ -698,7 +720,8 @@
     ],
     "habitat_type": [
       "Irresistible scent and glow"
-    ]
+    ],
+    "national_id": 71
   },
   {
     "id": 24,
@@ -726,7 +749,8 @@
     "habitat_type": [
       "Ocean Water",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 79
   },
   {
     "id": 25,
@@ -760,7 +784,8 @@
       "Ocean Water",
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 80
   },
   {
     "id": 26,
@@ -793,7 +818,8 @@
     "habitat_type": [
       "Ocean Water",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 199
   },
   {
     "id": 27,
@@ -824,7 +850,8 @@
     ],
     "habitat_type": [
       "Mini Game Corner"
-    ]
+    ],
+    "national_id": 81
   },
   {
     "id": 28,
@@ -855,7 +882,8 @@
     ],
     "habitat_type": [
       "Mini Game Corner"
-    ]
+    ],
+    "national_id": 82
   },
   {
     "id": 29,
@@ -887,7 +915,8 @@
     ],
     "habitat_type": [
       "Mini Game Corner"
-    ]
+    ],
+    "national_id": 462
   },
   {
     "id": 30,
@@ -915,7 +944,8 @@
     "habitat_type": [
       "Dry Tall Grass",
       "Smooth Rock"
-    ]
+    ],
+    "national_id": 95
   },
   {
     "id": 31,
@@ -947,7 +977,8 @@
     ],
     "habitat_type": [
       "Clink-clang iron construction"
-    ]
+    ],
+    "national_id": 208
   },
   {
     "id": 32,
@@ -978,7 +1009,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 104
   },
   {
     "id": 33,
@@ -1009,7 +1041,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 105
   },
   {
     "id": 34,
@@ -1041,7 +1074,8 @@
     "habitat_type": [
       "Water",
       "Waterfall"
-    ]
+    ],
+    "national_id": 236
   },
   {
     "id": 35,
@@ -1072,7 +1106,8 @@
     ],
     "habitat_type": [
       "Urgent Care"
-    ]
+    ],
+    "national_id": 106
   },
   {
     "id": 36,
@@ -1098,7 +1133,8 @@
     ],
     "habitat_type": [
       "Exercise resting spot"
-    ]
+    ],
+    "national_id": 107
   },
   {
     "id": 37,
@@ -1129,7 +1165,8 @@
     ],
     "habitat_type": [
       "Gym first aid"
-    ]
+    ],
+    "national_id": 237
   },
   {
     "id": 38,
@@ -1155,7 +1192,8 @@
     ],
     "habitat_type": [
       "Trash collection site"
-    ]
+    ],
+    "national_id": 109
   },
   {
     "id": 39,
@@ -1181,7 +1219,8 @@
     ],
     "habitat_type": [
       "Good old-fashioned antiques"
-    ]
+    ],
+    "national_id": 110
   },
   {
     "id": 40,
@@ -1209,7 +1248,8 @@
     ],
     "habitat_type": [
       "Nothin' but Poke Balls"
-    ]
+    ],
+    "national_id": 114
   },
   {
     "id": 41,
@@ -1237,7 +1277,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "national_id": 465
   },
   {
     "id": 41,
@@ -1264,7 +1305,8 @@
     ],
     "habitat_type": [
       "Bench with greenery"
-    ]
+    ],
+    "national_id": 465
   },
   {
     "id": 42,
@@ -1291,7 +1333,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 123
   },
   {
     "id": 43,
@@ -1318,7 +1361,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 212
   },
   {
     "id": 44,
@@ -1346,7 +1390,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 127
   },
   {
     "id": 45,
@@ -1370,7 +1415,8 @@
     ],
     "habitat_type": [
       "Ocean Water"
-    ]
+    ],
+    "national_id": 129
   },
   {
     "id": 46,
@@ -1402,7 +1448,8 @@
     "habitat_type": [
       "Water",
       "Waterfall"
-    ]
+    ],
+    "national_id": 130
   },
   {
     "id": 47,
@@ -1410,7 +1457,8 @@
     "specialties": [
       "Transform"
     ],
-    "source": "main"
+    "source": "main",
+    "national_id": 132
   },
   {
     "id": 48,
@@ -1440,7 +1488,8 @@
     "habitat_type": [
       "Tall Grass",
       "High-Up Location"
-    ]
+    ],
+    "national_id": 163
   },
   {
     "id": 49,
@@ -1470,7 +1519,8 @@
     "habitat_type": [
       "Tall Grass",
       "High-Up Location"
-    ]
+    ],
+    "national_id": 164
   },
   {
     "id": 50,
@@ -1503,7 +1553,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 214
   },
   {
     "id": 51,
@@ -1535,7 +1586,8 @@
     "habitat_type": [
       "Water",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 313
   },
   {
     "id": 52,
@@ -1567,7 +1619,8 @@
     "habitat_type": [
       "Water",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 314
   },
   {
     "id": 53,
@@ -1593,7 +1646,8 @@
     "rarity": "Common",
     "habitat_type": [
       "Tantalizing restaurant"
-    ]
+    ],
+    "national_id": 316
   },
   {
     "id": 54,
@@ -1624,7 +1678,8 @@
     ],
     "habitat_type": [
       "Tantalizing restaurant"
-    ]
+    ],
+    "national_id": 317
   },
   {
     "id": 55,
@@ -1654,7 +1709,8 @@
     "habitat_type": [
       "Sunny Day site",
       "Rain Dance site"
-    ]
+    ],
+    "national_id": 331
   },
   {
     "id": 56,
@@ -1684,7 +1740,8 @@
     "habitat_type": [
       "Berry Tree",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 332
   },
   {
     "id": 57,
@@ -1710,7 +1767,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 415
   },
   {
     "id": 58,
@@ -1737,7 +1795,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 416
   },
   {
     "id": 59,
@@ -1768,7 +1827,8 @@
     ],
     "habitat_type": [
       "Road Sign"
-    ]
+    ],
+    "national_id": 422
   },
   {
     "id": 59,
@@ -1799,7 +1859,8 @@
     ],
     "habitat_type": [
       "Road Sign"
-    ]
+    ],
+    "national_id": 422
   },
   {
     "id": 60,
@@ -1831,7 +1892,8 @@
     ],
     "habitat_type": [
       "Ocean Water"
-    ]
+    ],
+    "national_id": 423
   },
   {
     "id": 60,
@@ -1863,7 +1925,8 @@
     ],
     "habitat_type": [
       "Ocean Water"
-    ]
+    ],
+    "national_id": 423
   },
   {
     "id": 61,
@@ -1889,7 +1952,8 @@
     ],
     "habitat_type": [
       "Plush central"
-    ]
+    ],
+    "national_id": 425
   },
   {
     "id": 62,
@@ -1921,7 +1985,8 @@
     ],
     "habitat_type": [
       "Plush central"
-    ]
+    ],
+    "national_id": 426
   },
   {
     "id": 63,
@@ -1947,7 +2012,8 @@
     ],
     "habitat_type": [
       "Vegetable Field"
-    ]
+    ],
+    "national_id": 529
   },
   {
     "id": 64,
@@ -1979,7 +2045,8 @@
     ],
     "habitat_type": [
       "Toil in the soil"
-    ]
+    ],
+    "national_id": 530
   },
   {
     "id": 65,
@@ -2006,7 +2073,8 @@
     "habitat_type": [
       "Large Boulder",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 532
   },
   {
     "id": 66,
@@ -2038,7 +2106,8 @@
     "habitat_type": [
       "Large Boulder",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 533
   },
   {
     "id": 67,
@@ -2070,7 +2139,8 @@
     ],
     "habitat_type": [
       "Construction-site generator"
-    ]
+    ],
+    "national_id": 534
   },
   {
     "id": 68,
@@ -2101,7 +2171,8 @@
     ],
     "habitat_type": [
       "Creepy grave offering"
-    ]
+    ],
+    "national_id": 607
   },
   {
     "id": 69,
@@ -2132,7 +2203,8 @@
     ],
     "habitat_type": [
       "Creepy grave offering"
-    ]
+    ],
+    "national_id": 608
   },
   {
     "id": 70,
@@ -2163,7 +2235,8 @@
     ],
     "habitat_type": [
       "Creepy grave offering"
-    ]
+    ],
+    "national_id": 609
   },
   {
     "id": 71,
@@ -2194,7 +2267,8 @@
     ],
     "habitat_type": [
       "Tree Stump"
-    ]
+    ],
+    "national_id": 610
   },
   {
     "id": 72,
@@ -2225,7 +2299,8 @@
     ],
     "habitat_type": [
       "Tree Stump"
-    ]
+    ],
+    "national_id": 611
   },
   {
     "id": 73,
@@ -2257,7 +2332,8 @@
     ],
     "habitat_type": [
       "Tree Stump"
-    ]
+    ],
+    "national_id": 612
   },
   {
     "id": 74,
@@ -2287,7 +2363,8 @@
     "habitat_type": [
       "Berry Tree",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 704
   },
   {
     "id": 75,
@@ -2317,7 +2394,8 @@
     "habitat_type": [
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 705
   },
   {
     "id": 76,
@@ -2347,7 +2425,8 @@
     ],
     "habitat_type": [
       "Very-berry space"
-    ]
+    ],
+    "national_id": 706
   },
   {
     "id": 77,
@@ -2375,7 +2454,8 @@
     "habitat_type": [
       "Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 845
   },
   {
     "id": 78,
@@ -2406,7 +2486,8 @@
     ],
     "habitat_type": [
       "Picnic Set"
-    ]
+    ],
+    "national_id": 172
   },
   {
     "id": 79,
@@ -2434,7 +2515,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "national_id": null
   },
   {
     "id": 79,
@@ -2460,7 +2542,8 @@
     ],
     "habitat_type": [
       "Picnic Set"
-    ]
+    ],
+    "national_id": 25
   },
   {
     "id": 80,
@@ -2492,7 +2575,8 @@
     ],
     "habitat_type": [
       "Picnic Set"
-    ]
+    ],
+    "national_id": 26
   },
   {
     "id": 81,
@@ -2516,7 +2600,8 @@
     "habitat_type": [
       "Large Tree",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 41
   },
   {
     "id": 82,
@@ -2545,7 +2630,8 @@
     "habitat_type": [
       "Large Tree",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 42
   },
   {
     "id": 83,
@@ -2574,7 +2660,8 @@
     ],
     "habitat_type": [
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 169
   },
   {
     "id": 84,
@@ -2600,7 +2687,8 @@
     ],
     "habitat_type": [
       "Working the register"
-    ]
+    ],
+    "national_id": 52
   },
   {
     "id": 85,
@@ -2632,7 +2720,8 @@
     ],
     "habitat_type": [
       "Working the register"
-    ]
+    ],
+    "national_id": 53
   },
   {
     "id": 86,
@@ -2663,7 +2752,8 @@
     ],
     "habitat_type": [
       "Hot-Spring Water"
-    ]
+    ],
+    "national_id": 54
   },
   {
     "id": 87,
@@ -2694,7 +2784,8 @@
     ],
     "habitat_type": [
       "Hot-Spring Water"
-    ]
+    ],
+    "national_id": 55
   },
   {
     "id": 88,
@@ -2726,7 +2817,8 @@
     ],
     "habitat_type": [
       "Large Palm Tree"
-    ]
+    ],
+    "national_id": 58
   },
   {
     "id": 89,
@@ -2753,7 +2845,8 @@
     ],
     "habitat_type": [
       "Lava"
-    ]
+    ],
+    "national_id": 59
   },
   {
     "id": 90,
@@ -2785,7 +2878,8 @@
     ],
     "habitat_type": [
       "All packed up"
-    ]
+    ],
+    "national_id": 83
   },
   {
     "id": 91,
@@ -2816,7 +2910,8 @@
     ],
     "habitat_type": [
       "Trash collection site"
-    ]
+    ],
+    "national_id": 88
   },
   {
     "id": 92,
@@ -2847,7 +2942,8 @@
     ],
     "habitat_type": [
       "Trash collection site"
-    ]
+    ],
+    "national_id": 89
   },
   {
     "id": 93,
@@ -2876,7 +2972,8 @@
     ],
     "habitat_type": [
       "Spooky study"
-    ]
+    ],
+    "national_id": 92
   },
   {
     "id": 94,
@@ -2905,7 +3002,8 @@
     ],
     "habitat_type": [
       "Spooky study"
-    ]
+    ],
+    "national_id": 93
   },
   {
     "id": 95,
@@ -2934,7 +3032,8 @@
     ],
     "habitat_type": [
       "Spooky study"
-    ]
+    ],
+    "national_id": 94
   },
   {
     "id": 96,
@@ -2966,7 +3065,8 @@
     ],
     "habitat_type": [
       "Playing pirate"
-    ]
+    ],
+    "national_id": 100
   },
   {
     "id": 97,
@@ -2998,7 +3098,8 @@
     ],
     "habitat_type": [
       "Playing pirate"
-    ]
+    ],
+    "national_id": 101
   },
   {
     "id": 98,
@@ -3031,7 +3132,8 @@
     "habitat_type": [
       "Large Palm Tree",
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 102
   },
   {
     "id": 99,
@@ -3064,7 +3166,8 @@
     "habitat_type": [
       "Large Palm Tree",
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 103
   },
   {
     "id": 100,
@@ -3090,7 +3193,8 @@
     ],
     "habitat_type": [
       "Alarm clock sleep zone"
-    ]
+    ],
+    "national_id": 440
   },
   {
     "id": 101,
@@ -3121,7 +3225,8 @@
     ],
     "habitat_type": [
       "Full recovery"
-    ]
+    ],
+    "national_id": 113
   },
   {
     "id": 102,
@@ -3153,7 +3258,8 @@
     ],
     "habitat_type": [
       "Full recovery"
-    ]
+    ],
+    "national_id": 242
   },
   {
     "id": 103,
@@ -3179,7 +3285,8 @@
     ],
     "habitat_type": [
       "Vending machine set"
-    ]
+    ],
+    "national_id": 239
   },
   {
     "id": 104,
@@ -3210,7 +3317,8 @@
     ],
     "habitat_type": [
       "Light-up stage"
-    ]
+    ],
+    "national_id": 125
   },
   {
     "id": 105,
@@ -3242,7 +3350,8 @@
     ],
     "habitat_type": [
       "Vending machine set"
-    ]
+    ],
+    "national_id": 466
   },
   {
     "id": 106,
@@ -3269,7 +3378,8 @@
     "habitat_type": [
       "Large Palm Tree",
       "Ocean Water"
-    ]
+    ],
+    "national_id": 131
   },
   {
     "id": 107,
@@ -3297,7 +3407,8 @@
     "habitat_type": [
       "Bed with a plush",
       "Tree-shaded snoozing Snorlax"
-    ]
+    ],
+    "national_id": 446
   },
   {
     "id": 108,
@@ -3326,7 +3437,8 @@
       "Sparkling Skylands",
       "Withered Wastelands"
     ],
-    "npc": true
+    "npc": true,
+    "national_id": null
   },
   {
     "id": 108,
@@ -3353,7 +3465,8 @@
     ],
     "habitat_type": [
       "Large Tree"
-    ]
+    ],
+    "national_id": 143
   },
   {
     "id": 109,
@@ -3384,7 +3497,8 @@
     ],
     "habitat_type": [
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 167
   },
   {
     "id": 110,
@@ -3415,7 +3529,8 @@
     ],
     "habitat_type": [
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 168
   },
   {
     "id": 111,
@@ -3442,7 +3557,8 @@
     ],
     "habitat_type": [
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 179
   },
   {
     "id": 112,
@@ -3475,7 +3591,8 @@
     "habitat_type": [
       "Knitting station",
       "Night festival venue"
-    ]
+    ],
+    "national_id": 180
   },
   {
     "id": 113,
@@ -3507,7 +3624,8 @@
     ],
     "habitat_type": [
       "Plain life"
-    ]
+    ],
+    "national_id": 181
   },
   {
     "id": 114,
@@ -3540,7 +3658,8 @@
     "habitat_type": [
       "Water",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 298
   },
   {
     "id": 115,
@@ -3574,7 +3693,8 @@
       "Ocean Water",
       "Water",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 183
   },
   {
     "id": 116,
@@ -3604,7 +3724,8 @@
     ],
     "habitat_type": [
       "Ocean Water"
-    ]
+    ],
+    "national_id": 184
   },
   {
     "id": 117,
@@ -3632,7 +3753,8 @@
     "habitat_type": [
       "Water",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 10253
   },
   {
     "id": 118,
@@ -3665,7 +3787,8 @@
     "habitat_type": [
       "Water",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 980
   },
   {
     "id": 119,
@@ -3696,7 +3819,8 @@
     ],
     "habitat_type": [
       "Tiny Atelier"
-    ]
+    ],
+    "national_id": null
   },
   {
     "id": 120,
@@ -3722,7 +3846,8 @@
     ],
     "habitat_type": [
       "Large Palm Tree"
-    ]
+    ],
+    "national_id": 255
   },
   {
     "id": 121,
@@ -3754,7 +3879,8 @@
     ],
     "habitat_type": [
       "Large Palm Tree"
-    ]
+    ],
+    "national_id": 256
   },
   {
     "id": 122,
@@ -3786,7 +3912,8 @@
     ],
     "habitat_type": [
       "Chirp-chirp meal"
-    ]
+    ],
+    "national_id": 257
   },
   {
     "id": 123,
@@ -3818,7 +3945,8 @@
     "habitat_type": [
       "Seashore Flowers",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 278
   },
   {
     "id": 124,
@@ -3850,7 +3978,8 @@
     "habitat_type": [
       "Seashore Flowers",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 279
   },
   {
     "id": 125,
@@ -3878,7 +4007,8 @@
     "habitat_type": [
       "Large Tree",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 296
   },
   {
     "id": 126,
@@ -3911,7 +4041,8 @@
     "habitat_type": [
       "Large Tree",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 297
   },
   {
     "id": 127,
@@ -3942,7 +4073,8 @@
     ],
     "habitat_type": [
       "Welcoming resort"
-    ]
+    ],
+    "national_id": 359
   },
   {
     "id": 128,
@@ -3969,7 +4101,8 @@
     "habitat_type": [
       "Water",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 393
   },
   {
     "id": 129,
@@ -4003,7 +4136,8 @@
       "Water",
       "Waterfall",
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 394
   },
   {
     "id": 130,
@@ -4033,7 +4167,8 @@
     ],
     "habitat_type": [
       "Tableside delivery cart"
-    ]
+    ],
+    "national_id": 395
   },
   {
     "id": 131,
@@ -4064,7 +4199,8 @@
     ],
     "habitat_type": [
       "Working the register"
-    ]
+    ],
+    "national_id": 531
   },
   {
     "id": 132,
@@ -4090,7 +4226,8 @@
     ],
     "habitat_type": [
       "Trash collection site"
-    ]
+    ],
+    "national_id": 568
   },
   {
     "id": 133,
@@ -4122,7 +4259,8 @@
     ],
     "habitat_type": [
       "Trash collection site"
-    ]
+    ],
+    "national_id": 569
   },
   {
     "id": 134,
@@ -4148,7 +4286,8 @@
     ],
     "habitat_type": [
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 570
   },
   {
     "id": 135,
@@ -4180,7 +4319,8 @@
     ],
     "habitat_type": [
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 571
   },
   {
     "id": 136,
@@ -4211,7 +4351,8 @@
     ],
     "habitat_type": [
       "Changing area"
-    ]
+    ],
+    "national_id": 572
   },
   {
     "id": 137,
@@ -4243,7 +4384,8 @@
     ],
     "habitat_type": [
       "Changing area"
-    ]
+    ],
+    "national_id": 573
   },
   {
     "id": 138,
@@ -4274,7 +4416,8 @@
     ],
     "habitat_type": [
       "Yellow Tall Grass"
-    ]
+    ],
+    "national_id": 736
   },
   {
     "id": 139,
@@ -4306,7 +4449,8 @@
     ],
     "habitat_type": [
       "Vending machine break area"
-    ]
+    ],
+    "national_id": 737
   },
   {
     "id": 140,
@@ -4334,7 +4478,8 @@
     "habitat_type": [
       "Berry Tree",
       "Wildflowers"
-    ]
+    ],
+    "national_id": 738
   },
   {
     "id": 141,
@@ -4365,7 +4510,8 @@
     ],
     "habitat_type": [
       "Pikachu space"
-    ]
+    ],
+    "national_id": 778
   },
   {
     "id": 142,
@@ -4391,7 +4537,8 @@
     ],
     "habitat_type": [
       "Seashore Flowers"
-    ]
+    ],
+    "national_id": 921
   },
   {
     "id": 143,
@@ -4423,7 +4570,8 @@
     ],
     "habitat_type": [
       "Tantalizing restaurant"
-    ]
+    ],
+    "national_id": 922
   },
   {
     "id": 144,
@@ -4454,7 +4602,8 @@
     ],
     "habitat_type": [
       "Tantalizing restaurant"
-    ]
+    ],
+    "national_id": 923
   },
   {
     "id": 145,
@@ -4485,7 +4634,8 @@
     ],
     "habitat_type": [
       "Beach Set"
-    ]
+    ],
+    "national_id": 978
   },
   {
     "id": 145,
@@ -4516,7 +4666,8 @@
     ],
     "habitat_type": [
       "Beach Set"
-    ]
+    ],
+    "national_id": 10258
   },
   {
     "id": 145,
@@ -4547,7 +4698,8 @@
     ],
     "habitat_type": [
       "Beach Set"
-    ]
+    ],
+    "national_id": 10259
   },
   {
     "id": 146,
@@ -4579,7 +4731,8 @@
     "habitat_type": [
       "Mountain Flowers",
       "Water"
-    ]
+    ],
+    "national_id": 23
   },
   {
     "id": 147,
@@ -4611,7 +4764,8 @@
     "habitat_type": [
       "Mountain Flowers",
       "Water"
-    ]
+    ],
+    "national_id": 24
   },
   {
     "id": 148,
@@ -4639,7 +4793,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 173
   },
   {
     "id": 149,
@@ -4667,7 +4822,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 35
   },
   {
     "id": 150,
@@ -4696,7 +4852,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 36
   },
   {
     "id": 151,
@@ -4728,7 +4885,8 @@
     "habitat_type": [
       "Mountain Flowers",
       "Tree Stump"
-    ]
+    ],
+    "national_id": 174
   },
   {
     "id": 152,
@@ -4760,7 +4918,8 @@
     "habitat_type": [
       "Mountain Flowers",
       "Tree Stump"
-    ]
+    ],
+    "national_id": 39
   },
   {
     "id": 153,
@@ -4792,7 +4951,8 @@
     ],
     "habitat_type": [
       "Recital stage"
-    ]
+    ],
+    "national_id": 40
   },
   {
     "id": 154,
@@ -4824,7 +4984,8 @@
     "habitat_type": [
       "Large Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 50
   },
   {
     "id": 155,
@@ -4857,7 +5018,8 @@
     "habitat_type": [
       "Large Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 51
   },
   {
     "id": 156,
@@ -4885,7 +5047,8 @@
     "habitat_type": [
       "Large Boulder",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 66
   },
   {
     "id": 157,
@@ -4912,7 +5075,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 67
   },
   {
     "id": 158,
@@ -4944,7 +5108,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 68
   },
   {
     "id": 159,
@@ -4970,7 +5135,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 74
   },
   {
     "id": 160,
@@ -4997,7 +5163,8 @@
     "habitat_type": [
       "Moss",
       "Mossy Boulder"
-    ]
+    ],
+    "national_id": 75
   },
   {
     "id": 161,
@@ -5025,7 +5192,8 @@
     "habitat_type": [
       "Moss",
       "Mossy Boulder"
-    ]
+    ],
+    "national_id": 76
   },
   {
     "id": 162,
@@ -5051,7 +5219,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 240
   },
   {
     "id": 163,
@@ -5077,7 +5246,8 @@
     ],
     "habitat_type": [
       "Digging and burning"
-    ]
+    ],
+    "national_id": 126
   },
   {
     "id": 164,
@@ -5109,7 +5279,8 @@
     ],
     "habitat_type": [
       "Digging and burning"
-    ]
+    ],
+    "national_id": 467
   },
   {
     "id": 165,
@@ -5141,7 +5312,8 @@
     "habitat_type": [
       "Large Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 438
   },
   {
     "id": 166,
@@ -5173,7 +5345,8 @@
     "habitat_type": [
       "Large Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 185
   },
   {
     "id": 167,
@@ -5203,7 +5376,8 @@
     "habitat_type": [
       "Mountain Flowers",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 198
   },
   {
     "id": 168,
@@ -5232,7 +5406,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 430
   },
   {
     "id": 169,
@@ -5264,7 +5439,8 @@
     ],
     "habitat_type": [
       "Moss"
-    ]
+    ],
+    "national_id": 246
   },
   {
     "id": 170,
@@ -5297,7 +5473,8 @@
     "habitat_type": [
       "Large Tree",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 247
   },
   {
     "id": 171,
@@ -5330,7 +5507,8 @@
     "habitat_type": [
       "Moss",
       "Vegetable Field"
-    ]
+    ],
+    "national_id": 248
   },
   {
     "id": 172,
@@ -5364,7 +5542,8 @@
       "Hot-Spring Water",
       "Red Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 270
   },
   {
     "id": 173,
@@ -5397,7 +5576,8 @@
       "Hot-Spring Water",
       "Red Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 271
   },
   {
     "id": 174,
@@ -5430,7 +5610,8 @@
     "habitat_type": [
       "Duckweed",
       "Water"
-    ]
+    ],
+    "national_id": 272
   },
   {
     "id": 175,
@@ -5457,7 +5638,8 @@
     ],
     "habitat_type": [
       "Working the register"
-    ]
+    ],
+    "national_id": 303
   },
   {
     "id": 176,
@@ -5484,7 +5666,8 @@
     "habitat_type": [
       "Hot-Spring Water",
       "Moss"
-    ]
+    ],
+    "national_id": 324
   },
   {
     "id": 177,
@@ -5515,7 +5698,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 401
   },
   {
     "id": 178,
@@ -5546,7 +5730,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 402
   },
   {
     "id": 179,
@@ -5577,7 +5762,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 441
   },
   {
     "id": 180,
@@ -5608,7 +5794,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 447
   },
   {
     "id": 181,
@@ -5639,7 +5826,8 @@
     ],
     "habitat_type": [
       "Box to the rhythm"
-    ]
+    ],
+    "national_id": 448
   },
   {
     "id": 182,
@@ -5667,7 +5855,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "national_id": 479
   },
   {
     "id": 183,
@@ -5698,7 +5887,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 636
   },
   {
     "id": 184,
@@ -5732,7 +5922,8 @@
       "Lava",
       "Molten Rock",
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 637
   },
   {
     "id": 185,
@@ -5758,7 +5949,8 @@
     ],
     "habitat_type": [
       "Vegetable Field"
-    ]
+    ],
+    "national_id": 722
   },
   {
     "id": 186,
@@ -5787,7 +5979,8 @@
       "Large Boulder",
       "Pointy Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 723
   },
   {
     "id": 187,
@@ -5821,7 +6014,8 @@
       "Large Boulder",
       "Pointy Tree",
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 724
   },
   {
     "id": 188,
@@ -5847,7 +6041,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 813
   },
   {
     "id": 189,
@@ -5873,7 +6068,8 @@
     ],
     "habitat_type": [
       "Hot-Spring Water"
-    ]
+    ],
+    "national_id": 814
   },
   {
     "id": 190,
@@ -5905,7 +6101,8 @@
     ],
     "habitat_type": [
       "Red Tall Grass"
-    ]
+    ],
+    "national_id": 815
   },
   {
     "id": 191,
@@ -5933,7 +6130,8 @@
     "habitat_type": [
       "Large Tree",
       "Tall Grass"
-    ]
+    ],
+    "national_id": 819
   },
   {
     "id": 192,
@@ -5961,7 +6159,8 @@
       "Rocky Ridges",
       "Sparkling Skylands",
       "Withered Wastelands"
-    ]
+    ],
+    "national_id": 820
   },
   {
     "id": 193,
@@ -5993,7 +6192,8 @@
     ],
     "habitat_type": [
       "Railroad crossing"
-    ]
+    ],
+    "national_id": 837
   },
   {
     "id": 194,
@@ -6020,7 +6220,8 @@
     ],
     "habitat_type": [
       "Railroad crossing"
-    ]
+    ],
+    "national_id": 838
   },
   {
     "id": 195,
@@ -6052,7 +6253,8 @@
     ],
     "habitat_type": [
       "Railroad crossing"
-    ]
+    ],
+    "national_id": 839
   },
   {
     "id": 196,
@@ -6078,7 +6280,8 @@
     ],
     "habitat_type": [
       "Lazy-photo album scrolling"
-    ]
+    ],
+    "national_id": 848
   },
   {
     "id": 197,
@@ -6110,7 +6313,8 @@
     ],
     "habitat_type": [
       "Amped rock stage"
-    ]
+    ],
+    "national_id": 849
   },
   {
     "id": 197,
@@ -6142,7 +6346,8 @@
     ],
     "habitat_type": [
       "Low-key rock stage"
-    ]
+    ],
+    "national_id": 10184
   },
   {
     "id": 198,
@@ -6172,7 +6377,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 926
   },
   {
     "id": 199,
@@ -6203,7 +6409,8 @@
     ],
     "habitat_type": [
       "Mountain Flowers"
-    ]
+    ],
+    "national_id": 927
   },
   {
     "id": 200,
@@ -6230,7 +6437,8 @@
     "habitat_type": [
       "Lava",
       "Molten Rock"
-    ]
+    ],
+    "national_id": 935
   },
   {
     "id": 201,
@@ -6262,7 +6470,8 @@
     ],
     "habitat_type": [
       "Auspicious knight's shrine"
-    ]
+    ],
+    "national_id": 936
   },
   {
     "id": 202,
@@ -6294,7 +6503,8 @@
     ],
     "habitat_type": [
       "Malicious knight's shrine"
-    ]
+    ],
+    "national_id": 937
   },
   {
     "id": 203,
@@ -6326,7 +6536,8 @@
     "habitat_type": [
       "Moss",
       "Stalagmites"
-    ]
+    ],
+    "national_id": 969
   },
   {
     "id": 204,
@@ -6358,7 +6569,8 @@
     "habitat_type": [
       "Moss",
       "Stalagmites"
-    ]
+    ],
+    "national_id": 970
   },
   {
     "id": 205,
@@ -6384,7 +6596,8 @@
     ],
     "habitat_type": [
       "Mini museum"
-    ]
+    ],
+    "national_id": 999
   },
   {
     "id": 206,
@@ -6415,7 +6628,8 @@
     ],
     "habitat_type": [
       "Mini museum"
-    ]
+    ],
+    "national_id": 1000
   },
   {
     "id": 207,
@@ -6446,7 +6660,8 @@
     ],
     "habitat_type": [
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 37
   },
   {
     "id": 208,
@@ -6478,7 +6693,8 @@
     "habitat_type": [
       "Skyland Flowers",
       "Nine flames"
-    ]
+    ],
+    "national_id": 38
   },
   {
     "id": 209,
@@ -6509,7 +6725,8 @@
     ],
     "habitat_type": [
       "Squeaky clean"
-    ]
+    ],
+    "national_id": 60
   },
   {
     "id": 210,
@@ -6541,7 +6758,8 @@
     "habitat_type": [
       "Skyland Flowers",
       "Water"
-    ]
+    ],
+    "national_id": 61
   },
   {
     "id": 211,
@@ -6573,7 +6791,8 @@
     ],
     "habitat_type": [
       "Sewer hole inspection"
-    ]
+    ],
+    "national_id": 62
   },
   {
     "id": 212,
@@ -6608,7 +6827,8 @@
       "Mountain Flowers",
       "Tree Stump",
       "Water"
-    ]
+    ],
+    "national_id": 186
   },
   {
     "id": 213,
@@ -6639,7 +6859,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 63
   },
   {
     "id": 214,
@@ -6670,7 +6891,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 64
   },
   {
     "id": 215,
@@ -6702,7 +6924,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 65
   },
   {
     "id": 216,
@@ -6733,7 +6956,8 @@
     ],
     "habitat_type": [
       "Spotless Washing station"
-    ]
+    ],
+    "national_id": 439
   },
   {
     "id": 217,
@@ -6765,7 +6989,8 @@
     ],
     "habitat_type": [
       "Spotless Washing station"
-    ]
+    ],
+    "national_id": 122
   },
   {
     "id": 218,
@@ -6791,7 +7016,8 @@
     ],
     "habitat_type": [
       "Researcher's desk"
-    ]
+    ],
+    "national_id": 137
   },
   {
     "id": 219,
@@ -6822,7 +7048,8 @@
     ],
     "habitat_type": [
       "Researcher's desk"
-    ]
+    ],
+    "national_id": 233
   },
   {
     "id": 220,
@@ -6853,7 +7080,8 @@
     ],
     "habitat_type": [
       "Researcher's desk"
-    ]
+    ],
+    "national_id": 474
   },
   {
     "id": 221,
@@ -6885,7 +7113,8 @@
     "habitat_type": [
       "Skyland Flowers",
       "Water"
-    ]
+    ],
+    "national_id": 147
   },
   {
     "id": 222,
@@ -6916,7 +7145,8 @@
     ],
     "habitat_type": [
       "Simple bathroom"
-    ]
+    ],
+    "national_id": 148
   },
   {
     "id": 223,
@@ -6950,7 +7180,8 @@
       "Duckweed",
       "High-Up Location",
       "Water"
-    ]
+    ],
+    "national_id": 149
   },
   {
     "id": 224,
@@ -6981,7 +7212,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 155
   },
   {
     "id": 225,
@@ -7012,7 +7244,8 @@
     ],
     "habitat_type": [
       "Tall Grass"
-    ]
+    ],
+    "national_id": 156
   },
   {
     "id": 226,
@@ -7044,7 +7277,8 @@
     ],
     "habitat_type": [
       "Top pop"
-    ]
+    ],
+    "national_id": 157
   },
   {
     "id": 227,
@@ -7072,7 +7306,8 @@
     ],
     "habitat_type": [
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 200
   },
   {
     "id": 228,
@@ -7101,7 +7336,8 @@
     ],
     "habitat_type": [
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 429
   },
   {
     "id": 229,
@@ -7133,7 +7369,8 @@
     "habitat_type": [
       "Large Tree",
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 203
   },
   {
     "id": 230,
@@ -7166,7 +7403,8 @@
     "habitat_type": [
       "Large Tree",
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 981
   },
   {
     "id": 231,
@@ -7197,7 +7435,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 280
   },
   {
     "id": 232,
@@ -7228,7 +7467,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 281
   },
   {
     "id": 233,
@@ -7260,7 +7500,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 282
   },
   {
     "id": 234,
@@ -7292,7 +7533,8 @@
     ],
     "habitat_type": [
       "Study Area"
-    ]
+    ],
+    "national_id": 475
   },
   {
     "id": 235,
@@ -7323,7 +7565,8 @@
     ],
     "habitat_type": [
       "High-Up Location"
-    ]
+    ],
+    "national_id": 311
   },
   {
     "id": 236,
@@ -7354,7 +7597,8 @@
     ],
     "habitat_type": [
       "High-Up Location"
-    ]
+    ],
+    "national_id": 312
   },
   {
     "id": 237,
@@ -7386,7 +7630,8 @@
     ],
     "habitat_type": [
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 328
   },
   {
     "id": 238,
@@ -7418,7 +7663,8 @@
     ],
     "habitat_type": [
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 329
   },
   {
     "id": 239,
@@ -7450,7 +7696,8 @@
     ],
     "habitat_type": [
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 330
   },
   {
     "id": 240,
@@ -7481,7 +7728,8 @@
     ],
     "habitat_type": [
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 333
   },
   {
     "id": 241,
@@ -7513,7 +7761,8 @@
     ],
     "habitat_type": [
       "Birdsong garden"
-    ]
+    ],
+    "national_id": 334
   },
   {
     "id": 242,
@@ -7541,7 +7790,8 @@
     ],
     "habitat_type": [
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 355
   },
   {
     "id": 243,
@@ -7569,7 +7819,8 @@
     ],
     "habitat_type": [
       "Trash site TV"
-    ]
+    ],
+    "national_id": 356
   },
   {
     "id": 244,
@@ -7598,7 +7849,8 @@
     ],
     "habitat_type": [
       "Trash site TV"
-    ]
+    ],
+    "national_id": 477
   },
   {
     "id": 245,
@@ -7629,7 +7881,8 @@
     ],
     "habitat_type": [
       "Cycling rest stop"
-    ]
+    ],
+    "national_id": 374
   },
   {
     "id": 246,
@@ -7655,7 +7908,8 @@
     ],
     "habitat_type": [
       "Professor's apprentice program"
-    ]
+    ],
+    "national_id": 375
   },
   {
     "id": 247,
@@ -7687,7 +7941,8 @@
     ],
     "habitat_type": [
       "Professor's apprentice program"
-    ]
+    ],
+    "national_id": 376
   },
   {
     "id": 248,
@@ -7714,7 +7969,8 @@
     ],
     "habitat_type": [
       "Playland"
-    ]
+    ],
+    "national_id": 495
   },
   {
     "id": 249,
@@ -7747,7 +8003,8 @@
     "habitat_type": [
       "Large Tree",
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 496
   },
   {
     "id": 250,
@@ -7780,7 +8037,8 @@
     "habitat_type": [
       "Large Tree",
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 497
   },
   {
     "id": 251,
@@ -7807,7 +8065,8 @@
     "habitat_type": [
       "Pink Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 656
   },
   {
     "id": 252,
@@ -7839,7 +8098,8 @@
     "habitat_type": [
       "Pink Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 657
   },
   {
     "id": 253,
@@ -7872,7 +8132,8 @@
     "habitat_type": [
       "Pink Tall Grass",
       "Water"
-    ]
+    ],
+    "national_id": 658
   },
   {
     "id": 254,
@@ -7898,7 +8159,8 @@
     ],
     "habitat_type": [
       "Tire Park"
-    ]
+    ],
+    "national_id": 702
   },
   {
     "id": 255,
@@ -7929,7 +8191,8 @@
     ],
     "habitat_type": [
       "Rhythmic Living room"
-    ]
+    ],
+    "national_id": 714
   },
   {
     "id": 256,
@@ -7961,7 +8224,8 @@
     ],
     "habitat_type": [
       "Rhythmic Living room"
-    ]
+    ],
+    "national_id": 715
   },
   {
     "id": 257,
@@ -7987,7 +8251,8 @@
     ],
     "habitat_type": [
       "Skyland Flowers"
-    ]
+    ],
+    "national_id": 821
   },
   {
     "id": 258,
@@ -8019,7 +8284,8 @@
     "habitat_type": [
       "High-Up Location",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 822
   },
   {
     "id": 259,
@@ -8052,7 +8318,8 @@
     "habitat_type": [
       "High-Up Location",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 823
   },
   {
     "id": 260,
@@ -8085,7 +8352,8 @@
     "habitat_type": [
       "Large Tree",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 885
   },
   {
     "id": 261,
@@ -8118,7 +8386,8 @@
     "habitat_type": [
       "Large Tree",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 886
   },
   {
     "id": 262,
@@ -8150,7 +8419,8 @@
     ],
     "habitat_type": [
       "Office storeroom"
-    ]
+    ],
+    "national_id": 887
   },
   {
     "id": 263,
@@ -8177,7 +8447,8 @@
     "habitat_type": [
       "Large Tree",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 906
   },
   {
     "id": 264,
@@ -8208,7 +8479,8 @@
     ],
     "habitat_type": [
       "Interrogation desk"
-    ]
+    ],
+    "national_id": 907
   },
   {
     "id": 265,
@@ -8240,7 +8512,8 @@
     ],
     "habitat_type": [
       "Heart-pounding surprise box"
-    ]
+    ],
+    "national_id": 908
   },
   {
     "id": 266,
@@ -8272,7 +8545,8 @@
     "habitat_type": [
       "High-Up Location",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 940
   },
   {
     "id": 267,
@@ -8305,7 +8579,8 @@
     "habitat_type": [
       "High-Up Location",
       "Pink Tall Grass"
-    ]
+    ],
+    "national_id": 941
   },
   {
     "id": 268,
@@ -8331,7 +8606,8 @@
     ],
     "habitat_type": [
       "Oversized dumping ground"
-    ]
+    ],
+    "national_id": 957
   },
   {
     "id": 269,
@@ -8357,7 +8633,8 @@
     ],
     "habitat_type": [
       "Sewer hole inspection"
-    ]
+    ],
+    "national_id": 958
   },
   {
     "id": 270,
@@ -8388,7 +8665,8 @@
     ],
     "habitat_type": [
       "Sewer hole inspection"
-    ]
+    ],
+    "national_id": 959
   },
   {
     "id": 271,
@@ -8419,7 +8697,8 @@
     ],
     "habitat_type": [
       "Wing Fossil Display"
-    ]
+    ],
+    "national_id": 142
   },
   {
     "id": 272,
@@ -8450,7 +8729,8 @@
     ],
     "habitat_type": [
       "Headbutt Fossil display"
-    ]
+    ],
+    "national_id": 408
   },
   {
     "id": 273,
@@ -8482,7 +8762,8 @@
     ],
     "habitat_type": [
       "Headbutt Fossil display"
-    ]
+    ],
+    "national_id": 409
   },
   {
     "id": 274,
@@ -8513,7 +8794,8 @@
     ],
     "habitat_type": [
       "Armor Fossil display"
-    ]
+    ],
+    "national_id": 410
   },
   {
     "id": 275,
@@ -8545,7 +8827,8 @@
     ],
     "habitat_type": [
       "Shield Fossil display"
-    ]
+    ],
+    "national_id": 411
   },
   {
     "id": 276,
@@ -8576,7 +8859,8 @@
     ],
     "habitat_type": [
       "Jaw Fossil display"
-    ]
+    ],
+    "national_id": 696
   },
   {
     "id": 277,
@@ -8608,7 +8892,8 @@
     ],
     "habitat_type": [
       "Despot fossil display"
-    ]
+    ],
+    "national_id": 697
   },
   {
     "id": 278,
@@ -8639,7 +8924,8 @@
     ],
     "habitat_type": [
       "Tundra fossil display"
-    ]
+    ],
+    "national_id": 698
   },
   {
     "id": 279,
@@ -8671,7 +8957,8 @@
     ],
     "habitat_type": [
       "Tundra fossil display"
-    ]
+    ],
+    "national_id": 699
   },
   {
     "id": 280,
@@ -8697,7 +8984,8 @@
     ],
     "habitat_type": [
       "Wildflowers"
-    ]
+    ],
+    "national_id": 133
   },
   {
     "id": 281,
@@ -8723,7 +9011,8 @@
     ],
     "habitat_type": [
       "Boundless blue beverage"
-    ]
+    ],
+    "national_id": 134
   },
   {
     "id": 282,
@@ -8749,7 +9038,8 @@
     ],
     "habitat_type": [
       "Electrifying potatoes"
-    ]
+    ],
+    "national_id": 135
   },
   {
     "id": 283,
@@ -8775,7 +9065,8 @@
     ],
     "habitat_type": [
       "Burning-hot spice"
-    ]
+    ],
+    "national_id": 136
   },
   {
     "id": 284,
@@ -8800,7 +9091,8 @@
     ],
     "habitat_type": [
       "Elegant daytime treats"
-    ]
+    ],
+    "national_id": 196
   },
   {
     "id": 285,
@@ -8823,7 +9115,8 @@
     ],
     "habitat_type": [
       "Dark-chocolate cookies"
-    ]
+    ],
+    "national_id": 197
   },
   {
     "id": 286,
@@ -8849,7 +9142,8 @@
     ],
     "habitat_type": [
       "Leafy greens sandwich"
-    ]
+    ],
+    "national_id": 470
   },
   {
     "id": 287,
@@ -8875,7 +9169,8 @@
     ],
     "habitat_type": [
       "Chilly shaved ice"
-    ]
+    ],
+    "national_id": 471
   },
   {
     "id": 288,
@@ -8901,14 +9196,16 @@
     ],
     "habitat_type": [
       "Lovely ribbon cake"
-    ]
+    ],
+    "national_id": 700
   },
   {
     "id": 289,
     "name": "Kyogre",
     "specialties": [],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 382
   },
   {
     "id": 290,
@@ -8917,7 +9214,8 @@
       "Generate"
     ],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 243
   },
   {
     "id": 291,
@@ -8926,7 +9224,8 @@
       "Burn"
     ],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 244
   },
   {
     "id": 292,
@@ -8935,7 +9234,8 @@
       "Water"
     ],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 245
   },
   {
     "id": 293,
@@ -8944,7 +9244,8 @@
       "Burn"
     ],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 721
   },
   {
     "id": 294,
@@ -8955,7 +9256,8 @@
     "source": "main",
     "habitat_type": [
       "Freezing chambers"
-    ]
+    ],
+    "national_id": 144
   },
   {
     "id": 295,
@@ -8966,7 +9268,8 @@
     "source": "main",
     "habitat_type": [
       "Abandoned powerplant"
-    ]
+    ],
+    "national_id": 145
   },
   {
     "id": 296,
@@ -8977,21 +9280,24 @@
     "source": "main",
     "habitat_type": [
       "Altar of flame"
-    ]
+    ],
+    "national_id": 146
   },
   {
     "id": 297,
     "name": "Lugia",
     "specialties": [],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 249
   },
   {
     "id": 298,
     "name": "Ho-Oh",
     "specialties": [],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 250
   },
   {
     "id": 299,
@@ -9000,7 +9306,8 @@
       "Teleport"
     ],
     "source": "main",
-    "dex_only": true
+    "dex_only": true,
+    "national_id": 150
   },
   {
     "id": 300,
@@ -9009,7 +9316,8 @@
       "Teleport"
     ],
     "source": "main",
-    "npc": true
+    "npc": true,
+    "national_id": 151
   },
   {
     "id": 1,
@@ -9040,7 +9348,8 @@
     ],
     "habitat_type": [
       "Dandy Flowers"
-    ]
+    ],
+    "national_id": 187
   },
   {
     "id": 2,
@@ -9072,7 +9381,8 @@
     "habitat_type": [
       "Dandy Flowers",
       "Field-trip friends"
-    ]
+    ],
+    "national_id": 188
   },
   {
     "id": 3,
@@ -9104,6 +9414,7 @@
     ],
     "habitat_type": [
       "Dandy Flowers"
-    ]
+    ],
+    "national_id": 189
   }
 ]
