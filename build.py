@@ -759,15 +759,10 @@ function filterPokemon() {{
 }}
 
 function filterHabitats() {{
-  // Pokémon card chip navigation takes priority over text search
+  // Pokémon card chip navigation: show every habitat listing this Pokémon
   if (state.habitatNav) {{
-    const {{ pokemonName, habitatType }} = state.habitatNav;
-    return HABITATS.filter(h =>
-      // Terrain habitats: match via h.types (e.g. "Tall Grass")
-      // Decoration habitats: match via h.name directly (e.g. "Campsite")
-      ((h.types || []).includes(habitatType) || h.name === habitatType) &&
-      (h.pokemon || []).includes(pokemonName)
-    );
+    const {{ pokemonName }} = state.habitatNav;
+    return HABITATS.filter(h => (h.pokemon || []).includes(pokemonName));
   }}
   const q = state.search;
   if (!q) return HABITATS;
@@ -967,7 +962,7 @@ function buildPokeCard(p) {{
       chip.className = 'info-chip ic-habitat ic-clickable';
       chip.textContent = ht;
       chip.title = 'View habitats for this Pokémon';
-      chip.onclick = () => goToHabitatsByType(p.name, ht);
+      chip.onclick = () => goToHabitatsByType(p.name);
       row.appendChild(chip);
     }});
     card.appendChild(row);
@@ -994,8 +989,8 @@ function renderHabitatDex() {{
   const banner = document.getElementById('habitatNavBanner');
   const info   = document.getElementById('habitatNavInfo');
   if (state.habitatNav && banner && info) {{
-    const {{ pokemonName, habitatType }} = state.habitatNav;
-    info.innerHTML = `<strong>${{pokemonName}}</strong><br><span style="color:var(--muted)">${{habitatType}}</span>`;
+    const {{ pokemonName }} = state.habitatNav;
+    info.innerHTML = `<strong>${{pokemonName}}</strong>`;
     banner.style.display = '';
   }} else if (banner) {{
     banner.style.display = 'none';
@@ -1127,8 +1122,8 @@ function applyChipFilter(group, value) {{
 // Switches to the Habitat Dex and shows only the habitats that:
 //   (a) are of the clicked terrain type, AND
 //   (b) this specific Pokémon actually spawns in.
-function goToHabitatsByType(pokemonName, habitatType) {{
-  state.habitatNav = {{ pokemonName, habitatType }};
+function goToHabitatsByType(pokemonName) {{
+  state.habitatNav = {{ pokemonName }};
   state.search = '';
   state.habPage = 1;
   document.getElementById('searchInput').value = '';
