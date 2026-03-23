@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Tall Grass",
-    "description": "Four tufts of tall grass bunched together in a plot. The perfect hiding place for small PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon",
+    "description": "Four tufts of tall grass bunched together in a plot. The perfect hiding place for small Pokémon",
     "requirements": [
       {
         "item": "Tall Grass",
@@ -28,7 +28,7 @@
   {
     "id": 2,
     "name": "Tree-shaded tall grass",
-    "description": "Shaded tall grass that stays cool, even in the midday sun. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might stop by to relax",
+    "description": "Shaded tall grass that stays cool, even in the midday sun. Pokémon might stop by to relax",
     "requirements": [
       {
         "item": "Tall Grass",
@@ -154,7 +154,7 @@
   {
     "id": 7,
     "name": "Illuminated tall grass",
-    "description": "A gently lit plot of tall grass. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon are drawn to the inviting light",
+    "description": "A gently lit plot of tall grass. Pokémon are drawn to the inviting light",
     "requirements": [
       {
         "item": "Tall Grass",
@@ -198,7 +198,7 @@
   {
     "id": 9,
     "name": "Tree-shaded flower bed",
-    "description": "Beautifully blooming flowers beneath the shade ofa tree. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon are attracted by the damp scent",
+    "description": "Beautifully blooming flowers beneath the shade of a tree. Pokémon are attracted by the damp scent",
     "requirements": [
       {
         "item": "Wildflowers",
@@ -222,7 +222,7 @@
   {
     "id": 10,
     "name": "Hydrated flower bed",
-    "description": "A field of blooming waterside flowers. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon may be attracted by the aroma and clear water.",
+    "description": "A field of blooming waterside flowers. Pokémon may be attracted by the aroma and clear water.",
     "requirements": [
       {
         "item": "Wildflowers",
@@ -282,7 +282,7 @@
   {
     "id": 13,
     "name": "Grave with flowers",
-    "description": "A habitat that exudes a gentle elegance. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon could rest in joyful peace here",
+    "description": "A habitat that exudes a gentle elegance. Pokémon could rest in joyful peace here",
     "requirements": [
       {
         "item": "Wildflowers",
@@ -326,7 +326,7 @@
   {
     "id": 15,
     "name": "Fresh Veggie Field",
-    "description": "Vegetables growing in a nice, wild field. Seems likely to attact PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon who enjoy farming",
+    "description": "Vegetables growing in a nice, wild field. Seems likely to attract Pokémon who enjoy farming",
     "requirements": [
       {
         "item": "Vegetables",
@@ -358,7 +358,7 @@
   {
     "id": 17,
     "name": "Campsite",
-    "description": "A campsite that celebrates elements of nature. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon warm themselves in front of the campfire",
+    "description": "A campsite that celebrates elements of nature. Pokémon warm themselves in front of the campfire",
     "requirements": [
       {
         "item": "Campfire",
@@ -381,7 +381,7 @@
   {
     "id": 18,
     "name": "Training waterfall",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon who like to train may come here to sit under the waterfall and tone their bodies",
+    "description": "Pokémon who like to train may come here to sit under the waterfall and tone their bodies",
     "requirements": [
       {
         "item": "Seat",
@@ -407,7 +407,7 @@
   {
     "id": 19,
     "name": "Tantalizing dining set",
-    "description": "A table set with dishes-and a chair for sitting. Hungry PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might swing by here..",
+    "description": "A table set with dishes-and a chair for sitting. Hungry Pokémon might swing by here..",
     "requirements": [
       {
         "item": "Leppa Berry",
@@ -455,7 +455,7 @@
   {
     "id": 21,
     "name": "Flowery table",
-    "description": "A flower vase placed on top of a table. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might sit on the chair to look at the flower.",
+    "description": "A flower vase placed on top of a table. Pokémon might sit on the chair to look at the flower.",
     "requirements": [
       {
         "item": "Seat (any)",
@@ -479,7 +479,7 @@
   {
     "id": 22,
     "name": "Bench with greenery",
-    "description": "A bench near some hedges. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can rest here and bask in nature",
+    "description": "A bench near some hedges. Pokémon can rest here and bask in nature",
     "requirements": [
       {
         "item": "Hedge",
@@ -500,7 +500,7 @@
   {
     "id": 23,
     "name": "Illuminated bench",
-    "description": "A bench illuminated by gentle light. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon entranced by the light might stop by",
+    "description": "A bench illuminated by gentle light. Pokémon entranced by the light might stop by",
     "requirements": [
       {
         "item": "Seat (wide)",
@@ -520,7 +520,7 @@
   {
     "id": 24,
     "name": "Exercise resting spot",
-    "description": "After a fierce training session, PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can rest their tired bodies on this bench",
+    "description": "After a fierce training session, Pokémon can rest their tired bodies on this bench",
     "requirements": [
       {
         "item": "Punching Bag",
@@ -539,7 +539,7 @@
   {
     "id": 25,
     "name": "Urgent Care",
-    "description": "When injured, seek first aid immediately! PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon skilled at healing may come to this habitat.",
+    "description": "When injured, seek first aid immediately! Pokémon skilled at healing may come to this habitat.",
     "requirements": [
       {
         "item": "Seat",
@@ -562,7 +562,7 @@
   {
     "id": 26,
     "name": "Gym first aid",
-    "description": "A first-aid kit is on hand in case any PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon injure themselves exercising",
+    "description": "A first-aid kit is on hand in case any Pokémon injure themselves exercising",
     "requirements": [
       {
         "item": "Table (any)",
@@ -585,7 +585,7 @@
   {
     "id": 27,
     "name": "Road Sign",
-    "description": "A solitary sign by the middle of the road. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might head in the arrow's direction",
+    "description": "A solitary sign by the middle of the road. Pokémon might head in the arrow's direction",
     "requirements": [
       {
         "item": "Arrow sign",
@@ -657,7 +657,7 @@
   {
     "id": 30,
     "name": "Bed with a plush",
-    "description": "A bed with a cute doll. Small PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon would probably feel safe sleeping here",
+    "description": "A bed with a cute doll. Small Pokémon would probably feel safe sleeping here",
     "requirements": [
       {
         "item": "Bed",
@@ -679,7 +679,7 @@
   {
     "id": 31,
     "name": "Gently lit bed",
-    "description": "A bed bathed in gentle light. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon could probably sleep peacefully here",
+    "description": "A bed bathed in gentle light. Pokémon could probably sleep peacefully here",
     "requirements": [
       {
         "item": "Bed",
@@ -703,7 +703,7 @@
   {
     "id": 32,
     "name": "Grave offering",
-    "description": "Candles and plated food placed silently before a gravestone. Pretty creepyÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦",
+    "description": "Candles and plated food placed silently before a gravestone. Pretty creepy…",
     "requirements": [
       {
         "item": "Gravestone",
@@ -774,7 +774,7 @@
   {
     "id": 35,
     "name": "Irresistible scent and glow",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon may be lured here by the glow of the mushroom and the scent of the plant-shaped pot",
+    "description": "Pokémon may be lured here by the glow of the mushroom and the scent of the plant-shaped pot",
     "requirements": [
       {
         "item": "Pitcher-plant pot",
@@ -872,7 +872,7 @@
   {
     "id": 39,
     "name": "Luxury chirp-chirp meal",
-    "description": "Bird PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can lounge in the birdhouse after enjoying a meal of various berries",
+    "description": "Bird Pokémon can lounge in the birdhouse after enjoying a meal of various berries",
     "requirements": [
       {
         "item": "Wooden birdhouse",
@@ -1007,7 +1007,7 @@
   {
     "id": 45,
     "name": "Very-berry space",
-    "description": "A berry table, a berry bedÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦Everything's a berry! Just looking at them makes you hungry",
+    "description": "A berry table, a berry bed…Everything's a berry! Just looking at them makes you hungry",
     "requirements": [
       {
         "item": "Berry chair",
@@ -1063,7 +1063,7 @@
   {
     "id": 47,
     "name": "Tree-shaded snoozing Snorlax",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might come here mistakenly thinking that this is an actual sleeping Snorlax!",
+    "description": "Pokémon might come here mistakenly thinking that this is an actual sleeping Snorlax!",
     "requirements": [
       {
         "item": "Large tree",
@@ -1109,7 +1109,7 @@
   {
     "id": 49,
     "name": "Nothin' but Poke Balls",
-    "description": "All PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© BallsÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦or so you thought! Living here is oddly comforting somehow",
+    "description": "All Poké Balls…or so you thought! Living here is oddly comforting somehow",
     "requirements": [
       {
         "item": "Poke Ball Sofa",
@@ -1204,7 +1204,7 @@
   {
     "id": 53,
     "name": "Hydrated yellow tall grass",
-    "description": "Yellow tall grass by the water. A nice resting spot for PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon after they're done swimmign",
+    "description": "Yellow tall grass by the water. A nice resting spot for Pokémon after they're done swimming",
     "requirements": [
       {
         "item": "Yellow tall grass",
@@ -1229,7 +1229,7 @@
   {
     "id": 54,
     "name": "Marshy tall grass",
-    "description": "Tall grass growing in a marsh. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon use this to wipe mud off themselves",
+    "description": "Tall grass growing in a marsh. Pokémon use this to wipe mud off themselves",
     "requirements": [
       {
         "item": "Yellow tall grass",
@@ -1273,7 +1273,7 @@
   {
     "id": 56,
     "name": "Breezy flower bed",
-    "description": "A bed of refreshing seashore flowers. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon are drawn in by its gentle scent",
+    "description": "A bed of refreshing seashore flowers. Pokémon are drawn in by its gentle scent",
     "requirements": [
       {
         "item": "Seashore flowers",
@@ -1338,7 +1338,7 @@
   {
     "id": 59,
     "name": "Shaded beach",
-    "description": "The leaves of a palm tree serve as a parasol to PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon resting in the beach chair.",
+    "description": "The leaves of a palm tree serve as a parasol to Pokémon resting in the beach chair.",
     "requirements": [
       {
         "item": "Large palm tree",
@@ -1425,7 +1425,7 @@
   {
     "id": 63,
     "name": "Trash collection site",
-    "description": "A place to dump everyone's garbage. You might even spot some trash-hunting PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon here!",
+    "description": "A place to dump everyone's garbage. You might even spot some trash-hunting Pokémon here!",
     "requirements": [
       {
         "item": "Waste bin",
@@ -1453,7 +1453,7 @@
   {
     "id": 64,
     "name": "Trash can central",
-    "description": "Trash cans put in place to prevent littering. You can sometimes find PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon inside them",
+    "description": "Trash cans put in place to prevent littering. You can sometimes find Pokémon inside them",
     "requirements": [
       {
         "item": "Garbage bin",
@@ -1489,7 +1489,7 @@
   {
     "id": 66,
     "name": "Park bench",
-    "description": "After eating a snack, put your trash in the trash can. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦Think PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can remember to do that?",
+    "description": "After eating a snack, put your trash in the trash can. …Think Pokémon can remember to do that?",
     "requirements": [
       {
         "item": "Seat (Wide)",
@@ -1572,7 +1572,7 @@
   {
     "id": 69,
     "name": "Chirp-chirp meal",
-    "description": "Bird PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon are sure to come and enjoy feasting on the plated food.",
+    "description": "Bird Pokémon are sure to come and enjoy feasting on the plated food.",
     "requirements": [
       {
         "item": "Wooden birdhouse",
@@ -1595,8 +1595,8 @@
   },
   {
     "id": 70,
-    "name": "CafÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© space",
-    "description": "Enjoy teatime while admiring the potted tree. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can feel refreshed here",
+    "name": "Café space",
+    "description": "Enjoy teatime while admiring the potted tree. Pokémon can feel refreshed here",
     "requirements": [
       {
         "item": "Seat (any)",
@@ -1628,7 +1628,7 @@
   {
     "id": 71,
     "name": "Beach Set",
-    "description": "Lounge under this parasol, and bask in the tropical vibes. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might enjoy relaxing here.",
+    "description": "Lounge under this parasol, and bask in the tropical vibes. Pokémon might enjoy relaxing here.",
     "requirements": [
       {
         "item": "Beach chair",
@@ -1653,7 +1653,7 @@
   {
     "id": 72,
     "name": "Light-up stage",
-    "description": "A stage bathed in dazzling light. It seems likely to attract attention-seeking PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon",
+    "description": "A stage bathed in dazzling light. It seems likely to attract attention-seeking Pokémon",
     "requirements": [
       {
         "item": "Spotlight",
@@ -1757,7 +1757,7 @@
   {
     "id": 77,
     "name": "Knitting station",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon will be fascinated by the fluffy yarn and the adorable crafts that can be made from it",
+    "description": "Pokémon will be fascinated by the fluffy yarn and the adorable crafts that can be made from it",
     "requirements": [
       {
         "item": "Seat",
@@ -1781,7 +1781,7 @@
   {
     "id": 78,
     "name": "Hot-spring shower",
-    "description": "You can't jump in the hot spring without rinsing off at a shower first! PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might enjoy soaking here",
+    "description": "You can't jump in the hot spring without rinsing off at a shower first! Pokémon might enjoy soaking here",
     "requirements": [
       {
         "item": "Shower",
@@ -1807,7 +1807,7 @@
   {
     "id": 79,
     "name": "Resort meal prep",
-    "description": "Sitting by a campfire underneat a palm treeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦Let's kick back and cook some food",
+    "description": "Sitting by a campfire underneath a palm tree…Let's kick back and cook some food",
     "requirements": [
       {
         "item": "Large palm tree",
@@ -1859,7 +1859,7 @@
   {
     "id": 81,
     "name": "Full recovery",
-    "description": "Nothing like a good nap when you're feeling sick. A caring PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might even come to check in!",
+    "description": "Nothing like a good nap when you're feeling sick. A caring Pokémon might even come to check in!",
     "requirements": [
       {
         "item": "Bed",
@@ -1907,7 +1907,7 @@
   {
     "id": 83,
     "name": "Vending machine break area",
-    "description": "A long bench beside a vending machine. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might swing by to take a breather.",
+    "description": "A long bench beside a vending machine. Pokémon might swing by to take a breather.",
     "requirements": [
       {
         "item": "Vending machine",
@@ -2019,7 +2019,7 @@
   {
     "id": 88,
     "name": "Dock",
-    "description": "A cozy little dock on the beach. Swimming PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might stop by now and then.",
+    "description": "A cozy little dock on the beach. Swimming Pokémon might stop by now and then.",
     "requirements": [
       {
         "item": "Walkway",
@@ -2140,7 +2140,7 @@
   {
     "id": 93,
     "name": "Gourmet's altar",
-    "description": "Putting an offering of food on this platter would surely delight PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon who live to eat",
+    "description": "Putting an offering of food on this platter would surely delight Pokémon who live to eat",
     "requirements": [
       {
         "item": "Offering dish",
@@ -2155,7 +2155,7 @@
   {
     "id": 94,
     "name": "Pikachu space",
-    "description": "The sofa and doll are both Pikachu! Some PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might mistake them for the real Pikachu and stop by",
+    "description": "The sofa and doll are both Pikachu! Some Pokémon might mistake them for the real Pikachu and stop by",
     "requirements": [
       {
         "item": "Pikachu sofa",
@@ -2232,7 +2232,7 @@
   {
     "id": 97,
     "name": "Plain life",
-    "description": "A simple yet calming space. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon are sure to be comfortable here.",
+    "description": "A simple yet calming space. Pokémon are sure to be comfortable here.",
     "requirements": [
       {
         "item": "Plain bed",
@@ -2380,7 +2380,7 @@
   {
     "id": 103,
     "name": "Grassy training field",
-    "description": "The bags of dirt can be used as dumbbells. Perfect for PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon who love to train",
+    "description": "The bags of dirt can be used as dumbbells. Perfect for Pokémon who love to train",
     "requirements": [
       {
         "item": "Sandbags",
@@ -2548,7 +2548,7 @@
   {
     "id": 110,
     "name": "Mossy rest spot",
-    "description": "All that nice, damp moss makes this a great location for PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon who love humid places",
+    "description": "All that nice, damp moss makes this a great location for Pokémon who love humid places",
     "requirements": [
       {
         "item": "Moss",
@@ -2566,7 +2566,7 @@
   {
     "id": 111,
     "name": "Mossy boulder",
-    "description": "A quiet, peaceful atmosphere. It looks like PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon could really unwind here",
+    "description": "A quiet, peaceful atmosphere. It looks like Pokémon could really unwind here",
     "requirements": [
       {
         "item": "Moss",
@@ -2611,7 +2611,7 @@
   {
     "id": 113,
     "name": "Open-air bath",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can also soak in a nice hot spring while enjoying beautiful scenery",
+    "description": "Pokémon can also soak in a nice hot spring while enjoying beautiful scenery",
     "requirements": [
       {
         "item": "Hot-spring spout",
@@ -2632,7 +2632,7 @@
   {
     "id": 114,
     "name": "Harmonious hot spring",
-    "description": "Some PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon enjoy moving between the hot spring and the cold bath to feel light and refreshed",
+    "description": "Some Pokémon enjoy moving between the hot spring and the cold bath to feel light and refreshed",
     "requirements": [
       {
         "item": "Hot-spring spout",
@@ -2658,7 +2658,7 @@
   {
     "id": 115,
     "name": "Piping-hot lava",
-    "description": "Nothin' but piping-hot lava here! Fire-type PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon simply can't resist visiting",
+    "description": "Nothin' but piping-hot lava here! Fire-type Pokémon simply can't resist visiting",
     "requirements": [
       {
         "item": "Molten rock",
@@ -2705,7 +2705,7 @@
   {
     "id": 117,
     "name": "Clink-clang iron construction",
-    "description": "It looks like construction is underway. Some strong PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might show up to help",
+    "description": "It looks like construction is underway. Some strong Pokémon might show up to help",
     "requirements": [
       {
         "item": "Iron beam or column",
@@ -2764,7 +2764,7 @@
   {
     "id": 119,
     "name": "Container snacking",
-    "description": "Looks like someone snuck a snack by some storage containers. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might like a spot like this",
+    "description": "Looks like someone snuck a snack by some storage containers. Pokémon might like a spot like this",
     "requirements": [
       {
         "item": "Barrel",
@@ -2910,7 +2910,7 @@
   {
     "id": 125,
     "name": "Chirping recital",
-    "description": "Bird PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon may swoop in and use the microphone to show off their singing skills",
+    "description": "Bird Pokémon may swoop in and use the microphone to show off their singing skills",
     "requirements": [
       {
         "item": "Perch",
@@ -2954,7 +2954,7 @@
   {
     "id": 127,
     "name": "Box to the rhythm",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon can feel the rhythm here and get pumped for a training session",
+    "description": "Pokémon can feel the rhythm here and get pumped for a training session",
     "requirements": [
       {
         "item": "Punching bag",
@@ -3057,7 +3057,7 @@
   {
     "id": 131,
     "name": "Bronze landmark",
-    "description": "A photoworthy bronze statue of three PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon. Their combined cuteness is sure to attract a crowd!",
+    "description": "A photoworthy bronze statue of three Pokémon. Their combined cuteness is sure to attract a crowd!",
     "requirements": [
       {
         "item": "Hedge",
@@ -3081,7 +3081,7 @@
   {
     "id": 132,
     "name": "Railroad crossing",
-    "description": "Absolutely no crossing while the bar is lowered! ButÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦will PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon actually sotp and wait?",
+    "description": "Absolutely no crossing while the bar is lowered! But…will Pokémon actually stop and wait?",
     "requirements": [
       {
         "item": "Railway track",
@@ -3431,7 +3431,7 @@
   {
     "id": 146,
     "name": "Illuminated waterfall",
-    "description": "Use the torches to light a path to the waterfall. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might stop by to check it out",
+    "description": "Use the torches to light a path to the waterfall. Pokémon might stop by to check it out",
     "requirements": [
       {
         "item": "Stepping stones",
@@ -3480,7 +3480,7 @@
   {
     "id": 148,
     "name": "Simple bathroom",
-    "description": "An ordinary bathroom. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might stop by to wash themselves.",
+    "description": "An ordinary bathroom. Pokémon might stop by to wash themselves.",
     "requirements": [
       {
         "item": "Shower",
@@ -3500,7 +3500,7 @@
   {
     "id": 149,
     "name": "Cycling rest stop",
-    "description": "Stop your bicycle here for a quick break. PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon sometimes hide behind the vending machine.",
+    "description": "Stop your bicycle here for a quick break. Pokémon sometimes hide behind the vending machine.",
     "requirements": [
       {
         "item": "Bike",
@@ -3539,7 +3539,7 @@
   {
     "id": 151,
     "name": "Surging psychic power",
-    "description": "Sit in front of the crystal ball and focus to gain mastery over your psychic powersÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦maybe.",
+    "description": "Sit in front of the crystal ball and focus to gain mastery over your psychic powers…maybe.",
     "requirements": [
       {
         "item": "Simple cushion",
@@ -3559,7 +3559,7 @@
   {
     "id": 152,
     "name": "Fortune-teller's table",
-    "description": "Maybe using psychic power to peer into the crystal ball will give you a glimpse of the futureÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦",
+    "description": "Maybe using psychic power to peer into the crystal ball will give you a glimpse of the future…",
     "requirements": [
       {
         "item": "Seat (any)",
@@ -3631,7 +3631,7 @@
   {
     "id": 155,
     "name": "Interrogation desk",
-    "description": "You and Arcanine, interrogating perps side by sideÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ The tension in the air is palpable",
+    "description": "You and Arcanine, interrogating perps side by side… The tension in the air is palpable",
     "requirements": [
       {
         "item": "Arcanine doll",
@@ -3864,7 +3864,7 @@
   {
     "id": 164,
     "name": "Game Corner battle zone",
-    "description": "Players site side by side here to game against each other!P okÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might come here to play.",
+    "description": "Players site side by side here to game against each other! Pokémon might come here to play.",
     "requirements": [
       {
         "item": "Arcade Machine",
@@ -3883,7 +3883,7 @@
   {
     "id": 165,
     "name": "Playland",
-    "description": "To play on the big slide or with the toysÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ Now that's a hard choice",
+    "description": "To play on the big slide or with the toys… Now that's a hard choice",
     "requirements": [
       {
         "item": "Slide",
@@ -3929,7 +3929,7 @@
   {
     "id": 167,
     "name": "Office storeroom",
-    "description": "Packed with old documents and unused equipment. Lost PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon sometimes wander inside.",
+    "description": "Packed with old documents and unused equipment. Lost Pokémon sometimes wander inside.",
     "requirements": [
       {
         "item": "Office shelf",
@@ -4006,7 +4006,7 @@
   {
     "id": 170,
     "name": "Researcher's desk",
-    "description": "Today's research topic is PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon's role in science! Some data has been entered into the computer",
+    "description": "Today's research topic is Pokémon's role in science! Some data has been entered into the computer",
     "requirements": [
       {
         "item": "Table (any)",
@@ -4047,7 +4047,7 @@
   {
     "id": 172,
     "name": "Heart-pounding surprise box",
-    "description": "The rhythm of the big drum, the spotlights on the boo-in-the-boxÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ The suspense is palpable!",
+    "description": "The rhythm of the big drum, the spotlights on the boo-in-the-box… The suspense is palpable!",
     "requirements": [
       {
         "item": "Spotlight",
@@ -4116,7 +4116,7 @@
   {
     "id": 175,
     "name": "Tire Park",
-    "description": "For some reason, the tires are more enticing than the big slideÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ Yeah! Let's play with all the different tires!",
+    "description": "For some reason, the tires are more enticing than the big slide… Yeah! Let's play with all the different tires!",
     "requirements": [
       {
         "item": "Slide",
@@ -4251,7 +4251,7 @@
   {
     "id": 181,
     "name": "Plush central",
-    "description": "Some PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon might mistake all these dolls for the real things",
+    "description": "Some Pokémon might mistake all these dolls for the real things",
     "requirements": [
       {
         "item": "Arcanine doll",
@@ -4329,7 +4329,7 @@
   {
     "id": 184,
     "name": "Fishing pond",
-    "description": "Cast a line and wait patiently. Perhaps a Water-type PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon will appear!",
+    "description": "Cast a line and wait patiently. Perhaps a Water-type Pokémon will appear!",
     "requirements": [
       {
         "item": "Fishing Rod",
@@ -4352,7 +4352,7 @@
   {
     "id": 185,
     "name": "Ocean fishing spot",
-    "description": "Ocean fishing can be fun! You may meet different species of PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon than you would in fresh water.",
+    "description": "Ocean fishing can be fun! You may meet different species of Pokémon than you would in fresh water.",
     "requirements": [
       {
         "item": "Fishing Rod",
@@ -4379,7 +4379,7 @@
   {
     "id": 186,
     "name": "Marsh fishing spot",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon live in marshlands too! Try casting your lin into some swampy water sometime",
+    "description": "Pokémon live in marshlands too! Try casting your line into some swampy water sometime",
     "requirements": [
       {
         "item": "Fishing Rod",
@@ -4406,7 +4406,7 @@
   {
     "id": 187,
     "name": "Hot-spring Fishing Spot",
-    "description": "PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon enjoying a nice dip in the hot spring might be lure in with some bait.",
+    "description": "Pokémon enjoying a nice dip in the hot spring might be lured in with some bait.",
     "requirements": [
       {
         "item": "Fishing Rod",
@@ -4426,7 +4426,7 @@
   {
     "id": 188,
     "name": "Magma fishing spot",
-    "description": "Catch PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon by fishing in magma. Wait, how do you do that without the line melting?!",
+    "description": "Catch Pokémon by fishing in magma. Wait, how do you do that without the line melting?!",
     "requirements": [
       {
         "item": "Fishing rod",
@@ -4559,7 +4559,7 @@
   {
     "id": 193,
     "name": "Wing Fossil Display",
-    "description": "A display of ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossils. This fine skeletal specimen was once ruler of the skies",
+    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once ruler of the skies",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4594,7 +4594,7 @@
   {
     "id": 194,
     "name": "Skull Fossil display",
-    "description": "A display of an ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossil. This fossilized skull is as hard as iron",
+    "description": "A display of an ancient Pokémon fossil. This fossilized skull is as hard as iron",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4613,7 +4613,7 @@
   {
     "id": 195,
     "name": "Headbutt Fossil display",
-    "description": "A display of ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossils. This speciment's skull was harder than steel",
+    "description": "A display of ancient Pokémon fossils. This specimen's skull was harder than steel",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4641,7 +4641,7 @@
   {
     "id": 196,
     "name": "Armor Fossil display",
-    "description": "A display of an ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossil. It features a hard neck frill that looks like a shield.",
+    "description": "A display of an ancient Pokémon fossil. It features a hard neck frill that looks like a shield.",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4660,7 +4660,7 @@
   {
     "id": 197,
     "name": "Shield Fossil display",
-    "description": "A display of ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossils. This speciment's large neck frill was as sturdy as a fortress wall.",
+    "description": "A display of ancient Pokémon fossils. This specimen's large neck frill was as sturdy as a fortress wall.",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4687,7 +4687,7 @@
   {
     "id": 198,
     "name": "Jaw Fossil display",
-    "description": "A display of an ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossil. It features a piece of a jawbone that could crush anything,",
+    "description": "A display of an ancient Pokémon fossil. It features a piece of a jawbone that could crush anything,",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4706,7 +4706,7 @@
   {
     "id": 199,
     "name": "Despot fossil display",
-    "description": "A display of ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossils. This fine skeletal specimen was once the ruler of the land.",
+    "description": "A display of ancient Pokémon fossils. This fine skeletal specimen was once the ruler of the land.",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4737,7 +4737,7 @@
   {
     "id": 200,
     "name": "Sail Fossil display",
-    "description": "A display of an ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossil. This piece of neck sail was once frozen in ice.",
+    "description": "A display of an ancient Pokémon fossil. This piece of neck sail was once frozen in ice.",
     "requirements": [
       {
         "item": "Pedestal",
@@ -4756,7 +4756,7 @@
   {
     "id": 201,
     "name": "Tundra fossil display",
-    "description": "A display of ancient PokÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©mon fossils. The specimen's beautiful neck sail resembles an aurora.",
+    "description": "A display of ancient Pokémon fossils. The specimen's beautiful neck sail resembles an aurora.",
     "requirements": [
       {
         "item": "Pedestal",
