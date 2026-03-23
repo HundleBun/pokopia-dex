@@ -1068,6 +1068,10 @@
       {
         "item": "Large tree",
         "qty": 1
+      },
+      {
+        "item": "Naptime bed",
+        "qty": 1
       }
     ],
     "pokemon": [
@@ -1389,7 +1393,7 @@
     "description": "Empty cardboard boxes and a fluffy straw bed. Opinions are divided on which provides better sleep.",
     "requirements": [
       {
-        "item": "Carboad boxes",
+        "item": "Cardboard boxes",
         "qty": 1
       },
       {
@@ -1408,7 +1412,7 @@
     "description": "Scattered toys and cardboard. Just when you think you're done tidying up, the mess somehow returns.",
     "requirements": [
       {
-        "item": "Carboad boxes",
+        "item": "Cardboard boxes",
         "qty": 1
       },
       {
@@ -2426,7 +2430,7 @@
     "description": "The elegant aroma of these mountain flowers wafts all throughout the area",
     "requirements": [
       {
-        "item": "Pointyt ree",
+        "item": "Pointy tree",
         "qty": 1
       },
       {
@@ -3040,7 +3044,7 @@
         "qty": 1
       },
       {
-        "item": "Seat (wide",
+        "item": "Seat (wide)",
         "qty": 1
       },
       {
@@ -3526,7 +3530,7 @@
         "qty": 1
       },
       {
-        "item": "Seat (wide",
+        "item": "Seat (wide)",
         "qty": 1
       }
     ],
@@ -4077,7 +4081,7 @@
         "qty": 1
       },
       {
-        "item": "Boo-in-thebox",
+        "item": "Boo-in-the-box",
         "qty": 1
       }
     ],
@@ -4236,7 +4240,7 @@
   {
     "id": 180,
     "name": "Nine flames",
-    "description": "The gentle sway of these nine blazing flames gives their surroundings a subtly mystical ambeience",
+    "description": "The gentle sway of these nine blazing flames gives their surroundings a subtly mystical ambience",
     "requirements": [
       {
         "item": "Firepit",
@@ -4947,6 +4951,10 @@
     "name": "Lovely ribbon cake",
     "description": "The large ribbon and heart decorations make this cake look quite lovely. It tastes incredibly sweet.",
     "requirements": [
+      {
+        "item": "Ribbon cake",
+        "qty": 1
+      },
       {
         "item": "Seat (any)",
         "qty": 1
