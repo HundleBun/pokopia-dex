@@ -8906,7 +8906,8 @@
     "id": 289,
     "name": "Kyogre",
     "specialties": [],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 290,
@@ -8914,7 +8915,8 @@
     "specialties": [
       "Generate"
     ],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 291,
@@ -8922,7 +8924,8 @@
     "specialties": [
       "Burn"
     ],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 292,
@@ -8930,7 +8933,8 @@
     "specialties": [
       "Water"
     ],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 293,
@@ -8938,7 +8942,8 @@
     "specialties": [
       "Burn"
     ],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 294,
@@ -8977,13 +8982,15 @@
     "id": 297,
     "name": "Lugia",
     "specialties": [],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 298,
     "name": "Ho-Oh",
     "specialties": [],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 299,
@@ -8991,7 +8998,8 @@
     "specialties": [
       "Teleport"
     ],
-    "source": "main"
+    "source": "main",
+    "dex_only": true
   },
   {
     "id": 300,
